@@ -1,0 +1,22 @@
+{
+  "schema_version": "race-index-v1",
+  "updated_at": "2026-08-26T12:44:05.446798+00:00",
+  "races": [
+    {
+      "race_id": "27284",
+      "status": "READY",
+      "context_path": "races/27284/ai-context.json",
+      "task_name": "Race 1 - World Final 2026",
+      "date": "2025-05-21",
+      "competition_class": "18M"
+    },
+    {
+      "race_id": "27398",
+      "status": "READY",
+      "context_path": "races/27398/ai-context.json",
+      "task_name": "Race 3 - World Final 2026",
+      "date": "2025-08-13",
+      "competition_class": "18M"
+    }
+  ]
+}
