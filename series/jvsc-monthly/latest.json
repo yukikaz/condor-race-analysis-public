@@ -1,0 +1,14 @@
+{
+  "series": "JVSC_MONTHLY",
+  "aliases": [
+    "月例",
+    "月例フライト",
+    "JVSC Monthly",
+    "Monthly Challenge"
+  ],
+  "latest_discovered_race_id": null,
+  "latest_ready_race_id": null,
+  "ready_at": null,
+  "context_path": null,
+  "updated_at": "2026-08-27T08:32:22.931077+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "series": "JPSF",
+  "aliases": [
+    "JPSF"
+  ],
+  "latest_discovered_race_id": null,
+  "latest_ready_race_id": null,
+  "ready_at": null,
+  "context_path": null,
+  "updated_at": "2026-08-27T08:32:22.930994+00:00"
+}

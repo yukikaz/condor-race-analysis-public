@@ -1,0 +1,64 @@
+{
+  "schema_version": "race-catalog-v1",
+  "updated_at": "2026-08-27T08:32:22.931162+00:00",
+  "series": {
+    "JPFF": {
+      "series": "JPFF",
+      "aliases": [
+        "JPFF"
+      ],
+      "latest_discovered_race_id": "27398",
+      "latest_ready_race_id": null,
+      "ready_at": null,
+      "context_path": null,
+      "updated_at": "2026-08-27T08:32:22.930757+00:00"
+    },
+    "JPSF": {
+      "series": "JPSF",
+      "aliases": [
+        "JPSF"
+      ],
+      "latest_discovered_race_id": null,
+      "latest_ready_race_id": null,
+      "ready_at": null,
+      "context_path": null,
+      "updated_at": "2026-08-27T08:32:22.930994+00:00"
+    },
+    "JVSC_MONTHLY": {
+      "series": "JVSC_MONTHLY",
+      "aliases": [
+        "月例",
+        "月例フライト",
+        "JVSC Monthly",
+        "Monthly Challenge"
+      ],
+      "latest_discovered_race_id": null,
+      "latest_ready_race_id": null,
+      "ready_at": null,
+      "context_path": null,
+      "updated_at": "2026-08-27T08:32:22.931077+00:00"
+    }
+  },
+  "races": {
+    "27284": {
+      "status": "READY",
+      "race_id": "27284",
+      "series": null,
+      "competition": null,
+      "task_day": null,
+      "class": "18M",
+      "date": "2025-05-21",
+      "ai_context_path": "races/27284/ai-context.json"
+    },
+    "27398": {
+      "status": "READY",
+      "race_id": "27398",
+      "series": null,
+      "competition": null,
+      "task_day": null,
+      "class": "18M",
+      "date": "2025-08-13",
+      "ai_context_path": "races/27398/ai-context.json"
+    }
+  }
+}
