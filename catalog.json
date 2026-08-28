@@ -1,17 +1,17 @@
 {
   "schema_version": "race-catalog-v1",
-  "updated_at": "2026-08-27T08:32:22.931162+00:00",
+  "updated_at": "2026-08-28T01:50:59.503990+00:00",
   "series": {
     "JPFF": {
       "series": "JPFF",
       "aliases": [
         "JPFF"
       ],
-      "latest_discovered_race_id": "27398",
+      "latest_discovered_race_id": null,
       "latest_ready_race_id": null,
       "ready_at": null,
       "context_path": null,
-      "updated_at": "2026-08-27T08:32:22.930757+00:00"
+      "updated_at": "2026-08-28T01:50:59.503643+00:00"
     },
     "JPSF": {
       "series": "JPSF",
@@ -22,7 +22,7 @@
       "latest_ready_race_id": null,
       "ready_at": null,
       "context_path": null,
-      "updated_at": "2026-08-27T08:32:22.930994+00:00"
+      "updated_at": "2026-08-28T01:50:59.503833+00:00"
     },
     "JVSC_MONTHLY": {
       "series": "JVSC_MONTHLY",
@@ -36,7 +36,7 @@
       "latest_ready_race_id": null,
       "ready_at": null,
       "context_path": null,
-      "updated_at": "2026-08-27T08:32:22.931077+00:00"
+      "updated_at": "2026-08-28T01:50:59.503910+00:00"
     }
   },
   "races": {
