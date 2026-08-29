@@ -1,6 +1,6 @@
 {
   "schema_version": "race-index-v1",
-  "updated_at": "2026-08-28T01:50:59.503320+00:00",
+  "updated_at": "2026-08-29T05:24:31.936402+00:00",
   "races": [
     {
       "race_id": "27284",
@@ -17,6 +17,14 @@
       "task_name": "Race 3 - World Final 2026",
       "date": "2025-08-13",
       "competition_class": "18M"
+    },
+    {
+      "race_id": "28277",
+      "status": "READY",
+      "context_path": "races/28277/ai-context.json",
+      "task_name": "JPFF 260828 Slovenia3 Standard",
+      "date": "2026-08-28",
+      "competition_class": "STANDARD"
     }
   ]
 }

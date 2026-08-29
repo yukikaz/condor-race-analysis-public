@@ -1,6 +1,6 @@
 {
   "schema_version": "race-catalog-v1",
-  "updated_at": "2026-08-28T01:50:59.503990+00:00",
+  "updated_at": "2026-08-29T05:24:31.937666+00:00",
   "series": {
     "JPFF": {
       "series": "JPFF",
@@ -11,7 +11,7 @@
       "latest_ready_race_id": null,
       "ready_at": null,
       "context_path": null,
-      "updated_at": "2026-08-28T01:50:59.503643+00:00"
+      "updated_at": "2026-08-29T05:24:31.936775+00:00"
     },
     "JPSF": {
       "series": "JPSF",
@@ -22,7 +22,7 @@
       "latest_ready_race_id": null,
       "ready_at": null,
       "context_path": null,
-      "updated_at": "2026-08-28T01:50:59.503833+00:00"
+      "updated_at": "2026-08-29T05:24:31.937219+00:00"
     },
     "JVSC_MONTHLY": {
       "series": "JVSC_MONTHLY",
@@ -32,11 +32,11 @@
         "JVSC Monthly",
         "Monthly Challenge"
       ],
-      "latest_discovered_race_id": null,
+      "latest_discovered_race_id": "28229",
       "latest_ready_race_id": null,
       "ready_at": null,
       "context_path": null,
-      "updated_at": "2026-08-28T01:50:59.503910+00:00"
+      "updated_at": "2026-08-29T05:24:31.937562+00:00"
     }
   },
   "races": {
@@ -59,6 +59,16 @@
       "class": "18M",
       "date": "2025-08-13",
       "ai_context_path": "races/27398/ai-context.json"
+    },
+    "28277": {
+      "status": "READY",
+      "race_id": "28277",
+      "series": null,
+      "competition": null,
+      "task_day": null,
+      "class": "STANDARD",
+      "date": "2026-08-28",
+      "ai_context_path": "races/28277/ai-context.json"
     }
   }
 }
