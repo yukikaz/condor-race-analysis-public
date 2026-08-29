@@ -1,0 +1,241 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            14.2086879,
+            46.2721093
+          ],
+          [
+            13.5488089,
+            46.3278873
+          ],
+          [
+            13.8633134,
+            46.5119758
+          ],
+          [
+            13.2766267,
+            46.5606872
+          ],
+          [
+            13.0722397,
+            46.2344375
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "official-task-route",
+      "properties": {
+        "confidence": "MEDIUM",
+        "kind": "OFFICIAL_TASK_ROUTE",
+        "provenance": {
+          "task_id": "28277"
+        },
+        "sample_count": null,
+        "source": "FPL_TASK_WITH_VERIFIED_COORDINATES"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            14.2086879,
+            46.2721093
+          ],
+          [
+            13.5488089,
+            46.3278873
+          ],
+          [
+            13.8633134,
+            46.5119758
+          ],
+          [
+            13.2766267,
+            46.5606872
+          ],
+          [
+            13.0722397,
+            46.2344375
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "task-direct",
+      "properties": {
+        "confidence": "HIGH",
+        "kind": "TASK_DIRECT",
+        "provenance": {
+          "definition": "START_TP_FINISH_GEODESIC_SEGMENTS"
+        },
+        "sample_count": null,
+        "source": "GEODESIC_CONTROL_CONNECTION"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            13.8647,
+            46.5122
+          ],
+          [
+            13.2766267,
+            46.5606872
+          ],
+          [
+            13.0722397,
+            46.2344375
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "fg-official-task-fallback",
+      "properties": {
+        "confidence": "MEDIUM",
+        "kind": "OFFICIAL_TASK_ROUTE",
+        "provenance": {
+          "distance_basis": "OFFICIAL_TASK_REMAINING",
+          "fallback_reason": "NO_PLANNED_FG_ROUTE",
+          "next_task_point_index": 4
+        },
+        "sample_count": null,
+        "source": "SCENARIO_START_PLUS_FPL_TASK"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          14.2086879,
+          46.2721093
+        ],
+        "type": "Point"
+      },
+      "id": "task-point-1",
+      "properties": {
+        "confidence": "MEDIUM",
+        "kind": "START",
+        "provenance": {
+          "fpl_index": 1,
+          "name": "Jamnik Cerkev"
+        },
+        "sample_count": null,
+        "source": "IGC_CONTROLLED_AFFINE_INVERSE"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.5488089,
+          46.3278873
+        ],
+        "type": "Point"
+      },
+      "id": "task-point-2",
+      "properties": {
+        "confidence": "MEDIUM",
+        "kind": "TURNPOINT",
+        "provenance": {
+          "fpl_index": 2,
+          "name": "Bovec"
+        },
+        "sample_count": null,
+        "source": "IGC_CONTROLLED_AFFINE_INVERSE"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.8633134,
+          46.5119758
+        ],
+        "type": "Point"
+      },
+      "id": "task-point-3",
+      "properties": {
+        "confidence": "MEDIUM",
+        "kind": "TURNPOINT",
+        "provenance": {
+          "fpl_index": 3,
+          "name": "Lepi Vrh"
+        },
+        "sample_count": null,
+        "source": "IGC_CONTROLLED_AFFINE_INVERSE"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.2766267,
+          46.5606872
+        ],
+        "type": "Point"
+      },
+      "id": "task-point-4",
+      "properties": {
+        "confidence": "MEDIUM",
+        "kind": "TURNPOINT",
+        "provenance": {
+          "fpl_index": 4,
+          "name": "Nassfeld Pass Zo"
+        },
+        "sample_count": null,
+        "source": "IGC_CONTROLLED_AFFINE_INVERSE"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.0722397,
+          46.2344375
+        ],
+        "type": "Point"
+      },
+      "id": "task-point-5",
+      "properties": {
+        "confidence": "MEDIUM",
+        "kind": "FINISH",
+        "provenance": {
+          "fpl_index": 5,
+          "name": "Rivoli-di-Osoppo"
+        },
+        "sample_count": null,
+        "source": "IGC_CONTROLLED_AFFINE_INVERSE"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.2960303,
+          46.5591368
+        ],
+        "type": "Point"
+      },
+      "id": "critical-terrain",
+      "properties": {
+        "confidence": "MEDIUM",
+        "kind": "CRITICAL_TERRAIN",
+        "provenance": {
+          "clearance_m": 499.473,
+          "distance_along_route_m": 43810.179,
+          "required_ground_ld": 87.712807,
+          "state": "GEOMETRICALLY_FEASIBLE"
+        },
+        "sample_count": null,
+        "source": "PRE_RACE_TERRAIN_GEOMETRY"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

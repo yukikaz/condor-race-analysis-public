@@ -1,0 +1,24 @@
+{
+  "aircraft_performance_version": "historical-section-progress-ld-v1",
+  "analysis_id": "pr-e37db22761f89ed4311c",
+  "analysis_version": "slovenia-pre-race-analysis-v1",
+  "artifacts": {
+    "briefing.json": "e4baafbb1c4e61e5c090126ce344a6ee6dc9a944413684148c5554a5d0b1a0a7",
+    "final-glide-profile.png": "c2cb64ef1a1805dbfa08f3a9d67782305695d821b86d2b895214452d1b9efa32",
+    "final-glide-profile.svg": "7ceceef640306f3570ff1c9df7e9147e83a84aea2aa7401285d3648624c74711",
+    "render-model.json": "377ee6f8d51c9905fb1a2a5f44187d1d37cb91eabd83b4a4fa75832306b872ab",
+    "routes.geojson": "14ad0192b36409f8c3c6863de321a3740df21df012d208b35a9315e781100ff7",
+    "task-overview.png": "97c17c397c3e9b33346442539ad16ea7e976bb29d815a50ceff93f713f964258",
+    "task-overview.svg": "5ed13c4717799a047bca45d4d1697f13ed76304463b0c2ae641353ae2fdc9217"
+  },
+  "input_fpl_sha256": "ae7006916f4d46c44558461ad0be5ef2f6bc8d0e2515278c82adc5d74705d7a8",
+  "noncanonical_metadata": {},
+  "rasterizer_version": "pre-race-svg-rasterizer-v1",
+  "render_config_sha256": "6dad1c15ef3d4322f4f355e5bf7cf49897e74530ad1502cc30c9d6921bc2a9c8",
+  "render_model_sha256": "377ee6f8d51c9905fb1a2a5f44187d1d37cb91eabd83b4a4fa75832306b872ab",
+  "renderer_version": "pre-race-svg-renderer-v1",
+  "route_model_version": "pre-race-route-model-v1",
+  "schema": "pre-race-visual-package-v1",
+  "slovenia_kb_version": "slovenia-waypoint-kb-unavailable-v0",
+  "terrain_dataset_id": "terrain-context-v1"
+}
