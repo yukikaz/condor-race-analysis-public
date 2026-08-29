@@ -1,6 +1,6 @@
 {
   "schema_version": "race-catalog-v1",
-  "updated_at": "2026-08-29T08:31:23.699246+00:00",
+  "updated_at": "2026-08-29T09:02:07.160391+00:00",
   "series": {
     "JPFF": {
       "series": "JPFF",
@@ -9,9 +9,9 @@
       ],
       "latest_discovered_race_id": "28277",
       "latest_ready_race_id": "28277",
-      "ready_at": "2026-08-29T08:31:23.698534+00:00",
+      "ready_at": "2026-08-29T09:02:07.158865+00:00",
       "context_path": "races/28277/ai-context.json",
-      "updated_at": "2026-08-29T08:31:23.698539+00:00"
+      "updated_at": "2026-08-29T09:02:07.158871+00:00"
     },
     "JPSF": {
       "series": "JPSF",
@@ -22,7 +22,7 @@
       "latest_ready_race_id": null,
       "ready_at": null,
       "context_path": null,
-      "updated_at": "2026-08-29T08:31:23.698764+00:00"
+      "updated_at": "2026-08-29T09:02:07.159658+00:00"
     },
     "JVSC_MONTHLY": {
       "series": "JVSC_MONTHLY",
@@ -36,7 +36,7 @@
       "latest_ready_race_id": null,
       "ready_at": null,
       "context_path": null,
-      "updated_at": "2026-08-29T08:31:23.699153+00:00"
+      "updated_at": "2026-08-29T09:02:07.160100+00:00"
     }
   },
   "races": {
@@ -59,6 +59,26 @@
       "class": "18M",
       "date": "2025-08-13",
       "ai_context_path": "races/27398/ai-context.json"
+    },
+    "28247": {
+      "status": "READY",
+      "race_id": "28247",
+      "series": "JPFF",
+      "competition": null,
+      "task_day": null,
+      "class": "STANDARD",
+      "date": "2026-08-14",
+      "ai_context_path": "races/28247/ai-context.json"
+    },
+    "28276": {
+      "status": "READY",
+      "race_id": "28276",
+      "series": "JPFF",
+      "competition": null,
+      "task_day": null,
+      "class": "CLUB",
+      "date": "2026-08-21",
+      "ai_context_path": "races/28276/ai-context.json"
     },
     "28277": {
       "status": "READY",

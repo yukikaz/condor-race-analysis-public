@@ -1,6 +1,6 @@
 {
   "schema_version": "race-index-v1",
-  "updated_at": "2026-08-29T08:31:23.697833+00:00",
+  "updated_at": "2026-08-29T09:02:07.158296+00:00",
   "races": [
     {
       "race_id": "27284",
@@ -17,6 +17,22 @@
       "task_name": "Race 3 - World Final 2026",
       "date": "2025-08-13",
       "competition_class": "18M"
+    },
+    {
+      "race_id": "28247",
+      "status": "READY",
+      "context_path": "races/28247/ai-context.json",
+      "task_name": "JPFF 260814 Slovenia3 Standard",
+      "date": "2026-08-14",
+      "competition_class": "STANDARD"
+    },
+    {
+      "race_id": "28276",
+      "status": "READY",
+      "context_path": "races/28276/ai-context.json",
+      "task_name": "JPFF 260821 Slovenia3 Club",
+      "date": "2026-08-21",
+      "competition_class": "CLUB"
     },
     {
       "race_id": "28277",
