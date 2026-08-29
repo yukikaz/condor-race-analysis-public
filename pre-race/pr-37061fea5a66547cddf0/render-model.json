@@ -28,6 +28,10 @@
           ],
           [
             "GEOMETRY",
+            "INSUFFICIENT_GEOMETRY_QUALITY"
+          ],
+          [
+            "RAW GEOMETRY",
             "GEOMETRICALLY_FEASIBLE"
           ],
           [
@@ -59,7 +63,11 @@
             "65.31"
           ],
           [
-            "SAMPLES",
+            "FLIGHTS",
+            "4"
+          ],
+          [
+            "SECTIONS DIAG",
             "82"
           ],
           [
@@ -69,6 +77,10 @@
           [
             "PLANNED PATH",
             "UNAVAILABLE"
+          ],
+          [
+            "ROUTE VALUE",
+            "DIAGNOSTIC"
           ],
           [
             "POLICY",
@@ -4546,7 +4558,7 @@
         {
           "draw_order": 50,
           "fill": "#f9fafb",
-          "height": 490,
+          "height": 570,
           "stroke": "#9ca3af",
           "stroke_width": 1,
           "type": "rect",
@@ -4600,7 +4612,39 @@
           "text": "GEOMETRY",
           "type": "text",
           "x": 1025.0,
-          "y": 139.0
+          "y": 135.0
+        },
+        {
+          "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
+          "draw_order": 70,
+          "fallback_directions": [
+            "NE",
+            "SE",
+            "W"
+          ],
+          "fill": "#111827",
+          "font_size": 11,
+          "preferred_direction": "E",
+          "text": "INSUFFICIENT_GEOMETRY_QUALITY",
+          "type": "text",
+          "x": 1195.0,
+          "y": 135.0
+        },
+        {
+          "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
+          "draw_order": 70,
+          "fallback_directions": [
+            "NE",
+            "SE",
+            "W"
+          ],
+          "fill": "#374151",
+          "font_size": 11,
+          "preferred_direction": "E",
+          "text": "RAW GEOMETRY",
+          "type": "text",
+          "x": 1025.0,
+          "y": 165.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -4616,7 +4660,7 @@
           "text": "GEOMETRICALLY_FEASIBLE",
           "type": "text",
           "x": 1195.0,
-          "y": 139.0
+          "y": 165.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -4632,7 +4676,7 @@
           "text": "BINDING",
           "type": "text",
           "x": 1025.0,
-          "y": 173.0
+          "y": 195.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -4648,7 +4692,7 @@
           "text": "TERRAIN",
           "type": "text",
           "x": 1195.0,
-          "y": 173.0
+          "y": 195.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -4664,7 +4708,7 @@
           "text": "CRITICAL KM",
           "type": "text",
           "x": 1025.0,
-          "y": 207.0
+          "y": 225.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -4680,7 +4724,7 @@
           "text": "43.81",
           "type": "text",
           "x": 1195.0,
-          "y": 207.0
+          "y": 225.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -4696,7 +4740,7 @@
           "text": "REQ LD FINISH",
           "type": "text",
           "x": 1025.0,
-          "y": 241.0
+          "y": 255.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -4712,7 +4756,7 @@
           "text": "38.05",
           "type": "text",
           "x": 1195.0,
-          "y": 241.0
+          "y": 255.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -4728,7 +4772,7 @@
           "text": "REQ LD TERRAIN",
           "type": "text",
           "x": 1025.0,
-          "y": 275.0
+          "y": 285.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -4744,7 +4788,7 @@
           "text": "87.71",
           "type": "text",
           "x": 1195.0,
-          "y": 275.0
+          "y": 285.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -4760,7 +4804,7 @@
           "text": "HIST P20",
           "type": "text",
           "x": 1025.0,
-          "y": 309.0
+          "y": 315.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -4776,7 +4820,7 @@
           "text": "19.19",
           "type": "text",
           "x": 1195.0,
-          "y": 309.0
+          "y": 315.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -4792,7 +4836,7 @@
           "text": "HIST P50",
           "type": "text",
           "x": 1025.0,
-          "y": 343.0
+          "y": 345.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -4808,7 +4852,7 @@
           "text": "28.79",
           "type": "text",
           "x": 1195.0,
-          "y": 343.0
+          "y": 345.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -4824,7 +4868,7 @@
           "text": "HIST P80",
           "type": "text",
           "x": 1025.0,
-          "y": 377.0
+          "y": 375.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -4840,7 +4884,7 @@
           "text": "65.31",
           "type": "text",
           "x": 1195.0,
-          "y": 377.0
+          "y": 375.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -4853,10 +4897,42 @@
           "fill": "#374151",
           "font_size": 11,
           "preferred_direction": "E",
-          "text": "SAMPLES",
+          "text": "FLIGHTS",
           "type": "text",
           "x": 1025.0,
-          "y": 411.0
+          "y": 405.0
+        },
+        {
+          "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
+          "draw_order": 70,
+          "fallback_directions": [
+            "NE",
+            "SE",
+            "W"
+          ],
+          "fill": "#111827",
+          "font_size": 11,
+          "preferred_direction": "E",
+          "text": "4",
+          "type": "text",
+          "x": 1195.0,
+          "y": 405.0
+        },
+        {
+          "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
+          "draw_order": 70,
+          "fallback_directions": [
+            "NE",
+            "SE",
+            "W"
+          ],
+          "fill": "#374151",
+          "font_size": 11,
+          "preferred_direction": "E",
+          "text": "SECTIONS DIAG",
+          "type": "text",
+          "x": 1025.0,
+          "y": 435.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -4872,7 +4948,7 @@
           "text": "82",
           "type": "text",
           "x": 1195.0,
-          "y": 411.0
+          "y": 435.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -4888,7 +4964,7 @@
           "text": "SPEED KM/H",
           "type": "text",
           "x": 1025.0,
-          "y": 445.0
+          "y": 465.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -4904,7 +4980,7 @@
           "text": "185.00",
           "type": "text",
           "x": 1195.0,
-          "y": 445.0
+          "y": 465.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -4920,7 +4996,7 @@
           "text": "PLANNED PATH",
           "type": "text",
           "x": 1025.0,
-          "y": 479.0
+          "y": 495.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -4936,7 +5012,39 @@
           "text": "UNAVAILABLE",
           "type": "text",
           "x": 1195.0,
-          "y": 479.0
+          "y": 495.0
+        },
+        {
+          "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
+          "draw_order": 70,
+          "fallback_directions": [
+            "NE",
+            "SE",
+            "W"
+          ],
+          "fill": "#374151",
+          "font_size": 11,
+          "preferred_direction": "E",
+          "text": "ROUTE VALUE",
+          "type": "text",
+          "x": 1025.0,
+          "y": 525.0
+        },
+        {
+          "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
+          "draw_order": 70,
+          "fallback_directions": [
+            "NE",
+            "SE",
+            "W"
+          ],
+          "fill": "#111827",
+          "font_size": 11,
+          "preferred_direction": "E",
+          "text": "DIAGNOSTIC",
+          "type": "text",
+          "x": 1195.0,
+          "y": 525.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -4952,7 +5060,7 @@
           "text": "POLICY",
           "type": "text",
           "x": 1025.0,
-          "y": 513.0
+          "y": 555.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -4968,7 +5076,7 @@
           "text": "NOT DEFINED",
           "type": "text",
           "x": 1195.0,
-          "y": 513.0
+          "y": 555.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5227,7 +5335,39 @@
           "text": "GEOMETRY",
           "type": "text",
           "x": 1025.0,
-          "y": 139.0
+          "y": 135.0
+        },
+        {
+          "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
+          "draw_order": 70,
+          "fallback_directions": [
+            "NE",
+            "SE",
+            "W"
+          ],
+          "fill": "#111827",
+          "font_size": 11,
+          "preferred_direction": "E",
+          "text": "INSUFFICIENT_GEOMETRY_QUALITY",
+          "type": "text",
+          "x": 1195.0,
+          "y": 135.0
+        },
+        {
+          "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
+          "draw_order": 70,
+          "fallback_directions": [
+            "NE",
+            "SE",
+            "W"
+          ],
+          "fill": "#374151",
+          "font_size": 11,
+          "preferred_direction": "E",
+          "text": "RAW GEOMETRY",
+          "type": "text",
+          "x": 1025.0,
+          "y": 165.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5243,7 +5383,7 @@
           "text": "GEOMETRICALLY_FEASIBLE",
           "type": "text",
           "x": 1195.0,
-          "y": 139.0
+          "y": 165.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5259,7 +5399,7 @@
           "text": "BINDING",
           "type": "text",
           "x": 1025.0,
-          "y": 173.0
+          "y": 195.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5275,7 +5415,7 @@
           "text": "TERRAIN",
           "type": "text",
           "x": 1195.0,
-          "y": 173.0
+          "y": 195.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5291,7 +5431,7 @@
           "text": "CRITICAL KM",
           "type": "text",
           "x": 1025.0,
-          "y": 207.0
+          "y": 225.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5307,7 +5447,7 @@
           "text": "43.81",
           "type": "text",
           "x": 1195.0,
-          "y": 207.0
+          "y": 225.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5323,7 +5463,7 @@
           "text": "REQ LD FINISH",
           "type": "text",
           "x": 1025.0,
-          "y": 241.0
+          "y": 255.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5339,7 +5479,7 @@
           "text": "38.05",
           "type": "text",
           "x": 1195.0,
-          "y": 241.0
+          "y": 255.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5355,7 +5495,7 @@
           "text": "REQ LD TERRAIN",
           "type": "text",
           "x": 1025.0,
-          "y": 275.0
+          "y": 285.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5371,7 +5511,7 @@
           "text": "87.71",
           "type": "text",
           "x": 1195.0,
-          "y": 275.0
+          "y": 285.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5387,7 +5527,7 @@
           "text": "HIST P20",
           "type": "text",
           "x": 1025.0,
-          "y": 309.0
+          "y": 315.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5403,7 +5543,7 @@
           "text": "19.19",
           "type": "text",
           "x": 1195.0,
-          "y": 309.0
+          "y": 315.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5419,7 +5559,7 @@
           "text": "HIST P50",
           "type": "text",
           "x": 1025.0,
-          "y": 343.0
+          "y": 345.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5435,7 +5575,7 @@
           "text": "28.79",
           "type": "text",
           "x": 1195.0,
-          "y": 343.0
+          "y": 345.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5451,7 +5591,7 @@
           "text": "HIST P80",
           "type": "text",
           "x": 1025.0,
-          "y": 377.0
+          "y": 375.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5467,7 +5607,7 @@
           "text": "65.31",
           "type": "text",
           "x": 1195.0,
-          "y": 377.0
+          "y": 375.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5480,10 +5620,42 @@
           "fill": "#374151",
           "font_size": 11,
           "preferred_direction": "E",
-          "text": "SAMPLES",
+          "text": "FLIGHTS",
           "type": "text",
           "x": 1025.0,
-          "y": 411.0
+          "y": 405.0
+        },
+        {
+          "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
+          "draw_order": 70,
+          "fallback_directions": [
+            "NE",
+            "SE",
+            "W"
+          ],
+          "fill": "#111827",
+          "font_size": 11,
+          "preferred_direction": "E",
+          "text": "4",
+          "type": "text",
+          "x": 1195.0,
+          "y": 405.0
+        },
+        {
+          "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
+          "draw_order": 70,
+          "fallback_directions": [
+            "NE",
+            "SE",
+            "W"
+          ],
+          "fill": "#374151",
+          "font_size": 11,
+          "preferred_direction": "E",
+          "text": "SECTIONS DIAG",
+          "type": "text",
+          "x": 1025.0,
+          "y": 435.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5499,7 +5671,7 @@
           "text": "82",
           "type": "text",
           "x": 1195.0,
-          "y": 411.0
+          "y": 435.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5515,7 +5687,7 @@
           "text": "SPEED KM/H",
           "type": "text",
           "x": 1025.0,
-          "y": 445.0
+          "y": 465.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5531,7 +5703,7 @@
           "text": "185.00",
           "type": "text",
           "x": 1195.0,
-          "y": 445.0
+          "y": 465.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5547,7 +5719,7 @@
           "text": "PLANNED PATH",
           "type": "text",
           "x": 1025.0,
-          "y": 479.0
+          "y": 495.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5563,7 +5735,39 @@
           "text": "UNAVAILABLE",
           "type": "text",
           "x": 1195.0,
-          "y": 479.0
+          "y": 495.0
+        },
+        {
+          "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
+          "draw_order": 70,
+          "fallback_directions": [
+            "NE",
+            "SE",
+            "W"
+          ],
+          "fill": "#374151",
+          "font_size": 11,
+          "preferred_direction": "E",
+          "text": "ROUTE VALUE",
+          "type": "text",
+          "x": 1025.0,
+          "y": 525.0
+        },
+        {
+          "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
+          "draw_order": 70,
+          "fallback_directions": [
+            "NE",
+            "SE",
+            "W"
+          ],
+          "fill": "#111827",
+          "font_size": 11,
+          "preferred_direction": "E",
+          "text": "DIAGNOSTIC",
+          "type": "text",
+          "x": 1195.0,
+          "y": 525.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5579,7 +5783,7 @@
           "text": "POLICY",
           "type": "text",
           "x": 1025.0,
-          "y": 513.0
+          "y": 555.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -5595,7 +5799,7 @@
           "text": "NOT DEFINED",
           "type": "text",
           "x": 1195.0,
-          "y": 513.0
+          "y": 555.0
         },
         {
           "collision_policy": "FIXED_SEQUENCE_THEN_NUMBER",
@@ -11086,7 +11290,7 @@
   "padding_px": 64,
   "projection_identifier": "WEB_MERCATOR_SPHERICAL",
   "provenance": {
-    "analysis_version": "slovenia-pre-race-analysis-v1",
+    "analysis_version": "slovenia-pre-race-analysis-v1.1",
     "fpl_sha256": "ae7006916f4d46c44558461ad0be5ef2f6bc8d0e2515278c82adc5d74705d7a8",
     "route_model_version": "pre-race-route-model-v1",
     "terrain_tiles": [

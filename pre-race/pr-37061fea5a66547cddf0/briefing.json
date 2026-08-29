@@ -17,7 +17,7 @@
       "value": 50.0
     }
   },
-  "analysis_version": "slovenia-pre-race-analysis-v1",
+  "analysis_version": "slovenia-pre-race-analysis-v1.1",
   "final_glide": {
     "constraint_footprint": {
       "config_version": "slovenia-pre-race-fg-footprint-v1",
@@ -28,25 +28,28 @@
       {
         "additional_climb_time_s": 21.7,
         "additional_height_m": 50,
-        "geometric_clearance_state": "GEOMETRICALLY_FEASIBLE",
-        "historical_p20_delta": -60.542,
-        "historical_p50_delta": -50.94,
+        "diagnostic_clearance_state": "GEOMETRICALLY_FEASIBLE",
+        "geometric_clearance_state": "INSUFFICIENT_GEOMETRY_QUALITY",
+        "historical_p20_delta": null,
+        "historical_p50_delta": null,
         "new_required_ground_ld": 79.731268
       },
       {
         "additional_climb_time_s": 43.5,
         "additional_height_m": 100,
-        "geometric_clearance_state": "GEOMETRICALLY_FEASIBLE",
-        "historical_p20_delta": -53.892,
-        "historical_p50_delta": -44.29,
+        "diagnostic_clearance_state": "GEOMETRICALLY_FEASIBLE",
+        "geometric_clearance_state": "INSUFFICIENT_GEOMETRY_QUALITY",
+        "historical_p20_delta": null,
+        "historical_p50_delta": null,
         "new_required_ground_ld": 73.081155
       },
       {
         "additional_climb_time_s": 87.0,
         "additional_height_m": 200,
-        "geometric_clearance_state": "GEOMETRICALLY_FEASIBLE",
-        "historical_p20_delta": -43.444,
-        "historical_p50_delta": -33.842,
+        "diagnostic_clearance_state": "GEOMETRICALLY_FEASIBLE",
+        "geometric_clearance_state": "INSUFFICIENT_GEOMETRY_QUALITY",
+        "historical_p20_delta": null,
+        "historical_p50_delta": null,
         "new_required_ground_ld": 62.633124
       }
     ],
@@ -59,20 +62,30 @@
     "geometry": {
       "binding_constraint": "TERRAIN",
       "binding_required_ground_ld": 87.712807,
-      "clearance_state": "GEOMETRICALLY_FEASIBLE",
+      "clearance_state": "INSUFFICIENT_GEOMETRY_QUALITY",
       "critical_terrain": {
         "clearance_m": 499.473,
         "distance_along_route_m": 43810.179,
         "required_ground_ld": 87.712807,
         "state": "GEOMETRICALLY_FEASIBLE"
       },
+      "diagnostic_clearance_state": "GEOMETRICALLY_FEASIBLE",
       "non_normal_clearance_diagnostics": [],
       "required_ground_ld_finish": 38.053437,
       "required_ground_ld_terrain": 87.712807,
       "start_altitude_amsl_m": 2400.0,
       "target_finish_altitude_amsl_m": 170.975
     },
+    "geometry_quality": {
+      "constraint_footprint_half_width_m": 75.0,
+      "coordinate_uncertainty_m": 109.703,
+      "gate_version": "pre-race-coordinate-footprint-quality-gate-v1",
+      "reported_state_on_failure": "INSUFFICIENT_GEOMETRY_QUALITY",
+      "status": "INSUFFICIENT",
+      "uncertainty_to_footprint_ratio": 1.463
+    },
     "historical_performance": {
+      "confidence_status": "NOT_ESTIMATED_FLIGHT_CORRELATION_UNMODELED",
       "filter_provenance": {
         "aircraft": "LS8neo",
         "altitude_band_m": null,
@@ -82,18 +95,21 @@
         "wind_component_band": null,
         "wing_loading_kg_m2": 50.0
       },
+      "flight_count": 4,
       "historical_track_ld": null,
+      "observation_quality_filter_version": null,
       "progress_ld_p20": 19.189,
       "progress_ld_p50": 28.791,
       "progress_ld_p80": 65.314,
-      "sample_count": 82,
+      "sample_count": null,
+      "section_observation_count": 82,
       "sources": [
         {
           "package_sha256": "c4934fc9829f5ff64a2a7f99fff78473758c745fc50a6546a049a40d944bd64e",
           "race_id": "28247"
         }
       ],
-      "status": "PERFORMANCE_DATA_AVAILABLE",
+      "status": "UNFILTERED_DIAGNOSTIC_ONLY",
       "theoretical_predicted_ld": null
     },
     "profile": [
