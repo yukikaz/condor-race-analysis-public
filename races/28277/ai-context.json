@@ -3,7 +3,7 @@
   "race_id": "28277",
   "analysis_versions": {
     "analysis_schema_version": "standard-race-analysis-package-v5",
-    "analysis_version": "standard-race-analysis-v5",
+    "analysis_version": "standard-race-analysis-v6",
     "fg_analysis_version": "final-glide-analysis-v1",
     "dataset_version": "final-glide-knowledge-dataset-v2"
   },
@@ -166,23 +166,23 @@
         "flight_id": "313846",
         "cn": "NGS",
         "pilot": "Yuki Kazama",
-        "fg_start_time": "2026-08-28T13:46:15+00:00",
-        "remaining_distance_km": 39.16068283679741,
-        "altitude_m": 1848,
-        "ground_speed_kmh": 196.79868825929117,
+        "fg_start_time": "2026-08-28T13:24:48+00:00",
+        "remaining_distance_km": 104.06820571131227,
+        "altitude_m": 2356,
+        "ground_speed_kmh": 202.38984415097866,
         "pseudo_energy_agl_m": null,
-        "goal_required_ground_ld": 23.33771325196508,
-        "actual_route_terrain_required_ld": 30.624588365214752,
-        "straight_route_terrain_reference_ld": 75.20856081597427,
-        "minimum_terrain_energy_margin_m": 303.19920896069243,
-        "route_distance_km": 41.065290226993966,
-        "straight_distance_km": 39.16068283679741,
-        "extra_distance_km": 1.9046073901965501,
-        "route_efficiency": 0.9536200187635696,
-        "elapsed_seconds": 780.0,
-        "progress_speed_kmh": 180.74161309291114,
-        "progressing_lift_events": 2,
-        "progressing_lift_pe_gain_m": 73.9585044264361,
+        "goal_required_ground_ld": 47.606681478184925,
+        "actual_route_terrain_required_ld": 147.22393675077024,
+        "straight_route_terrain_reference_ld": 301.70424951948286,
+        "minimum_terrain_energy_margin_m": 85.31755880596802,
+        "route_distance_km": 111.09576001864636,
+        "straight_distance_km": 49.423587123069986,
+        "extra_distance_km": 61.67217289557637,
+        "route_efficiency": 0.4448737477899671,
+        "elapsed_seconds": 2067.0,
+        "progress_speed_kmh": 86.07881646978807,
+        "progressing_lift_events": 6,
+        "progressing_lift_pe_gain_m": 199.4777423459434,
         "finish_speed_kmh": 194.8428019923755,
         "arrival_energy_excess_m": 526.7017930586036
       }
@@ -235,23 +235,23 @@
         "flight_id": "313849",
         "cn": "NT3",
         "pilot": "Naoki Takechi",
-        "fg_start_time": "2026-08-28T13:48:20+00:00",
-        "remaining_distance_km": 39.19649455103139,
-        "altitude_m": 1923,
-        "ground_speed_kmh": 143.33451041930618,
+        "fg_start_time": "2026-08-28T13:17:55+00:00",
+        "remaining_distance_km": 120.30875395645498,
+        "altitude_m": 2161,
+        "ground_speed_kmh": 161.88667371028833,
         "pseudo_energy_agl_m": null,
-        "goal_required_ground_ld": 22.359666030251788,
-        "actual_route_terrain_required_ld": 33.940359596880086,
-        "straight_route_terrain_reference_ld": 42.6153986540698,
-        "minimum_terrain_energy_margin_m": 160.50832478626296,
-        "route_distance_km": 40.27518128465729,
-        "straight_distance_km": 39.19649455103139,
-        "extra_distance_km": 1.078686733625902,
-        "route_efficiency": 0.9732170855792814,
-        "elapsed_seconds": 771.0,
-        "progress_speed_kmh": 183.0186516001466,
-        "progressing_lift_events": 0,
-        "progressing_lift_pe_gain_m": 0,
+        "goal_required_ground_ld": 60.42629530710947,
+        "actual_route_terrain_required_ld": 560.8714051979076,
+        "straight_route_terrain_reference_ld": 19.63362241766334,
+        "minimum_terrain_energy_margin_m": -190.67337810778417,
+        "route_distance_km": 127.81565959835117,
+        "straight_distance_km": 38.72456940961006,
+        "extra_distance_km": 89.09109018874112,
+        "route_efficiency": 0.30297202652083804,
+        "elapsed_seconds": 2596.0,
+        "progress_speed_kmh": 53.701251877733526,
+        "progressing_lift_events": 8,
+        "progressing_lift_pe_gain_m": 268.98087608754327,
         "finish_speed_kmh": 177.25344779455875,
         "arrival_energy_excess_m": 513.9534364965847
       }
@@ -304,23 +304,23 @@
         "flight_id": "313848",
         "cn": "YZR",
         "pilot": "Nobuhiro OKada",
-        "fg_start_time": "2026-08-28T13:47:21+00:00",
-        "remaining_distance_km": 39.17350275608709,
-        "altitude_m": 1721,
-        "ground_speed_kmh": 155.27500662304433,
+        "fg_start_time": "2026-08-28T13:23:34+00:00",
+        "remaining_distance_km": 106.36026443090319,
+        "altitude_m": 2400,
+        "ground_speed_kmh": 140.10580109312235,
         "pseudo_energy_agl_m": null,
-        "goal_required_ground_ld": 25.25693278922442,
-        "actual_route_terrain_required_ld": 98.80727812573224,
-        "straight_route_terrain_reference_ld": 125.80202973020722,
-        "minimum_terrain_energy_margin_m": 148.53586219656427,
-        "route_distance_km": 41.26627666059511,
-        "straight_distance_km": 39.17350275608709,
-        "extra_distance_km": 2.0927739045080234,
-        "route_efficiency": 0.9492860981444832,
-        "elapsed_seconds": 909.0,
-        "progress_speed_kmh": 155.14258517262215,
-        "progressing_lift_events": 1,
-        "progressing_lift_pe_gain_m": 87.01307730521171,
+        "goal_required_ground_ld": 47.69518584345433,
+        "actual_route_terrain_required_ld": 104.61082488026885,
+        "straight_route_terrain_reference_ld": 35.44831537598253,
+        "minimum_terrain_energy_margin_m": 102.68831914723751,
+        "route_distance_km": 113.01592023751506,
+        "straight_distance_km": 48.55042952340163,
+        "extra_distance_km": 64.46549071411343,
+        "route_efficiency": 0.4295892952193612,
+        "elapsed_seconds": 2336.0,
+        "progress_speed_kmh": 74.82086741620115,
+        "progressing_lift_events": 6,
+        "progressing_lift_pe_gain_m": 265.6489090416701,
         "finish_speed_kmh": 136.36679176330549,
         "arrival_energy_excess_m": 483.5070570649277
       }
@@ -373,23 +373,23 @@
         "flight_id": "313847",
         "cn": "YN",
         "pilot": "Yhuki Nagasaki",
-        "fg_start_time": "2026-08-28T13:53:53+00:00",
-        "remaining_distance_km": 39.01436662184881,
-        "altitude_m": 3104,
-        "ground_speed_kmh": 242.3187899428228,
+        "fg_start_time": "2026-08-28T13:39:00+00:00",
+        "remaining_distance_km": 93.9909337737085,
+        "altitude_m": 4441,
+        "ground_speed_kmh": 258.52136938240733,
         "pseudo_energy_agl_m": null,
-        "goal_required_ground_ld": 13.297330136962781,
-        "actual_route_terrain_required_ld": 13.633522997106436,
-        "straight_route_terrain_reference_ld": 13.297417981960992,
+        "goal_required_ground_ld": 22.006774472888896,
+        "actual_route_terrain_required_ld": 24.997316382208524,
+        "straight_route_terrain_reference_ld": 15.196970267791627,
         "minimum_terrain_energy_margin_m": 779.9103121544454,
-        "route_distance_km": 39.950921884833576,
-        "straight_distance_km": 39.01436662184881,
-        "extra_distance_km": 0.9365552629847662,
-        "route_efficiency": 0.9765573554051,
-        "elapsed_seconds": 633.0,
-        "progress_speed_kmh": 221.88265377354773,
-        "progressing_lift_events": 0,
-        "progressing_lift_pe_gain_m": 0,
+        "route_distance_km": 100.11549373463086,
+        "straight_distance_km": 63.3415249893465,
+        "extra_distance_km": 36.77396874528436,
+        "route_efficiency": 0.6326845388910677,
+        "elapsed_seconds": 1526.0,
+        "progress_speed_kmh": 149.42954781235085,
+        "progressing_lift_events": 3,
+        "progressing_lift_pe_gain_m": 281.9559888643962,
         "finish_speed_kmh": 192.97830001930845,
         "arrival_energy_excess_m": 826.8570790554128
       }
@@ -442,21 +442,21 @@
         "flight_id": "313850",
         "cn": "KON",
         "pilot": "Hirotaka Kono",
-        "fg_start_time": "2026-08-28T13:50:49+00:00",
-        "remaining_distance_km": 39.37614215462301,
-        "altitude_m": 2003,
-        "ground_speed_kmh": 115.04517854978106,
+        "fg_start_time": "2026-08-28T13:50:08+00:00",
+        "remaining_distance_km": 41.38052776252444,
+        "altitude_m": 1947,
+        "ground_speed_kmh": 132.68420475541112,
         "pseudo_energy_agl_m": null,
-        "goal_required_ground_ld": 21.481801502794873,
-        "actual_route_terrain_required_ld": 81.8426977402843,
-        "straight_route_terrain_reference_ld": 36.73732494709949,
+        "goal_required_ground_ld": 23.286734812900633,
+        "actual_route_terrain_required_ld": 126.62132629549615,
+        "straight_route_terrain_reference_ld": 59.89597780559859,
         "minimum_terrain_energy_margin_m": 41.06619323628297,
-        "route_distance_km": 43.14854432155785,
-        "straight_distance_km": 39.37614215462301,
-        "extra_distance_km": 3.7724021669348367,
-        "route_efficiency": 0.9125717396438314,
-        "elapsed_seconds": 900.0,
-        "progress_speed_kmh": 157.50456861849207,
+        "route_distance_km": 44.650492925455936,
+        "straight_distance_km": 39.978088294283936,
+        "extra_distance_km": 4.672404631172001,
+        "route_efficiency": 0.8953560347256952,
+        "elapsed_seconds": 941.0,
+        "progress_speed_kmh": 152.94486488780254,
         "progressing_lift_events": 4,
         "progressing_lift_pe_gain_m": 126.89198204908098,
         "finish_speed_kmh": 226.88489971642315,
@@ -4085,21 +4085,21 @@
         "flight_id": "313850",
         "cn": "KON",
         "pilot": "Hirotaka Kono",
-        "fg_start_time": "2026-08-28T13:50:49+00:00",
-        "remaining_distance_km": 39.37614215462301,
-        "altitude_m": 2003,
-        "ground_speed_kmh": 115.04517854978106,
+        "fg_start_time": "2026-08-28T13:50:08+00:00",
+        "remaining_distance_km": 41.38052776252444,
+        "altitude_m": 1947,
+        "ground_speed_kmh": 132.68420475541112,
         "pseudo_energy_agl_m": null,
-        "goal_required_ground_ld": 21.481801502794873,
-        "actual_route_terrain_required_ld": 81.8426977402843,
-        "straight_route_terrain_reference_ld": 36.73732494709949,
+        "goal_required_ground_ld": 23.286734812900633,
+        "actual_route_terrain_required_ld": 126.62132629549615,
+        "straight_route_terrain_reference_ld": 59.89597780559859,
         "minimum_terrain_energy_margin_m": 41.06619323628297,
-        "route_distance_km": 43.14854432155785,
-        "straight_distance_km": 39.37614215462301,
-        "extra_distance_km": 3.7724021669348367,
-        "route_efficiency": 0.9125717396438314,
-        "elapsed_seconds": 900.0,
-        "progress_speed_kmh": 157.50456861849207,
+        "route_distance_km": 44.650492925455936,
+        "straight_distance_km": 39.978088294283936,
+        "extra_distance_km": 4.672404631172001,
+        "route_efficiency": 0.8953560347256952,
+        "elapsed_seconds": 941.0,
+        "progress_speed_kmh": 152.94486488780254,
         "progressing_lift_events": 4,
         "progressing_lift_pe_gain_m": 126.89198204908098,
         "finish_speed_kmh": 226.88489971642315,
@@ -4107,15 +4107,15 @@
         "checkpoints": [
           {
             "checkpoint_kind": "FG_START",
-            "timestamp": "2026-08-28T13:50:49+00:00",
-            "remaining_goal_distance_km": 39.37614215462301,
-            "altitude_m": 2003,
-            "ground_speed_kmh": 115.04517854978106,
-            "pseudo_energy_agl_m": 453.50523200964165,
-            "goal_required_ground_glide_ratio": 21.481801502794873,
-            "actual_route_critical_terrain_required_glide_ratio": 81.8426977402843,
-            "straight_route_critical_terrain_required_glide_ratio": 36.73732494709949,
-            "minimum_actual_route_terrain_energy_margin_m": 119.39660014757578,
+            "timestamp": "2026-08-28T13:50:08+00:00",
+            "remaining_goal_distance_km": 41.38052776252444,
+            "altitude_m": 1947,
+            "ground_speed_kmh": 132.68420475541112,
+            "pseudo_energy_agl_m": 189.52324651624576,
+            "goal_required_ground_glide_ratio": 23.286734812900633,
+            "actual_route_critical_terrain_required_glide_ratio": 126.62132629549615,
+            "straight_route_critical_terrain_required_glide_ratio": 59.89597780559859,
+            "minimum_actual_route_terrain_energy_margin_m": 88.81238831814676,
             "cumulative_route_efficiency": null
           },
           {
@@ -4129,7 +4129,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 112.67778659739757,
             "straight_route_critical_terrain_required_glide_ratio": 19.964455923704303,
             "minimum_actual_route_terrain_energy_margin_m": 177.03261960949862,
-            "cumulative_route_efficiency": 0.960877021743283
+            "cumulative_route_efficiency": 0.9339404162689658
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4142,7 +4142,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 42.41567614029306,
             "straight_route_critical_terrain_required_glide_ratio": 44.05267088950403,
             "minimum_actual_route_terrain_energy_margin_m": 300.637390398399,
-            "cumulative_route_efficiency": 0.9428031625170029
+            "cumulative_route_efficiency": 0.9186149842152738
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4155,7 +4155,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 13.687224674012386,
             "straight_route_critical_terrain_required_glide_ratio": 20.659224211428377,
             "minimum_actual_route_terrain_energy_margin_m": 158.4829993374708,
-            "cumulative_route_efficiency": 0.92743310204395
+            "cumulative_route_efficiency": 0.9102378219308863
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4168,7 +4168,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 11.033235968418479,
             "straight_route_critical_terrain_required_glide_ratio": 11.164795796486294,
             "minimum_actual_route_terrain_energy_margin_m": 876.2792683273958,
-            "cumulative_route_efficiency": 0.9275301348595733
+            "cumulative_route_efficiency": 0.9106718712612252
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4181,7 +4181,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 7.0889982966885565,
             "straight_route_critical_terrain_required_glide_ratio": 7.300883352467741,
             "minimum_actual_route_terrain_energy_margin_m": 899.349894147191,
-            "cumulative_route_efficiency": 0.9168667450809347
+            "cumulative_route_efficiency": 0.8998349360042203
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4194,7 +4194,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 4.463284151923261,
             "straight_route_critical_terrain_required_glide_ratio": 4.756152544867545,
             "minimum_actual_route_terrain_energy_margin_m": 789.6442400183731,
-            "cumulative_route_efficiency": 0.913022022736612
+            "cumulative_route_efficiency": 0.8959915717855701
           },
           {
             "checkpoint_kind": "GOAL",
@@ -4207,7 +4207,7 @@
             "actual_route_critical_terrain_required_glide_ratio": null,
             "straight_route_critical_terrain_required_glide_ratio": 0.9130435134783834,
             "minimum_actual_route_terrain_energy_margin_m": null,
-            "cumulative_route_efficiency": 0.9126315675531362
+            "cumulative_route_efficiency": 0.8957273957572202
           }
         ]
       },
@@ -4215,37 +4215,37 @@
         "flight_id": "313846",
         "cn": "NGS",
         "pilot": "Yuki Kazama",
-        "fg_start_time": "2026-08-28T13:46:15+00:00",
-        "remaining_distance_km": 39.16068283679741,
-        "altitude_m": 1848,
-        "ground_speed_kmh": 196.79868825929117,
+        "fg_start_time": "2026-08-28T13:24:48+00:00",
+        "remaining_distance_km": 104.06820571131227,
+        "altitude_m": 2356,
+        "ground_speed_kmh": 202.38984415097866,
         "pseudo_energy_agl_m": null,
-        "goal_required_ground_ld": 23.33771325196508,
-        "actual_route_terrain_required_ld": 30.624588365214752,
-        "straight_route_terrain_reference_ld": 75.20856081597427,
-        "minimum_terrain_energy_margin_m": 303.19920896069243,
-        "route_distance_km": 41.065290226993966,
-        "straight_distance_km": 39.16068283679741,
-        "extra_distance_km": 1.9046073901965501,
-        "route_efficiency": 0.9536200187635696,
-        "elapsed_seconds": 780.0,
-        "progress_speed_kmh": 180.74161309291114,
-        "progressing_lift_events": 2,
-        "progressing_lift_pe_gain_m": 73.9585044264361,
+        "goal_required_ground_ld": 47.606681478184925,
+        "actual_route_terrain_required_ld": 147.22393675077024,
+        "straight_route_terrain_reference_ld": 301.70424951948286,
+        "minimum_terrain_energy_margin_m": 85.31755880596802,
+        "route_distance_km": 111.09576001864636,
+        "straight_distance_km": 49.423587123069986,
+        "extra_distance_km": 61.67217289557637,
+        "route_efficiency": 0.4448737477899671,
+        "elapsed_seconds": 2067.0,
+        "progress_speed_kmh": 86.07881646978807,
+        "progressing_lift_events": 6,
+        "progressing_lift_pe_gain_m": 199.4777423459434,
         "finish_speed_kmh": 194.8428019923755,
         "arrival_energy_excess_m": 526.7017930586036,
         "checkpoints": [
           {
             "checkpoint_kind": "FG_START",
-            "timestamp": "2026-08-28T13:46:15+00:00",
-            "remaining_goal_distance_km": 39.16068283679741,
-            "altitude_m": 1848,
-            "ground_speed_kmh": 196.79868825929117,
-            "pseudo_energy_agl_m": 480.4622314106681,
-            "goal_required_ground_glide_ratio": 23.33771325196508,
-            "actual_route_critical_terrain_required_glide_ratio": 30.624588365214752,
-            "straight_route_critical_terrain_required_glide_ratio": 75.20856081597427,
-            "minimum_actual_route_terrain_energy_margin_m": 326.0695052199151,
+            "timestamp": "2026-08-28T13:24:48+00:00",
+            "remaining_goal_distance_km": 104.06820571131227,
+            "altitude_m": 2356,
+            "ground_speed_kmh": 202.38984415097866,
+            "pseudo_energy_agl_m": 475.6780272046732,
+            "goal_required_ground_glide_ratio": 47.606681478184925,
+            "actual_route_critical_terrain_required_glide_ratio": 147.22393675077024,
+            "straight_route_critical_terrain_required_glide_ratio": 301.70424951948286,
+            "minimum_actual_route_terrain_energy_margin_m": 277.0244715855347,
             "cumulative_route_efficiency": null
           },
           {
@@ -4259,7 +4259,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 23.763026666222167,
             "straight_route_critical_terrain_required_glide_ratio": 19.4424804726727,
             "minimum_actual_route_terrain_energy_margin_m": 560.412356683928,
-            "cumulative_route_efficiency": 0.8982866355283233
+            "cumulative_route_efficiency": 0.4608446412319693
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4272,7 +4272,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 21.25181149935762,
             "straight_route_critical_terrain_required_glide_ratio": 17.692897955986673,
             "minimum_actual_route_terrain_energy_margin_m": 540.5881529798485,
-            "cumulative_route_efficiency": 0.9150484461382882
+            "cumulative_route_efficiency": 0.4425672723171299
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4285,7 +4285,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 18.030928232775064,
             "straight_route_critical_terrain_required_glide_ratio": 19.032612105205327,
             "minimum_actual_route_terrain_energy_margin_m": 679.1857966458527,
-            "cumulative_route_efficiency": 0.9329891548269075
+            "cumulative_route_efficiency": 0.43689666549023964
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4298,7 +4298,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 14.87648466591638,
             "straight_route_critical_terrain_required_glide_ratio": 13.256694022477149,
             "minimum_actual_route_terrain_energy_margin_m": 377.29065805069,
-            "cumulative_route_efficiency": 0.9389484476360819
+            "cumulative_route_efficiency": 0.43087083496581624
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4311,7 +4311,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 8.24937935060366,
             "straight_route_critical_terrain_required_glide_ratio": 8.402763022231357,
             "minimum_actual_route_terrain_energy_margin_m": 667.2827305512055,
-            "cumulative_route_efficiency": 0.9489788011686975
+            "cumulative_route_efficiency": 0.44191302023577916
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4324,7 +4324,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 5.054387074274565,
             "straight_route_critical_terrain_required_glide_ratio": 5.285529581165262,
             "minimum_actual_route_terrain_energy_margin_m": 694.5495503273435,
-            "cumulative_route_efficiency": 0.9511700143654578
+            "cumulative_route_efficiency": 0.44431591809432563
           },
           {
             "checkpoint_kind": "GOAL",
@@ -4337,7 +4337,7 @@
             "actual_route_critical_terrain_required_glide_ratio": null,
             "straight_route_critical_terrain_required_glide_ratio": 1.0278617371586092,
             "minimum_actual_route_terrain_energy_margin_m": null,
-            "cumulative_route_efficiency": 0.9531227641844126
+            "cumulative_route_efficiency": 0.44748124242463766
           }
         ]
       },
@@ -4345,37 +4345,37 @@
         "flight_id": "313849",
         "cn": "NT3",
         "pilot": "Naoki Takechi",
-        "fg_start_time": "2026-08-28T13:48:20+00:00",
-        "remaining_distance_km": 39.19649455103139,
-        "altitude_m": 1923,
-        "ground_speed_kmh": 143.33451041930618,
+        "fg_start_time": "2026-08-28T13:17:55+00:00",
+        "remaining_distance_km": 120.30875395645498,
+        "altitude_m": 2161,
+        "ground_speed_kmh": 161.88667371028833,
         "pseudo_energy_agl_m": null,
-        "goal_required_ground_ld": 22.359666030251788,
-        "actual_route_terrain_required_ld": 33.940359596880086,
-        "straight_route_terrain_reference_ld": 42.6153986540698,
-        "minimum_terrain_energy_margin_m": 160.50832478626296,
-        "route_distance_km": 40.27518128465729,
-        "straight_distance_km": 39.19649455103139,
-        "extra_distance_km": 1.078686733625902,
-        "route_efficiency": 0.9732170855792814,
-        "elapsed_seconds": 771.0,
-        "progress_speed_kmh": 183.0186516001466,
-        "progressing_lift_events": 0,
-        "progressing_lift_pe_gain_m": 0,
+        "goal_required_ground_ld": 60.42629530710947,
+        "actual_route_terrain_required_ld": 560.8714051979076,
+        "straight_route_terrain_reference_ld": 19.63362241766334,
+        "minimum_terrain_energy_margin_m": -190.67337810778417,
+        "route_distance_km": 127.81565959835117,
+        "straight_distance_km": 38.72456940961006,
+        "extra_distance_km": 89.09109018874112,
+        "route_efficiency": 0.30297202652083804,
+        "elapsed_seconds": 2596.0,
+        "progress_speed_kmh": 53.701251877733526,
+        "progressing_lift_events": 8,
+        "progressing_lift_pe_gain_m": 268.98087608754327,
         "finish_speed_kmh": 177.25344779455875,
         "arrival_energy_excess_m": 513.9534364965847,
         "checkpoints": [
           {
             "checkpoint_kind": "FG_START",
-            "timestamp": "2026-08-28T13:48:20+00:00",
-            "remaining_goal_distance_km": 39.19649455103139,
-            "altitude_m": 1923,
-            "ground_speed_kmh": 143.33451041930618,
-            "pseudo_energy_agl_m": 474.5450276706497,
-            "goal_required_ground_glide_ratio": 22.359666030251788,
-            "actual_route_critical_terrain_required_glide_ratio": 33.940359596880086,
-            "straight_route_critical_terrain_required_glide_ratio": 42.6153986540698,
-            "minimum_actual_route_terrain_energy_margin_m": 319.2401519862103,
+            "timestamp": "2026-08-28T13:17:55+00:00",
+            "remaining_goal_distance_km": 120.30875395645498,
+            "altitude_m": 2161,
+            "ground_speed_kmh": 161.88667371028833,
+            "pseudo_energy_agl_m": 637.7618662701585,
+            "goal_required_ground_glide_ratio": 60.42629530710947,
+            "actual_route_critical_terrain_required_glide_ratio": 560.8714051979076,
+            "straight_route_critical_terrain_required_glide_ratio": 19.63362241766334,
+            "minimum_actual_route_terrain_energy_margin_m": -15.923512468827084,
             "cumulative_route_efficiency": null
           },
           {
@@ -4389,7 +4389,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 38.92305282655586,
             "straight_route_critical_terrain_required_glide_ratio": 19.776329769266763,
             "minimum_actual_route_terrain_energy_margin_m": 249.1143415779327,
-            "cumulative_route_efficiency": 0.9600405801766613
+            "cumulative_route_efficiency": 0.36372660638589766
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4402,7 +4402,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 23.194734137249675,
             "straight_route_critical_terrain_required_glide_ratio": 21.124337425610538,
             "minimum_actual_route_terrain_energy_margin_m": 359.4748630072577,
-            "cumulative_route_efficiency": 0.9699484472074632
+            "cumulative_route_efficiency": 0.33923318947652514
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4415,7 +4415,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 20.77938534421157,
             "straight_route_critical_terrain_required_glide_ratio": 165.33659672296594,
             "minimum_actual_route_terrain_energy_margin_m": 488.7111273233936,
-            "cumulative_route_efficiency": 0.971141880411373
+            "cumulative_route_efficiency": 0.3193006130807172
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4428,7 +4428,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 20.689048705597145,
             "straight_route_critical_terrain_required_glide_ratio": 13.535958237014565,
             "minimum_actual_route_terrain_energy_margin_m": 160.50832478626296,
-            "cumulative_route_efficiency": 0.966898564843468
+            "cumulative_route_efficiency": 0.3022726255612145
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4441,7 +4441,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 8.258905119515118,
             "straight_route_critical_terrain_required_glide_ratio": 8.388930571437102,
             "minimum_actual_route_terrain_energy_margin_m": 736.0789452436994,
-            "cumulative_route_efficiency": 0.9713936646890243
+            "cumulative_route_efficiency": 0.30371946430474434
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4454,7 +4454,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 5.546360578132974,
             "straight_route_critical_terrain_required_glide_ratio": 5.749985567193781,
             "minimum_actual_route_terrain_energy_margin_m": 657.9191517453288,
-            "cumulative_route_efficiency": 0.9717547262161902
+            "cumulative_route_efficiency": 0.30354094551455735
           },
           {
             "checkpoint_kind": "GOAL",
@@ -4467,7 +4467,7 @@
             "actual_route_critical_terrain_required_glide_ratio": null,
             "straight_route_critical_terrain_required_glide_ratio": 0.839084937853348,
             "minimum_actual_route_terrain_energy_margin_m": null,
-            "cumulative_route_efficiency": 0.972414969867807
+            "cumulative_route_efficiency": 0.3052395979074687
           }
         ]
       },
@@ -4475,37 +4475,37 @@
         "flight_id": "313847",
         "cn": "YN",
         "pilot": "Yhuki Nagasaki",
-        "fg_start_time": "2026-08-28T13:53:53+00:00",
-        "remaining_distance_km": 39.01436662184881,
-        "altitude_m": 3104,
-        "ground_speed_kmh": 242.3187899428228,
+        "fg_start_time": "2026-08-28T13:39:00+00:00",
+        "remaining_distance_km": 93.9909337737085,
+        "altitude_m": 4441,
+        "ground_speed_kmh": 258.52136938240733,
         "pseudo_energy_agl_m": null,
-        "goal_required_ground_ld": 13.297330136962781,
-        "actual_route_terrain_required_ld": 13.633522997106436,
-        "straight_route_terrain_reference_ld": 13.297417981960992,
+        "goal_required_ground_ld": 22.006774472888896,
+        "actual_route_terrain_required_ld": 24.997316382208524,
+        "straight_route_terrain_reference_ld": 15.196970267791627,
         "minimum_terrain_energy_margin_m": 779.9103121544454,
-        "route_distance_km": 39.950921884833576,
-        "straight_distance_km": 39.01436662184881,
-        "extra_distance_km": 0.9365552629847662,
-        "route_efficiency": 0.9765573554051,
-        "elapsed_seconds": 633.0,
-        "progress_speed_kmh": 221.88265377354773,
-        "progressing_lift_events": 0,
-        "progressing_lift_pe_gain_m": 0,
+        "route_distance_km": 100.11549373463086,
+        "straight_distance_km": 63.3415249893465,
+        "extra_distance_km": 36.77396874528436,
+        "route_efficiency": 0.6326845388910677,
+        "elapsed_seconds": 1526.0,
+        "progress_speed_kmh": 149.42954781235085,
+        "progressing_lift_events": 3,
+        "progressing_lift_pe_gain_m": 281.9559888643962,
         "finish_speed_kmh": 192.97830001930845,
         "arrival_energy_excess_m": 826.8570790554128,
         "checkpoints": [
           {
             "checkpoint_kind": "FG_START",
-            "timestamp": "2026-08-28T13:53:53+00:00",
-            "remaining_goal_distance_km": 39.01436662184881,
-            "altitude_m": 3104,
-            "ground_speed_kmh": 242.3187899428228,
-            "pseudo_energy_agl_m": 1796.447473610387,
-            "goal_required_ground_glide_ratio": 13.297330136962781,
-            "actual_route_critical_terrain_required_glide_ratio": 13.633522997106436,
-            "straight_route_critical_terrain_required_glide_ratio": 13.297417981960992,
-            "minimum_actual_route_terrain_energy_margin_m": 1713.8295806550263,
+            "timestamp": "2026-08-28T13:39:00+00:00",
+            "remaining_goal_distance_km": 93.9909337737085,
+            "altitude_m": 4441,
+            "ground_speed_kmh": 258.52136938240733,
+            "pseudo_energy_agl_m": 2916.7170329214227,
+            "goal_required_ground_glide_ratio": 22.006774472888896,
+            "actual_route_critical_terrain_required_glide_ratio": 24.997316382208524,
+            "straight_route_critical_terrain_required_glide_ratio": 15.196970267791627,
+            "minimum_actual_route_terrain_energy_margin_m": 2275.8828465499473,
             "cumulative_route_efficiency": null
           },
           {
@@ -4519,7 +4519,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 12.735369317744569,
             "straight_route_critical_terrain_required_glide_ratio": 12.639317299559101,
             "minimum_actual_route_terrain_energy_margin_m": 1251.706340333523,
-            "cumulative_route_efficiency": 0.9351095801095991
+            "cumulative_route_efficiency": 0.7017100755514984
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4532,7 +4532,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 12.1053759516808,
             "straight_route_critical_terrain_required_glide_ratio": 11.994967633909603,
             "minimum_actual_route_terrain_energy_margin_m": 955.8802855897648,
-            "cumulative_route_efficiency": 0.9563955969844556
+            "cumulative_route_efficiency": 0.6709190443508205
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4545,7 +4545,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 10.521222634023651,
             "straight_route_critical_terrain_required_glide_ratio": 10.530225530785989,
             "minimum_actual_route_terrain_energy_margin_m": 1222.933426546716,
-            "cumulative_route_efficiency": 0.9669168717070626
+            "cumulative_route_efficiency": 0.6643009018829433
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4558,7 +4558,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 9.06765153446749,
             "straight_route_critical_terrain_required_glide_ratio": 9.088811888173401,
             "minimum_actual_route_terrain_energy_margin_m": 779.9103121544454,
-            "cumulative_route_efficiency": 0.9686231889640804
+            "cumulative_route_efficiency": 0.6456278815471219
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4571,7 +4571,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 5.799477527239884,
             "straight_route_critical_terrain_required_glide_ratio": 5.844326485101181,
             "minimum_actual_route_terrain_energy_margin_m": 1091.9646943497137,
-            "cumulative_route_efficiency": 0.9717019559532571
+            "cumulative_route_efficiency": 0.6356494066808667
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4584,7 +4584,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 3.4505121933993275,
             "straight_route_critical_terrain_required_glide_ratio": 3.556883312713926,
             "minimum_actual_route_terrain_energy_margin_m": 922.4151733247588,
-            "cumulative_route_efficiency": 0.9739224193273395
+            "cumulative_route_efficiency": 0.6359119676428516
           },
           {
             "checkpoint_kind": "GOAL",
@@ -4597,7 +4597,7 @@
             "actual_route_critical_terrain_required_glide_ratio": null,
             "straight_route_critical_terrain_required_glide_ratio": 0.28470150057865695,
             "minimum_actual_route_terrain_energy_margin_m": null,
-            "cumulative_route_efficiency": 0.9748048081579276
+            "cumulative_route_efficiency": 0.6336282043550667
           }
         ]
       },
@@ -4605,37 +4605,37 @@
         "flight_id": "313848",
         "cn": "YZR",
         "pilot": "Nobuhiro OKada",
-        "fg_start_time": "2026-08-28T13:47:21+00:00",
-        "remaining_distance_km": 39.17350275608709,
-        "altitude_m": 1721,
-        "ground_speed_kmh": 155.27500662304433,
+        "fg_start_time": "2026-08-28T13:23:34+00:00",
+        "remaining_distance_km": 106.36026443090319,
+        "altitude_m": 2400,
+        "ground_speed_kmh": 140.10580109312235,
         "pseudo_energy_agl_m": null,
-        "goal_required_ground_ld": 25.25693278922442,
-        "actual_route_terrain_required_ld": 98.80727812573224,
-        "straight_route_terrain_reference_ld": 125.80202973020722,
-        "minimum_terrain_energy_margin_m": 148.53586219656427,
-        "route_distance_km": 41.26627666059511,
-        "straight_distance_km": 39.17350275608709,
-        "extra_distance_km": 2.0927739045080234,
-        "route_efficiency": 0.9492860981444832,
-        "elapsed_seconds": 909.0,
-        "progress_speed_kmh": 155.14258517262215,
-        "progressing_lift_events": 1,
-        "progressing_lift_pe_gain_m": 87.01307730521171,
+        "goal_required_ground_ld": 47.69518584345433,
+        "actual_route_terrain_required_ld": 104.61082488026885,
+        "straight_route_terrain_reference_ld": 35.44831537598253,
+        "minimum_terrain_energy_margin_m": 102.68831914723751,
+        "route_distance_km": 113.01592023751506,
+        "straight_distance_km": 48.55042952340163,
+        "extra_distance_km": 64.46549071411343,
+        "route_efficiency": 0.4295892952193612,
+        "elapsed_seconds": 2336.0,
+        "progress_speed_kmh": 74.82086741620115,
+        "progressing_lift_events": 6,
+        "progressing_lift_pe_gain_m": 265.6489090416701,
         "finish_speed_kmh": 136.36679176330549,
         "arrival_energy_excess_m": 483.5070570649277,
         "checkpoints": [
           {
             "checkpoint_kind": "FG_START",
-            "timestamp": "2026-08-28T13:47:21+00:00",
-            "remaining_goal_distance_km": 39.17350275608709,
-            "altitude_m": 1721,
-            "ground_speed_kmh": 155.27500662304433,
-            "pseudo_energy_agl_m": 293.41220693414334,
-            "goal_required_ground_glide_ratio": 25.25693278922442,
-            "actual_route_critical_terrain_required_glide_ratio": 98.80727812573224,
-            "straight_route_critical_terrain_required_glide_ratio": 125.80202973020722,
-            "minimum_actual_route_terrain_energy_margin_m": 159.50002290105044,
+            "timestamp": "2026-08-28T13:23:34+00:00",
+            "remaining_goal_distance_km": 106.36026443090319,
+            "altitude_m": 2400,
+            "ground_speed_kmh": 140.10580109312235,
+            "pseudo_energy_agl_m": 377.8247591595368,
+            "goal_required_ground_glide_ratio": 47.69518584345433,
+            "actual_route_critical_terrain_required_glide_ratio": 104.61082488026885,
+            "straight_route_critical_terrain_required_glide_ratio": 35.44831537598253,
+            "minimum_actual_route_terrain_energy_margin_m": 228.46116723467685,
             "cumulative_route_efficiency": null
           },
           {
@@ -4649,7 +4649,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 42.35558255497173,
             "straight_route_critical_terrain_required_glide_ratio": 20.110060880983188,
             "minimum_actual_route_terrain_energy_margin_m": 157.77267401564063,
-            "cumulative_route_efficiency": 0.9376842745938079
+            "cumulative_route_efficiency": 0.4660619491015208
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4662,7 +4662,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 18.348839899552488,
             "straight_route_critical_terrain_required_glide_ratio": 22.986554950258718,
             "minimum_actual_route_terrain_energy_margin_m": 381.9950705365518,
-            "cumulative_route_efficiency": 0.8908138546019527
+            "cumulative_route_efficiency": 0.4249359679008013
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4675,7 +4675,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 15.219821169204131,
             "straight_route_critical_terrain_required_glide_ratio": 15.203636888050806,
             "minimum_actual_route_terrain_energy_margin_m": 878.9848854255267,
-            "cumulative_route_efficiency": 0.9178858461234461
+            "cumulative_route_efficiency": 0.4257766846409466
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4688,7 +4688,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 13.09296356761588,
             "straight_route_critical_terrain_required_glide_ratio": 13.082424683454402,
             "minimum_actual_route_terrain_energy_margin_m": 721.5687286331754,
-            "cumulative_route_efficiency": 0.9313361051769169
+            "cumulative_route_efficiency": 0.4192463443990488
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4701,7 +4701,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 9.301288039297006,
             "straight_route_critical_terrain_required_glide_ratio": 9.305159157680178,
             "minimum_actual_route_terrain_energy_margin_m": 713.8118912450193,
-            "cumulative_route_efficiency": 0.9415171436331328
+            "cumulative_route_efficiency": 0.4218282694012111
           },
           {
             "checkpoint_kind": "3KM_GRID",
@@ -4714,7 +4714,7 @@
             "actual_route_critical_terrain_required_glide_ratio": 6.080238078772036,
             "straight_route_critical_terrain_required_glide_ratio": 6.101871440606442,
             "minimum_actual_route_terrain_energy_margin_m": 580.8279628240557,
-            "cumulative_route_efficiency": 0.9460298561381429
+            "cumulative_route_efficiency": 0.42654245092135834
           },
           {
             "checkpoint_kind": "GOAL",
@@ -4727,7 +4727,7 @@
             "actual_route_critical_terrain_required_glide_ratio": null,
             "straight_route_critical_terrain_required_glide_ratio": 0.5694979412040766,
             "minimum_actual_route_terrain_energy_margin_m": null,
-            "cumulative_route_efficiency": 0.9497313119003536
+            "cumulative_route_efficiency": 0.4314357573069338
           }
         ]
       }
@@ -4755,40 +4755,40 @@
         "assumed_wing_loading_kg_m2": 50.0,
         "buckets": [
           {
-            "remaining_distance_km": 39.16068283679741,
+            "remaining_distance_km": 104.06820571131227,
             "filter_tier": "ALL_FINISHED",
             "all_samples": {
-              "sample_count": 22,
-              "top_pilot_sample_count": 6,
-              "median_ground_speed_kmh": 208.9687194115142,
-              "p25_ground_speed_kmh": 184.86388627632442,
-              "p75_ground_speed_kmh": 219.95150575117293,
-              "median_progress_speed_kmh": 200.0583390305456,
-              "median_pe_margin_m": 240.66687529298122,
-              "median_next_3km_progress_speed_kmh": 178.95895109749364,
-              "median_next_6km_progress_speed_kmh": 174.58473417106447,
-              "median_next_3km_pe_change_m": -56.74834003099602,
-              "median_next_6km_pe_change_m": -50.08000826441639,
-              "median_arrival_energy_excess_m": 120.65182359111648
+              "sample_count": 0,
+              "top_pilot_sample_count": 0,
+              "median_ground_speed_kmh": null,
+              "p25_ground_speed_kmh": null,
+              "p75_ground_speed_kmh": null,
+              "median_progress_speed_kmh": null,
+              "median_pe_margin_m": null,
+              "median_next_3km_progress_speed_kmh": null,
+              "median_next_6km_progress_speed_kmh": null,
+              "median_next_3km_pe_change_m": null,
+              "median_next_6km_pe_change_m": null,
+              "median_arrival_energy_excess_m": null
             },
             "top_samples": {
-              "sample_count": 6,
-              "top_pilot_sample_count": 6,
-              "median_ground_speed_kmh": 208.5710190842307,
-              "p25_ground_speed_kmh": 198.00651829269202,
-              "p75_ground_speed_kmh": 219.09476346727507,
-              "median_progress_speed_kmh": 200.13362216247984,
-              "median_pe_margin_m": 212.69370571261732,
-              "median_next_3km_progress_speed_kmh": 167.27371005423848,
-              "median_next_6km_progress_speed_kmh": 160.7838769699837,
-              "median_next_3km_pe_change_m": -51.777782485470425,
-              "median_next_6km_pe_change_m": -45.73317084175824,
-              "median_arrival_energy_excess_m": 141.68401170287794
+              "sample_count": 0,
+              "top_pilot_sample_count": 0,
+              "median_ground_speed_kmh": null,
+              "p25_ground_speed_kmh": null,
+              "p75_ground_speed_kmh": null,
+              "median_progress_speed_kmh": null,
+              "median_pe_margin_m": null,
+              "median_next_3km_progress_speed_kmh": null,
+              "median_next_6km_progress_speed_kmh": null,
+              "median_next_3km_pe_change_m": null,
+              "median_next_6km_pe_change_m": null,
+              "median_arrival_energy_excess_m": null
             },
             "current_vs_historical_top": {
-              "current_speed_kmh": 196.79868825929117,
-              "historical_top_median_speed_kmh": 208.5710190842307,
-              "difference_kmh": -11.77233082493953
+              "current_speed_kmh": 202.38984415097866,
+              "historical_top_median_speed_kmh": null,
+              "difference_kmh": null
             }
           },
           {
@@ -5023,40 +5023,40 @@
         "assumed_wing_loading_kg_m2": 50.0,
         "buckets": [
           {
-            "remaining_distance_km": 39.01436662184881,
+            "remaining_distance_km": 93.9909337737085,
             "filter_tier": "ALL_FINISHED",
             "all_samples": {
-              "sample_count": 23,
-              "top_pilot_sample_count": 6,
-              "median_ground_speed_kmh": 206.5082649978215,
-              "p25_ground_speed_kmh": 178.95267267051673,
-              "p75_ground_speed_kmh": 218.878777745518,
-              "median_progress_speed_kmh": 200.0583390305456,
-              "median_pe_margin_m": 241.61003685482638,
-              "median_next_3km_progress_speed_kmh": 178.95895109749364,
-              "median_next_6km_progress_speed_kmh": 174.58473417106447,
-              "median_next_3km_pe_change_m": -56.74834003099602,
-              "median_next_6km_pe_change_m": -50.08000826441639,
-              "median_arrival_energy_excess_m": 121.32926868987983
+              "sample_count": 0,
+              "top_pilot_sample_count": 0,
+              "median_ground_speed_kmh": null,
+              "p25_ground_speed_kmh": null,
+              "p75_ground_speed_kmh": null,
+              "median_progress_speed_kmh": null,
+              "median_pe_margin_m": null,
+              "median_next_3km_progress_speed_kmh": null,
+              "median_next_6km_progress_speed_kmh": null,
+              "median_next_3km_pe_change_m": null,
+              "median_next_6km_pe_change_m": null,
+              "median_arrival_energy_excess_m": null
             },
             "top_samples": {
-              "sample_count": 6,
-              "top_pilot_sample_count": 6,
-              "median_ground_speed_kmh": 208.5710190842307,
-              "p25_ground_speed_kmh": 198.00651829269202,
-              "p75_ground_speed_kmh": 219.09476346727507,
-              "median_progress_speed_kmh": 200.13362216247984,
-              "median_pe_margin_m": 212.69370571261732,
-              "median_next_3km_progress_speed_kmh": 167.27371005423848,
-              "median_next_6km_progress_speed_kmh": 160.7838769699837,
-              "median_next_3km_pe_change_m": -51.777782485470425,
-              "median_next_6km_pe_change_m": -45.73317084175824,
-              "median_arrival_energy_excess_m": 141.68401170287794
+              "sample_count": 0,
+              "top_pilot_sample_count": 0,
+              "median_ground_speed_kmh": null,
+              "p25_ground_speed_kmh": null,
+              "p75_ground_speed_kmh": null,
+              "median_progress_speed_kmh": null,
+              "median_pe_margin_m": null,
+              "median_next_3km_progress_speed_kmh": null,
+              "median_next_6km_progress_speed_kmh": null,
+              "median_next_3km_pe_change_m": null,
+              "median_next_6km_pe_change_m": null,
+              "median_arrival_energy_excess_m": null
             },
             "current_vs_historical_top": {
-              "current_speed_kmh": 242.3187899428228,
-              "historical_top_median_speed_kmh": 208.5710190842307,
-              "difference_kmh": 33.747770858592105
+              "current_speed_kmh": 258.52136938240733,
+              "historical_top_median_speed_kmh": null,
+              "difference_kmh": null
             }
           },
           {
@@ -5291,40 +5291,40 @@
         "assumed_wing_loading_kg_m2": 50.0,
         "buckets": [
           {
-            "remaining_distance_km": 39.17350275608709,
+            "remaining_distance_km": 106.36026443090319,
             "filter_tier": "ALL_FINISHED",
             "all_samples": {
-              "sample_count": 22,
-              "top_pilot_sample_count": 6,
-              "median_ground_speed_kmh": 208.9687194115142,
-              "p25_ground_speed_kmh": 184.86388627632442,
-              "p75_ground_speed_kmh": 219.95150575117293,
-              "median_progress_speed_kmh": 200.0583390305456,
-              "median_pe_margin_m": 240.66687529298122,
-              "median_next_3km_progress_speed_kmh": 178.95895109749364,
-              "median_next_6km_progress_speed_kmh": 174.58473417106447,
-              "median_next_3km_pe_change_m": -56.74834003099602,
-              "median_next_6km_pe_change_m": -50.08000826441639,
-              "median_arrival_energy_excess_m": 120.65182359111648
+              "sample_count": 0,
+              "top_pilot_sample_count": 0,
+              "median_ground_speed_kmh": null,
+              "p25_ground_speed_kmh": null,
+              "p75_ground_speed_kmh": null,
+              "median_progress_speed_kmh": null,
+              "median_pe_margin_m": null,
+              "median_next_3km_progress_speed_kmh": null,
+              "median_next_6km_progress_speed_kmh": null,
+              "median_next_3km_pe_change_m": null,
+              "median_next_6km_pe_change_m": null,
+              "median_arrival_energy_excess_m": null
             },
             "top_samples": {
-              "sample_count": 6,
-              "top_pilot_sample_count": 6,
-              "median_ground_speed_kmh": 208.5710190842307,
-              "p25_ground_speed_kmh": 198.00651829269202,
-              "p75_ground_speed_kmh": 219.09476346727507,
-              "median_progress_speed_kmh": 200.13362216247984,
-              "median_pe_margin_m": 212.69370571261732,
-              "median_next_3km_progress_speed_kmh": 167.27371005423848,
-              "median_next_6km_progress_speed_kmh": 160.7838769699837,
-              "median_next_3km_pe_change_m": -51.777782485470425,
-              "median_next_6km_pe_change_m": -45.73317084175824,
-              "median_arrival_energy_excess_m": 141.68401170287794
+              "sample_count": 0,
+              "top_pilot_sample_count": 0,
+              "median_ground_speed_kmh": null,
+              "p25_ground_speed_kmh": null,
+              "p75_ground_speed_kmh": null,
+              "median_progress_speed_kmh": null,
+              "median_pe_margin_m": null,
+              "median_next_3km_progress_speed_kmh": null,
+              "median_next_6km_progress_speed_kmh": null,
+              "median_next_3km_pe_change_m": null,
+              "median_next_6km_pe_change_m": null,
+              "median_arrival_energy_excess_m": null
             },
             "current_vs_historical_top": {
-              "current_speed_kmh": 155.27500662304433,
-              "historical_top_median_speed_kmh": 208.5710190842307,
-              "difference_kmh": -53.296012461186365
+              "current_speed_kmh": 140.10580109312235,
+              "historical_top_median_speed_kmh": null,
+              "difference_kmh": null
             }
           },
           {
@@ -5559,40 +5559,40 @@
         "assumed_wing_loading_kg_m2": 50.0,
         "buckets": [
           {
-            "remaining_distance_km": 39.19649455103139,
+            "remaining_distance_km": 120.30875395645498,
             "filter_tier": "ALL_FINISHED",
             "all_samples": {
-              "sample_count": 22,
-              "top_pilot_sample_count": 6,
-              "median_ground_speed_kmh": 208.9687194115142,
-              "p25_ground_speed_kmh": 184.86388627632442,
-              "p75_ground_speed_kmh": 219.95150575117293,
-              "median_progress_speed_kmh": 200.0583390305456,
-              "median_pe_margin_m": 240.66687529298122,
-              "median_next_3km_progress_speed_kmh": 178.95895109749364,
-              "median_next_6km_progress_speed_kmh": 174.58473417106447,
-              "median_next_3km_pe_change_m": -56.74834003099602,
-              "median_next_6km_pe_change_m": -50.08000826441639,
-              "median_arrival_energy_excess_m": 120.65182359111648
+              "sample_count": 0,
+              "top_pilot_sample_count": 0,
+              "median_ground_speed_kmh": null,
+              "p25_ground_speed_kmh": null,
+              "p75_ground_speed_kmh": null,
+              "median_progress_speed_kmh": null,
+              "median_pe_margin_m": null,
+              "median_next_3km_progress_speed_kmh": null,
+              "median_next_6km_progress_speed_kmh": null,
+              "median_next_3km_pe_change_m": null,
+              "median_next_6km_pe_change_m": null,
+              "median_arrival_energy_excess_m": null
             },
             "top_samples": {
-              "sample_count": 6,
-              "top_pilot_sample_count": 6,
-              "median_ground_speed_kmh": 208.5710190842307,
-              "p25_ground_speed_kmh": 198.00651829269202,
-              "p75_ground_speed_kmh": 219.09476346727507,
-              "median_progress_speed_kmh": 200.13362216247984,
-              "median_pe_margin_m": 212.69370571261732,
-              "median_next_3km_progress_speed_kmh": 167.27371005423848,
-              "median_next_6km_progress_speed_kmh": 160.7838769699837,
-              "median_next_3km_pe_change_m": -51.777782485470425,
-              "median_next_6km_pe_change_m": -45.73317084175824,
-              "median_arrival_energy_excess_m": 141.68401170287794
+              "sample_count": 0,
+              "top_pilot_sample_count": 0,
+              "median_ground_speed_kmh": null,
+              "p25_ground_speed_kmh": null,
+              "p75_ground_speed_kmh": null,
+              "median_progress_speed_kmh": null,
+              "median_pe_margin_m": null,
+              "median_next_3km_progress_speed_kmh": null,
+              "median_next_6km_progress_speed_kmh": null,
+              "median_next_3km_pe_change_m": null,
+              "median_next_6km_pe_change_m": null,
+              "median_arrival_energy_excess_m": null
             },
             "current_vs_historical_top": {
-              "current_speed_kmh": 143.33451041930618,
-              "historical_top_median_speed_kmh": 208.5710190842307,
-              "difference_kmh": -65.23650866492451
+              "current_speed_kmh": 161.88667371028833,
+              "historical_top_median_speed_kmh": null,
+              "difference_kmh": null
             }
           },
           {
@@ -5827,40 +5827,40 @@
         "assumed_wing_loading_kg_m2": 50.0,
         "buckets": [
           {
-            "remaining_distance_km": 39.37614215462301,
+            "remaining_distance_km": 41.38052776252444,
             "filter_tier": "ALL_FINISHED",
             "all_samples": {
-              "sample_count": 22,
-              "top_pilot_sample_count": 6,
-              "median_ground_speed_kmh": 208.9687194115142,
-              "p25_ground_speed_kmh": 184.86388627632442,
-              "p75_ground_speed_kmh": 219.95150575117293,
-              "median_progress_speed_kmh": 200.0583390305456,
-              "median_pe_margin_m": 240.66687529298122,
-              "median_next_3km_progress_speed_kmh": 178.95895109749364,
-              "median_next_6km_progress_speed_kmh": 174.58473417106447,
-              "median_next_3km_pe_change_m": -56.74834003099602,
-              "median_next_6km_pe_change_m": -50.08000826441639,
-              "median_arrival_energy_excess_m": 120.65182359111648
+              "sample_count": 19,
+              "top_pilot_sample_count": 4,
+              "median_ground_speed_kmh": 209.82088108436218,
+              "p25_ground_speed_kmh": 206.10522867585564,
+              "p75_ground_speed_kmh": 216.27706549671734,
+              "median_progress_speed_kmh": 218.77865615465112,
+              "median_pe_margin_m": 307.5491706489895,
+              "median_next_3km_progress_speed_kmh": 195.8998454229647,
+              "median_next_6km_progress_speed_kmh": 185.05030200437164,
+              "median_next_3km_pe_change_m": -73.07523816882212,
+              "median_next_6km_pe_change_m": -127.46906576058677,
+              "median_arrival_energy_excess_m": 102.21482232868061
             },
             "top_samples": {
-              "sample_count": 6,
-              "top_pilot_sample_count": 6,
-              "median_ground_speed_kmh": 208.5710190842307,
-              "p25_ground_speed_kmh": 198.00651829269202,
-              "p75_ground_speed_kmh": 219.09476346727507,
-              "median_progress_speed_kmh": 200.13362216247984,
-              "median_pe_margin_m": 212.69370571261732,
-              "median_next_3km_progress_speed_kmh": 167.27371005423848,
-              "median_next_6km_progress_speed_kmh": 160.7838769699837,
-              "median_next_3km_pe_change_m": -51.777782485470425,
-              "median_next_6km_pe_change_m": -45.73317084175824,
-              "median_arrival_energy_excess_m": 141.68401170287794
+              "sample_count": 4,
+              "top_pilot_sample_count": 4,
+              "median_ground_speed_kmh": 212.05892190378597,
+              "p25_ground_speed_kmh": 206.81658417533973,
+              "p75_ground_speed_kmh": 214.36383349461258,
+              "median_progress_speed_kmh": 219.90124946334873,
+              "median_pe_margin_m": 275.16182663919994,
+              "median_next_3km_progress_speed_kmh": 191.36899979265036,
+              "median_next_6km_progress_speed_kmh": 176.6141456719869,
+              "median_next_3km_pe_change_m": -76.95732088336786,
+              "median_next_6km_pe_change_m": -125.2336479931306,
+              "median_arrival_energy_excess_m": 160.47762649065453
             },
             "current_vs_historical_top": {
-              "current_speed_kmh": 115.04517854978106,
-              "historical_top_median_speed_kmh": 208.5710190842307,
-              "difference_kmh": -93.52584053444964
+              "current_speed_kmh": 132.68420475541112,
+              "historical_top_median_speed_kmh": 212.05892190378597,
+              "difference_kmh": -79.37471714837486
             }
           },
           {
@@ -6100,7 +6100,7 @@
   },
   "provenance": {
     "analysis_spec_version": "analysis-spec-2026-08-25-v3",
-    "analysis_version": "standard-race-analysis-v5",
+    "analysis_version": "standard-race-analysis-v6",
     "schema_version": "standard-race-analysis-package-v5",
     "classifier_version": "semantic-rule-v1.0.0",
     "classifier_v1_behavior_sha256": {
