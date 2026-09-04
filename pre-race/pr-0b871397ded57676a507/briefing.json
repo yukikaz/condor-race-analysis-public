@@ -1,0 +1,1551 @@
+{
+  "aircraft": {
+    "aircraft": {
+      "source": "SCENARIO_OVERRIDE",
+      "value": "LS8neo"
+    },
+    "class": {
+      "source": "FPL",
+      "value": "Standard"
+    },
+    "water_l": {
+      "source": "FPL",
+      "value": 0.0
+    },
+    "wing_loading_kg_m2": {
+      "source": "SCENARIO_OVERRIDE",
+      "value": 50.0
+    }
+  },
+  "analysis_version": "slovenia-pre-race-analysis-v1.1",
+  "final_glide": {
+    "constraint_footprint": {
+      "config_version": "slovenia-pre-race-fg-footprint-v1",
+      "half_width_m": 75.0,
+      "method": "FIXED_CROSS_TRACK"
+    },
+    "counterfactuals": [
+      {
+        "additional_climb_time_s": 21.7,
+        "additional_height_m": 50,
+        "diagnostic_clearance_state": "GEOMETRICALLY_FEASIBLE",
+        "geometric_clearance_state": "GEOMETRICALLY_FEASIBLE",
+        "historical_p20_delta": null,
+        "historical_p50_delta": null,
+        "new_required_ground_ld": 73.370937
+      },
+      {
+        "additional_climb_time_s": 43.5,
+        "additional_height_m": 100,
+        "diagnostic_clearance_state": "GEOMETRICALLY_FEASIBLE",
+        "geometric_clearance_state": "GEOMETRICALLY_FEASIBLE",
+        "historical_p20_delta": null,
+        "historical_p50_delta": null,
+        "new_required_ground_ld": 67.710752
+      },
+      {
+        "additional_climb_time_s": 87.0,
+        "additional_height_m": 200,
+        "diagnostic_clearance_state": "GEOMETRICALLY_FEASIBLE",
+        "geometric_clearance_state": "GEOMETRICALLY_FEASIBLE",
+        "historical_p20_delta": null,
+        "historical_p50_delta": null,
+        "new_required_ground_ld": 58.660109
+      }
+    ],
+    "decision": "INSUFFICIENT_POLICY",
+    "distances": {
+      "direct_distance_to_finish_km": 68.173,
+      "official_task_remaining_distance_km": 84.839,
+      "planned_fg_route_distance_km": null
+    },
+    "geometry": {
+      "binding_constraint": "TERRAIN",
+      "binding_required_ground_ld": 80.063753,
+      "clearance_state": "GEOMETRICALLY_FEASIBLE",
+      "critical_terrain": {
+        "clearance_m": 548.132,
+        "distance_along_route_m": 43885.505,
+        "required_ground_ld": 80.063753,
+        "state": "GEOMETRICALLY_FEASIBLE"
+      },
+      "diagnostic_clearance_state": "GEOMETRICALLY_FEASIBLE",
+      "non_normal_clearance_diagnostics": [],
+      "required_ground_ld_finish": 38.044298,
+      "required_ground_ld_terrain": 80.063753,
+      "start_altitude_amsl_m": 2400.0,
+      "target_finish_altitude_amsl_m": 170.0
+    },
+    "geometry_quality": {
+      "constraint_footprint_half_width_m": 75.0,
+      "coordinate_uncertainty_m": 1.2,
+      "gate_version": "pre-race-coordinate-footprint-quality-gate-v1",
+      "reported_state_on_failure": "INSUFFICIENT_GEOMETRY_QUALITY",
+      "status": "SUFFICIENT",
+      "uncertainty_to_footprint_ratio": 0.016
+    },
+    "historical_performance": {
+      "confidence_status": "NOT_ESTIMATED_FLIGHT_CORRELATION_UNMODELED",
+      "filter_provenance": {
+        "aircraft": "LS8neo",
+        "altitude_band_m": null,
+        "excluded_race_id": "28277",
+        "route_type": "OBSERVED_FINAL_GLIDE_SECTION",
+        "speed_band_kmh": null,
+        "wind_component_band": null,
+        "wing_loading_kg_m2": 50.0
+      },
+      "flight_count": 4,
+      "historical_track_ld": null,
+      "observation_quality_filter_version": null,
+      "progress_ld_p20": 19.189,
+      "progress_ld_p50": 28.791,
+      "progress_ld_p80": 65.314,
+      "sample_count": null,
+      "section_observation_count": 82,
+      "sources": [
+        {
+          "package_sha256": "c4934fc9829f5ff64a2a7f99fff78473758c745fc50a6546a049a40d944bd64e",
+          "race_id": "28247"
+        }
+      ],
+      "status": "UNFILTERED_DIAGNOSTIC_ONLY",
+      "theoretical_predicted_ld": null
+    },
+    "profile": [
+      {
+        "centerline_terrain_m": 1896.453,
+        "constraint_terrain_m": 1896.453,
+        "distance_along_route_m": 0.0,
+        "latitude": 46.5122,
+        "longitude": 13.8647
+      },
+      {
+        "centerline_terrain_m": 1771.421,
+        "constraint_terrain_m": 1830.758,
+        "distance_along_route_m": 498.699,
+        "latitude": 46.5127448,
+        "longitude": 13.8582314
+      },
+      {
+        "centerline_terrain_m": 1731.166,
+        "constraint_terrain_m": 1764.473,
+        "distance_along_route_m": 997.398,
+        "latitude": 46.5132893,
+        "longitude": 13.8517626
+      },
+      {
+        "centerline_terrain_m": 1639.278,
+        "constraint_terrain_m": 1681.079,
+        "distance_along_route_m": 1496.097,
+        "latitude": 46.5138334,
+        "longitude": 13.8452937
+      },
+      {
+        "centerline_terrain_m": 1562.171,
+        "constraint_terrain_m": 1622.823,
+        "distance_along_route_m": 1994.796,
+        "latitude": 46.5143771,
+        "longitude": 13.8388247
+      },
+      {
+        "centerline_terrain_m": 1645.883,
+        "constraint_terrain_m": 1651.097,
+        "distance_along_route_m": 2493.495,
+        "latitude": 46.5149204,
+        "longitude": 13.8323555
+      },
+      {
+        "centerline_terrain_m": 1601.241,
+        "constraint_terrain_m": 1623.286,
+        "distance_along_route_m": 2992.194,
+        "latitude": 46.5154634,
+        "longitude": 13.8258862
+      },
+      {
+        "centerline_terrain_m": 1395.194,
+        "constraint_terrain_m": 1427.961,
+        "distance_along_route_m": 3490.892,
+        "latitude": 46.5160061,
+        "longitude": 13.8194168
+      },
+      {
+        "centerline_terrain_m": 1307.294,
+        "constraint_terrain_m": 1338.409,
+        "distance_along_route_m": 3989.591,
+        "latitude": 46.5165483,
+        "longitude": 13.8129473
+      },
+      {
+        "centerline_terrain_m": 1099.322,
+        "constraint_terrain_m": 1118.251,
+        "distance_along_route_m": 4488.29,
+        "latitude": 46.5170902,
+        "longitude": 13.8064776
+      },
+      {
+        "centerline_terrain_m": 1090.312,
+        "constraint_terrain_m": 1123.422,
+        "distance_along_route_m": 4986.989,
+        "latitude": 46.5176317,
+        "longitude": 13.8000078
+      },
+      {
+        "centerline_terrain_m": 1318.29,
+        "constraint_terrain_m": 1333.291,
+        "distance_along_route_m": 5485.688,
+        "latitude": 46.5181729,
+        "longitude": 13.7935379
+      },
+      {
+        "centerline_terrain_m": 1468.316,
+        "constraint_terrain_m": 1474.758,
+        "distance_along_route_m": 5984.387,
+        "latitude": 46.5187137,
+        "longitude": 13.7870678
+      },
+      {
+        "centerline_terrain_m": 1551.076,
+        "constraint_terrain_m": 1589.803,
+        "distance_along_route_m": 6483.086,
+        "latitude": 46.5192542,
+        "longitude": 13.7805977
+      },
+      {
+        "centerline_terrain_m": 1569.623,
+        "constraint_terrain_m": 1574.583,
+        "distance_along_route_m": 6981.785,
+        "latitude": 46.5197942,
+        "longitude": 13.7741273
+      },
+      {
+        "centerline_terrain_m": 1327.534,
+        "constraint_terrain_m": 1379.768,
+        "distance_along_route_m": 7480.484,
+        "latitude": 46.5203339,
+        "longitude": 13.7676569
+      },
+      {
+        "centerline_terrain_m": 1257.796,
+        "constraint_terrain_m": 1307.311,
+        "distance_along_route_m": 7979.183,
+        "latitude": 46.5208733,
+        "longitude": 13.7611863
+      },
+      {
+        "centerline_terrain_m": 1144.478,
+        "constraint_terrain_m": 1144.478,
+        "distance_along_route_m": 8477.882,
+        "latitude": 46.5214123,
+        "longitude": 13.7547156
+      },
+      {
+        "centerline_terrain_m": 1111.356,
+        "constraint_terrain_m": 1125.099,
+        "distance_along_route_m": 8976.581,
+        "latitude": 46.5219509,
+        "longitude": 13.7482448
+      },
+      {
+        "centerline_terrain_m": 1230.628,
+        "constraint_terrain_m": 1267.777,
+        "distance_along_route_m": 9475.28,
+        "latitude": 46.5224891,
+        "longitude": 13.7417739
+      },
+      {
+        "centerline_terrain_m": 1410.068,
+        "constraint_terrain_m": 1431.493,
+        "distance_along_route_m": 9973.978,
+        "latitude": 46.523027,
+        "longitude": 13.7353028
+      },
+      {
+        "centerline_terrain_m": 1406.277,
+        "constraint_terrain_m": 1409.233,
+        "distance_along_route_m": 10472.677,
+        "latitude": 46.5235645,
+        "longitude": 13.7288316
+      },
+      {
+        "centerline_terrain_m": 1390.42,
+        "constraint_terrain_m": 1410.0,
+        "distance_along_route_m": 10971.376,
+        "latitude": 46.5241017,
+        "longitude": 13.7223602
+      },
+      {
+        "centerline_terrain_m": 1413.169,
+        "constraint_terrain_m": 1440.214,
+        "distance_along_route_m": 11470.075,
+        "latitude": 46.5246385,
+        "longitude": 13.7158887
+      },
+      {
+        "centerline_terrain_m": 1325.169,
+        "constraint_terrain_m": 1330.828,
+        "distance_along_route_m": 11968.774,
+        "latitude": 46.5251749,
+        "longitude": 13.7094172
+      },
+      {
+        "centerline_terrain_m": 1132.02,
+        "constraint_terrain_m": 1168.11,
+        "distance_along_route_m": 12467.473,
+        "latitude": 46.525711,
+        "longitude": 13.7029454
+      },
+      {
+        "centerline_terrain_m": 1101.329,
+        "constraint_terrain_m": 1147.7,
+        "distance_along_route_m": 12966.172,
+        "latitude": 46.5262467,
+        "longitude": 13.6964736
+      },
+      {
+        "centerline_terrain_m": 944.408,
+        "constraint_terrain_m": 969.837,
+        "distance_along_route_m": 13464.871,
+        "latitude": 46.526782,
+        "longitude": 13.6900016
+      },
+      {
+        "centerline_terrain_m": 860.006,
+        "constraint_terrain_m": 905.781,
+        "distance_along_route_m": 13963.57,
+        "latitude": 46.527317,
+        "longitude": 13.6835295
+      },
+      {
+        "centerline_terrain_m": 946.246,
+        "constraint_terrain_m": 1008.118,
+        "distance_along_route_m": 14462.269,
+        "latitude": 46.5278516,
+        "longitude": 13.6770573
+      },
+      {
+        "centerline_terrain_m": 1001.063,
+        "constraint_terrain_m": 1054.689,
+        "distance_along_route_m": 14960.968,
+        "latitude": 46.5283858,
+        "longitude": 13.6705849
+      },
+      {
+        "centerline_terrain_m": 975.155,
+        "constraint_terrain_m": 1015.794,
+        "distance_along_route_m": 15459.667,
+        "latitude": 46.5289197,
+        "longitude": 13.6641124
+      },
+      {
+        "centerline_terrain_m": 853.74,
+        "constraint_terrain_m": 884.831,
+        "distance_along_route_m": 15958.366,
+        "latitude": 46.5294532,
+        "longitude": 13.6576398
+      },
+      {
+        "centerline_terrain_m": 780.826,
+        "constraint_terrain_m": 803.671,
+        "distance_along_route_m": 16457.064,
+        "latitude": 46.5299863,
+        "longitude": 13.651167
+      },
+      {
+        "centerline_terrain_m": 708.597,
+        "constraint_terrain_m": 740.037,
+        "distance_along_route_m": 16955.763,
+        "latitude": 46.5305191,
+        "longitude": 13.6446942
+      },
+      {
+        "centerline_terrain_m": 684.275,
+        "constraint_terrain_m": 684.679,
+        "distance_along_route_m": 17454.462,
+        "latitude": 46.5310515,
+        "longitude": 13.6382212
+      },
+      {
+        "centerline_terrain_m": 802.945,
+        "constraint_terrain_m": 812.23,
+        "distance_along_route_m": 17953.161,
+        "latitude": 46.5315835,
+        "longitude": 13.6317481
+      },
+      {
+        "centerline_terrain_m": 910.458,
+        "constraint_terrain_m": 932.005,
+        "distance_along_route_m": 18451.86,
+        "latitude": 46.5321152,
+        "longitude": 13.6252748
+      },
+      {
+        "centerline_terrain_m": 1005.321,
+        "constraint_terrain_m": 1038.907,
+        "distance_along_route_m": 18950.559,
+        "latitude": 46.5326465,
+        "longitude": 13.6188014
+      },
+      {
+        "centerline_terrain_m": 1042.288,
+        "constraint_terrain_m": 1057.415,
+        "distance_along_route_m": 19449.258,
+        "latitude": 46.5331775,
+        "longitude": 13.6123279
+      },
+      {
+        "centerline_terrain_m": 1253.991,
+        "constraint_terrain_m": 1268.896,
+        "distance_along_route_m": 19947.957,
+        "latitude": 46.5337081,
+        "longitude": 13.6058543
+      },
+      {
+        "centerline_terrain_m": 1197.983,
+        "constraint_terrain_m": 1233.825,
+        "distance_along_route_m": 20446.656,
+        "latitude": 46.5342383,
+        "longitude": 13.5993805
+      },
+      {
+        "centerline_terrain_m": 1355.735,
+        "constraint_terrain_m": 1371.608,
+        "distance_along_route_m": 20945.355,
+        "latitude": 46.5347681,
+        "longitude": 13.5929067
+      },
+      {
+        "centerline_terrain_m": 1442.041,
+        "constraint_terrain_m": 1455.707,
+        "distance_along_route_m": 21444.054,
+        "latitude": 46.5352976,
+        "longitude": 13.5864326
+      },
+      {
+        "centerline_terrain_m": 1545.134,
+        "constraint_terrain_m": 1571.388,
+        "distance_along_route_m": 21942.753,
+        "latitude": 46.5358268,
+        "longitude": 13.5799585
+      },
+      {
+        "centerline_terrain_m": 1501.898,
+        "constraint_terrain_m": 1543.359,
+        "distance_along_route_m": 22441.452,
+        "latitude": 46.5363555,
+        "longitude": 13.5734843
+      },
+      {
+        "centerline_terrain_m": 1590.522,
+        "constraint_terrain_m": 1637.788,
+        "distance_along_route_m": 22940.151,
+        "latitude": 46.5368839,
+        "longitude": 13.5670099
+      },
+      {
+        "centerline_terrain_m": 1528.914,
+        "constraint_terrain_m": 1530.577,
+        "distance_along_route_m": 23438.849,
+        "latitude": 46.5374119,
+        "longitude": 13.5605353
+      },
+      {
+        "centerline_terrain_m": 1287.246,
+        "constraint_terrain_m": 1306.926,
+        "distance_along_route_m": 23937.548,
+        "latitude": 46.5379396,
+        "longitude": 13.5540607
+      },
+      {
+        "centerline_terrain_m": 1158.359,
+        "constraint_terrain_m": 1171.217,
+        "distance_along_route_m": 24436.247,
+        "latitude": 46.5384669,
+        "longitude": 13.5475859
+      },
+      {
+        "centerline_terrain_m": 1078.001,
+        "constraint_terrain_m": 1082.203,
+        "distance_along_route_m": 24934.946,
+        "latitude": 46.5389938,
+        "longitude": 13.5411111
+      },
+      {
+        "centerline_terrain_m": 1211.199,
+        "constraint_terrain_m": 1226.621,
+        "distance_along_route_m": 25433.645,
+        "latitude": 46.5395204,
+        "longitude": 13.534636
+      },
+      {
+        "centerline_terrain_m": 1443.754,
+        "constraint_terrain_m": 1467.771,
+        "distance_along_route_m": 25932.344,
+        "latitude": 46.5400466,
+        "longitude": 13.5281609
+      },
+      {
+        "centerline_terrain_m": 1676.697,
+        "constraint_terrain_m": 1695.586,
+        "distance_along_route_m": 26431.043,
+        "latitude": 46.5405724,
+        "longitude": 13.5216856
+      },
+      {
+        "centerline_terrain_m": 1551.324,
+        "constraint_terrain_m": 1551.324,
+        "distance_along_route_m": 26929.742,
+        "latitude": 46.5410979,
+        "longitude": 13.5152102
+      },
+      {
+        "centerline_terrain_m": 1427.671,
+        "constraint_terrain_m": 1456.168,
+        "distance_along_route_m": 27428.441,
+        "latitude": 46.541623,
+        "longitude": 13.5087347
+      },
+      {
+        "centerline_terrain_m": 1449.666,
+        "constraint_terrain_m": 1496.859,
+        "distance_along_route_m": 27927.14,
+        "latitude": 46.5421477,
+        "longitude": 13.5022591
+      },
+      {
+        "centerline_terrain_m": 1501.861,
+        "constraint_terrain_m": 1516.371,
+        "distance_along_route_m": 28425.839,
+        "latitude": 46.5426721,
+        "longitude": 13.4957833
+      },
+      {
+        "centerline_terrain_m": 1451.122,
+        "constraint_terrain_m": 1484.517,
+        "distance_along_route_m": 28924.538,
+        "latitude": 46.5431961,
+        "longitude": 13.4893074
+      },
+      {
+        "centerline_terrain_m": 1401.665,
+        "constraint_terrain_m": 1424.193,
+        "distance_along_route_m": 29423.237,
+        "latitude": 46.5437198,
+        "longitude": 13.4828314
+      },
+      {
+        "centerline_terrain_m": 1180.176,
+        "constraint_terrain_m": 1193.536,
+        "distance_along_route_m": 29921.935,
+        "latitude": 46.544243,
+        "longitude": 13.4763552
+      },
+      {
+        "centerline_terrain_m": 1233.799,
+        "constraint_terrain_m": 1233.799,
+        "distance_along_route_m": 30420.634,
+        "latitude": 46.544766,
+        "longitude": 13.469879
+      },
+      {
+        "centerline_terrain_m": 1429.124,
+        "constraint_terrain_m": 1439.493,
+        "distance_along_route_m": 30919.333,
+        "latitude": 46.5452885,
+        "longitude": 13.4634026
+      },
+      {
+        "centerline_terrain_m": 1604.858,
+        "constraint_terrain_m": 1633.918,
+        "distance_along_route_m": 31418.032,
+        "latitude": 46.5458107,
+        "longitude": 13.4569261
+      },
+      {
+        "centerline_terrain_m": 1663.417,
+        "constraint_terrain_m": 1722.935,
+        "distance_along_route_m": 31916.731,
+        "latitude": 46.5463325,
+        "longitude": 13.4504494
+      },
+      {
+        "centerline_terrain_m": 1822.762,
+        "constraint_terrain_m": 1848.866,
+        "distance_along_route_m": 32415.43,
+        "latitude": 46.5468539,
+        "longitude": 13.4439727
+      },
+      {
+        "centerline_terrain_m": 1736.633,
+        "constraint_terrain_m": 1780.417,
+        "distance_along_route_m": 32914.129,
+        "latitude": 46.547375,
+        "longitude": 13.4374958
+      },
+      {
+        "centerline_terrain_m": 1653.754,
+        "constraint_terrain_m": 1684.437,
+        "distance_along_route_m": 33412.828,
+        "latitude": 46.5478957,
+        "longitude": 13.4310188
+      },
+      {
+        "centerline_terrain_m": 1496.217,
+        "constraint_terrain_m": 1526.143,
+        "distance_along_route_m": 33911.527,
+        "latitude": 46.5484161,
+        "longitude": 13.4245416
+      },
+      {
+        "centerline_terrain_m": 1277.505,
+        "constraint_terrain_m": 1287.205,
+        "distance_along_route_m": 34410.226,
+        "latitude": 46.5489361,
+        "longitude": 13.4180643
+      },
+      {
+        "centerline_terrain_m": 1194.133,
+        "constraint_terrain_m": 1208.122,
+        "distance_along_route_m": 34908.925,
+        "latitude": 46.5494557,
+        "longitude": 13.411587
+      },
+      {
+        "centerline_terrain_m": 1107.255,
+        "constraint_terrain_m": 1152.188,
+        "distance_along_route_m": 35407.624,
+        "latitude": 46.549975,
+        "longitude": 13.4051094
+      },
+      {
+        "centerline_terrain_m": 1170.834,
+        "constraint_terrain_m": 1201.252,
+        "distance_along_route_m": 35906.323,
+        "latitude": 46.5504939,
+        "longitude": 13.3986318
+      },
+      {
+        "centerline_terrain_m": 1333.205,
+        "constraint_terrain_m": 1359.801,
+        "distance_along_route_m": 36405.021,
+        "latitude": 46.5510124,
+        "longitude": 13.3921541
+      },
+      {
+        "centerline_terrain_m": 1586.512,
+        "constraint_terrain_m": 1623.32,
+        "distance_along_route_m": 36903.72,
+        "latitude": 46.5515305,
+        "longitude": 13.3856762
+      },
+      {
+        "centerline_terrain_m": 1437.958,
+        "constraint_terrain_m": 1475.938,
+        "distance_along_route_m": 37402.419,
+        "latitude": 46.5520483,
+        "longitude": 13.3791982
+      },
+      {
+        "centerline_terrain_m": 1283.123,
+        "constraint_terrain_m": 1326.445,
+        "distance_along_route_m": 37901.118,
+        "latitude": 46.5525658,
+        "longitude": 13.37272
+      },
+      {
+        "centerline_terrain_m": 1170.138,
+        "constraint_terrain_m": 1203.044,
+        "distance_along_route_m": 38399.817,
+        "latitude": 46.5530828,
+        "longitude": 13.3662418
+      },
+      {
+        "centerline_terrain_m": 1416.145,
+        "constraint_terrain_m": 1469.463,
+        "distance_along_route_m": 38898.516,
+        "latitude": 46.5535995,
+        "longitude": 13.3597634
+      },
+      {
+        "centerline_terrain_m": 1591.573,
+        "constraint_terrain_m": 1623.548,
+        "distance_along_route_m": 39397.215,
+        "latitude": 46.5541159,
+        "longitude": 13.3532849
+      },
+      {
+        "centerline_terrain_m": 1672.777,
+        "constraint_terrain_m": 1672.777,
+        "distance_along_route_m": 39895.914,
+        "latitude": 46.5546318,
+        "longitude": 13.3468063
+      },
+      {
+        "centerline_terrain_m": 1635.499,
+        "constraint_terrain_m": 1675.222,
+        "distance_along_route_m": 40394.613,
+        "latitude": 46.5551474,
+        "longitude": 13.3403275
+      },
+      {
+        "centerline_terrain_m": 1615.362,
+        "constraint_terrain_m": 1631.38,
+        "distance_along_route_m": 40893.312,
+        "latitude": 46.5556627,
+        "longitude": 13.3338487
+      },
+      {
+        "centerline_terrain_m": 1735.344,
+        "constraint_terrain_m": 1735.565,
+        "distance_along_route_m": 41392.011,
+        "latitude": 46.5561775,
+        "longitude": 13.3273697
+      },
+      {
+        "centerline_terrain_m": 1679.686,
+        "constraint_terrain_m": 1699.42,
+        "distance_along_route_m": 41890.71,
+        "latitude": 46.556692,
+        "longitude": 13.3208905
+      },
+      {
+        "centerline_terrain_m": 1620.344,
+        "constraint_terrain_m": 1623.484,
+        "distance_along_route_m": 42389.409,
+        "latitude": 46.5572062,
+        "longitude": 13.3144113
+      },
+      {
+        "centerline_terrain_m": 1755.294,
+        "constraint_terrain_m": 1755.294,
+        "distance_along_route_m": 42888.107,
+        "latitude": 46.5577199,
+        "longitude": 13.3079319
+      },
+      {
+        "centerline_terrain_m": 1842.126,
+        "constraint_terrain_m": 1842.126,
+        "distance_along_route_m": 43386.806,
+        "latitude": 46.5582333,
+        "longitude": 13.3014525
+      },
+      {
+        "centerline_terrain_m": 1831.119,
+        "constraint_terrain_m": 1851.868,
+        "distance_along_route_m": 43885.505,
+        "latitude": 46.5587464,
+        "longitude": 13.2949729
+      },
+      {
+        "centerline_terrain_m": 1832.933,
+        "constraint_terrain_m": 1832.933,
+        "distance_along_route_m": 44384.204,
+        "latitude": 46.5592591,
+        "longitude": 13.2884931
+      },
+      {
+        "centerline_terrain_m": 1609.905,
+        "constraint_terrain_m": 1618.585,
+        "distance_along_route_m": 44882.903,
+        "latitude": 46.5597714,
+        "longitude": 13.2820133
+      },
+      {
+        "centerline_terrain_m": 1530.963,
+        "constraint_terrain_m": 1530.963,
+        "distance_along_route_m": 45381.602,
+        "latitude": 46.5602833,
+        "longitude": 13.2755333
+      },
+      {
+        "centerline_terrain_m": 1548.886,
+        "constraint_terrain_m": 1565.784,
+        "distance_along_route_m": 45881.06,
+        "latitude": 46.5561575,
+        "longitude": 13.2729508
+      },
+      {
+        "centerline_terrain_m": 1512.758,
+        "constraint_terrain_m": 1546.738,
+        "distance_along_route_m": 46380.518,
+        "latitude": 46.5520316,
+        "longitude": 13.2703687
+      },
+      {
+        "centerline_terrain_m": 1476.069,
+        "constraint_terrain_m": 1482.299,
+        "distance_along_route_m": 46879.976,
+        "latitude": 46.5479057,
+        "longitude": 13.267787
+      },
+      {
+        "centerline_terrain_m": 1520.293,
+        "constraint_terrain_m": 1570.212,
+        "distance_along_route_m": 47379.434,
+        "latitude": 46.5437797,
+        "longitude": 13.2652056
+      },
+      {
+        "centerline_terrain_m": 1289.667,
+        "constraint_terrain_m": 1327.333,
+        "distance_along_route_m": 47878.892,
+        "latitude": 46.5396537,
+        "longitude": 13.2626247
+      },
+      {
+        "centerline_terrain_m": 1214.876,
+        "constraint_terrain_m": 1229.893,
+        "distance_along_route_m": 48378.35,
+        "latitude": 46.5355276,
+        "longitude": 13.2600442
+      },
+      {
+        "centerline_terrain_m": 1175.113,
+        "constraint_terrain_m": 1175.113,
+        "distance_along_route_m": 48877.808,
+        "latitude": 46.5314014,
+        "longitude": 13.257464
+      },
+      {
+        "centerline_terrain_m": 829.269,
+        "constraint_terrain_m": 838.211,
+        "distance_along_route_m": 49377.266,
+        "latitude": 46.5272752,
+        "longitude": 13.2548843
+      },
+      {
+        "centerline_terrain_m": 897.085,
+        "constraint_terrain_m": 898.033,
+        "distance_along_route_m": 49876.724,
+        "latitude": 46.5231489,
+        "longitude": 13.2523049
+      },
+      {
+        "centerline_terrain_m": 1290.915,
+        "constraint_terrain_m": 1295.483,
+        "distance_along_route_m": 50376.182,
+        "latitude": 46.5190226,
+        "longitude": 13.2497259
+      },
+      {
+        "centerline_terrain_m": 1333.819,
+        "constraint_terrain_m": 1352.796,
+        "distance_along_route_m": 50875.64,
+        "latitude": 46.5148962,
+        "longitude": 13.2471473
+      },
+      {
+        "centerline_terrain_m": 1162.525,
+        "constraint_terrain_m": 1185.747,
+        "distance_along_route_m": 51375.098,
+        "latitude": 46.5107698,
+        "longitude": 13.2445692
+      },
+      {
+        "centerline_terrain_m": 1115.241,
+        "constraint_terrain_m": 1141.148,
+        "distance_along_route_m": 51874.556,
+        "latitude": 46.5066433,
+        "longitude": 13.2419914
+      },
+      {
+        "centerline_terrain_m": 1004.568,
+        "constraint_terrain_m": 1031.873,
+        "distance_along_route_m": 52374.014,
+        "latitude": 46.5025167,
+        "longitude": 13.239414
+      },
+      {
+        "centerline_terrain_m": 1056.66,
+        "constraint_terrain_m": 1091.393,
+        "distance_along_route_m": 52873.472,
+        "latitude": 46.4983901,
+        "longitude": 13.2368369
+      },
+      {
+        "centerline_terrain_m": 1158.343,
+        "constraint_terrain_m": 1211.458,
+        "distance_along_route_m": 53372.93,
+        "latitude": 46.4942634,
+        "longitude": 13.2342603
+      },
+      {
+        "centerline_terrain_m": 1182.12,
+        "constraint_terrain_m": 1238.998,
+        "distance_along_route_m": 53872.388,
+        "latitude": 46.4901367,
+        "longitude": 13.2316841
+      },
+      {
+        "centerline_terrain_m": 1430.377,
+        "constraint_terrain_m": 1470.854,
+        "distance_along_route_m": 54371.846,
+        "latitude": 46.4860099,
+        "longitude": 13.2291082
+      },
+      {
+        "centerline_terrain_m": 1468.759,
+        "constraint_terrain_m": 1476.217,
+        "distance_along_route_m": 54871.304,
+        "latitude": 46.481883,
+        "longitude": 13.2265328
+      },
+      {
+        "centerline_terrain_m": 1639.984,
+        "constraint_terrain_m": 1639.984,
+        "distance_along_route_m": 55370.762,
+        "latitude": 46.4777561,
+        "longitude": 13.2239577
+      },
+      {
+        "centerline_terrain_m": 1575.906,
+        "constraint_terrain_m": 1613.688,
+        "distance_along_route_m": 55870.22,
+        "latitude": 46.4736291,
+        "longitude": 13.2213831
+      },
+      {
+        "centerline_terrain_m": 1536.347,
+        "constraint_terrain_m": 1569.794,
+        "distance_along_route_m": 56369.678,
+        "latitude": 46.4695021,
+        "longitude": 13.2188088
+      },
+      {
+        "centerline_terrain_m": 1443.293,
+        "constraint_terrain_m": 1465.307,
+        "distance_along_route_m": 56869.136,
+        "latitude": 46.465375,
+        "longitude": 13.2162349
+      },
+      {
+        "centerline_terrain_m": 1262.118,
+        "constraint_terrain_m": 1291.127,
+        "distance_along_route_m": 57368.594,
+        "latitude": 46.4612479,
+        "longitude": 13.2136614
+      },
+      {
+        "centerline_terrain_m": 1338.785,
+        "constraint_terrain_m": 1386.01,
+        "distance_along_route_m": 57868.052,
+        "latitude": 46.4571207,
+        "longitude": 13.2110883
+      },
+      {
+        "centerline_terrain_m": 1213.367,
+        "constraint_terrain_m": 1344.299,
+        "distance_along_route_m": 58367.51,
+        "latitude": 46.4529934,
+        "longitude": 13.2085156
+      },
+      {
+        "centerline_terrain_m": 972.85,
+        "constraint_terrain_m": 1013.917,
+        "distance_along_route_m": 58866.968,
+        "latitude": 46.4488661,
+        "longitude": 13.2059432
+      },
+      {
+        "centerline_terrain_m": 764.517,
+        "constraint_terrain_m": 788.04,
+        "distance_along_route_m": 59366.426,
+        "latitude": 46.4447387,
+        "longitude": 13.2033713
+      },
+      {
+        "centerline_terrain_m": 651.758,
+        "constraint_terrain_m": 655.74,
+        "distance_along_route_m": 59865.884,
+        "latitude": 46.4406113,
+        "longitude": 13.2007997
+      },
+      {
+        "centerline_terrain_m": 409.775,
+        "constraint_terrain_m": 436.165,
+        "distance_along_route_m": 60365.342,
+        "latitude": 46.4364838,
+        "longitude": 13.1982286
+      },
+      {
+        "centerline_terrain_m": 563.904,
+        "constraint_terrain_m": 626.441,
+        "distance_along_route_m": 60864.8,
+        "latitude": 46.4323563,
+        "longitude": 13.1956578
+      },
+      {
+        "centerline_terrain_m": 770.238,
+        "constraint_terrain_m": 828.585,
+        "distance_along_route_m": 61364.258,
+        "latitude": 46.4282287,
+        "longitude": 13.1930874
+      },
+      {
+        "centerline_terrain_m": 892.367,
+        "constraint_terrain_m": 897.116,
+        "distance_along_route_m": 61863.716,
+        "latitude": 46.424101,
+        "longitude": 13.1905174
+      },
+      {
+        "centerline_terrain_m": 691.274,
+        "constraint_terrain_m": 736.661,
+        "distance_along_route_m": 62363.174,
+        "latitude": 46.4199733,
+        "longitude": 13.1879478
+      },
+      {
+        "centerline_terrain_m": 524.989,
+        "constraint_terrain_m": 555.109,
+        "distance_along_route_m": 62862.632,
+        "latitude": 46.4158455,
+        "longitude": 13.1853786
+      },
+      {
+        "centerline_terrain_m": 499.265,
+        "constraint_terrain_m": 527.4,
+        "distance_along_route_m": 63362.09,
+        "latitude": 46.4117177,
+        "longitude": 13.1828098
+      },
+      {
+        "centerline_terrain_m": 406.611,
+        "constraint_terrain_m": 406.611,
+        "distance_along_route_m": 63861.548,
+        "latitude": 46.4075898,
+        "longitude": 13.1802414
+      },
+      {
+        "centerline_terrain_m": 529.174,
+        "constraint_terrain_m": 560.636,
+        "distance_along_route_m": 64361.006,
+        "latitude": 46.4034618,
+        "longitude": 13.1776733
+      },
+      {
+        "centerline_terrain_m": 287.602,
+        "constraint_terrain_m": 289.064,
+        "distance_along_route_m": 64860.464,
+        "latitude": 46.3993338,
+        "longitude": 13.1751057
+      },
+      {
+        "centerline_terrain_m": 386.125,
+        "constraint_terrain_m": 422.812,
+        "distance_along_route_m": 65359.922,
+        "latitude": 46.3952058,
+        "longitude": 13.1725384
+      },
+      {
+        "centerline_terrain_m": 487.178,
+        "constraint_terrain_m": 604.252,
+        "distance_along_route_m": 65859.38,
+        "latitude": 46.3910777,
+        "longitude": 13.1699715
+      },
+      {
+        "centerline_terrain_m": 680.75,
+        "constraint_terrain_m": 695.602,
+        "distance_along_route_m": 66358.838,
+        "latitude": 46.3869495,
+        "longitude": 13.167405
+      },
+      {
+        "centerline_terrain_m": 547.983,
+        "constraint_terrain_m": 606.604,
+        "distance_along_route_m": 66858.296,
+        "latitude": 46.3828212,
+        "longitude": 13.1648389
+      },
+      {
+        "centerline_terrain_m": 701.415,
+        "constraint_terrain_m": 726.255,
+        "distance_along_route_m": 67357.754,
+        "latitude": 46.378693,
+        "longitude": 13.1622732
+      },
+      {
+        "centerline_terrain_m": 766.128,
+        "constraint_terrain_m": 788.063,
+        "distance_along_route_m": 67857.212,
+        "latitude": 46.3745646,
+        "longitude": 13.1597079
+      },
+      {
+        "centerline_terrain_m": 968.057,
+        "constraint_terrain_m": 976.995,
+        "distance_along_route_m": 68356.67,
+        "latitude": 46.3704362,
+        "longitude": 13.1571429
+      },
+      {
+        "centerline_terrain_m": 1253.934,
+        "constraint_terrain_m": 1278.778,
+        "distance_along_route_m": 68856.128,
+        "latitude": 46.3663077,
+        "longitude": 13.1545784
+      },
+      {
+        "centerline_terrain_m": 1078.496,
+        "constraint_terrain_m": 1131.644,
+        "distance_along_route_m": 69355.586,
+        "latitude": 46.3621792,
+        "longitude": 13.1520142
+      },
+      {
+        "centerline_terrain_m": 642.71,
+        "constraint_terrain_m": 650.52,
+        "distance_along_route_m": 69855.044,
+        "latitude": 46.3580506,
+        "longitude": 13.1494504
+      },
+      {
+        "centerline_terrain_m": 389.684,
+        "constraint_terrain_m": 425.619,
+        "distance_along_route_m": 70354.502,
+        "latitude": 46.353922,
+        "longitude": 13.146887
+      },
+      {
+        "centerline_terrain_m": 284.833,
+        "constraint_terrain_m": 329.549,
+        "distance_along_route_m": 70853.96,
+        "latitude": 46.3497933,
+        "longitude": 13.144324
+      },
+      {
+        "centerline_terrain_m": 238.815,
+        "constraint_terrain_m": 241.062,
+        "distance_along_route_m": 71353.418,
+        "latitude": 46.3456646,
+        "longitude": 13.1417614
+      },
+      {
+        "centerline_terrain_m": 233.354,
+        "constraint_terrain_m": 239.39,
+        "distance_along_route_m": 71852.876,
+        "latitude": 46.3415357,
+        "longitude": 13.1391992
+      },
+      {
+        "centerline_terrain_m": 225.07,
+        "constraint_terrain_m": 227.04,
+        "distance_along_route_m": 72352.334,
+        "latitude": 46.3374069,
+        "longitude": 13.1366373
+      },
+      {
+        "centerline_terrain_m": 228.928,
+        "constraint_terrain_m": 229.693,
+        "distance_along_route_m": 72851.792,
+        "latitude": 46.333278,
+        "longitude": 13.1340759
+      },
+      {
+        "centerline_terrain_m": 221.064,
+        "constraint_terrain_m": 228.081,
+        "distance_along_route_m": 73351.25,
+        "latitude": 46.329149,
+        "longitude": 13.1315148
+      },
+      {
+        "centerline_terrain_m": 222.945,
+        "constraint_terrain_m": 225.0,
+        "distance_along_route_m": 73850.708,
+        "latitude": 46.3250199,
+        "longitude": 13.1289541
+      },
+      {
+        "centerline_terrain_m": 220.004,
+        "constraint_terrain_m": 220.004,
+        "distance_along_route_m": 74350.166,
+        "latitude": 46.3208908,
+        "longitude": 13.1263938
+      },
+      {
+        "centerline_terrain_m": 219.528,
+        "constraint_terrain_m": 220.969,
+        "distance_along_route_m": 74849.624,
+        "latitude": 46.3167617,
+        "longitude": 13.1238339
+      },
+      {
+        "centerline_terrain_m": 214.372,
+        "constraint_terrain_m": 214.372,
+        "distance_along_route_m": 75349.082,
+        "latitude": 46.3126325,
+        "longitude": 13.1212744
+      },
+      {
+        "centerline_terrain_m": 210.0,
+        "constraint_terrain_m": 211.0,
+        "distance_along_route_m": 75848.54,
+        "latitude": 46.3085032,
+        "longitude": 13.1187153
+      },
+      {
+        "centerline_terrain_m": 207.042,
+        "constraint_terrain_m": 209.786,
+        "distance_along_route_m": 76347.998,
+        "latitude": 46.3043739,
+        "longitude": 13.1161565
+      },
+      {
+        "centerline_terrain_m": 203.155,
+        "constraint_terrain_m": 205.956,
+        "distance_along_route_m": 76847.456,
+        "latitude": 46.3002445,
+        "longitude": 13.1135981
+      },
+      {
+        "centerline_terrain_m": 201.996,
+        "constraint_terrain_m": 202.0,
+        "distance_along_route_m": 77346.914,
+        "latitude": 46.2961151,
+        "longitude": 13.1110402
+      },
+      {
+        "centerline_terrain_m": 204.857,
+        "constraint_terrain_m": 204.967,
+        "distance_along_route_m": 77846.372,
+        "latitude": 46.2919856,
+        "longitude": 13.1084826
+      },
+      {
+        "centerline_terrain_m": 198.0,
+        "constraint_terrain_m": 203.242,
+        "distance_along_route_m": 78345.83,
+        "latitude": 46.287856,
+        "longitude": 13.1059254
+      },
+      {
+        "centerline_terrain_m": 195.778,
+        "constraint_terrain_m": 195.937,
+        "distance_along_route_m": 78845.288,
+        "latitude": 46.2837264,
+        "longitude": 13.1033685
+      },
+      {
+        "centerline_terrain_m": 196.924,
+        "constraint_terrain_m": 196.924,
+        "distance_along_route_m": 79344.746,
+        "latitude": 46.2795968,
+        "longitude": 13.1008121
+      },
+      {
+        "centerline_terrain_m": 191.0,
+        "constraint_terrain_m": 193.0,
+        "distance_along_route_m": 79844.204,
+        "latitude": 46.275467,
+        "longitude": 13.098256
+      },
+      {
+        "centerline_terrain_m": 192.903,
+        "constraint_terrain_m": 192.903,
+        "distance_along_route_m": 80343.662,
+        "latitude": 46.2713373,
+        "longitude": 13.0957004
+      },
+      {
+        "centerline_terrain_m": 187.286,
+        "constraint_terrain_m": 190.459,
+        "distance_along_route_m": 80843.12,
+        "latitude": 46.2672074,
+        "longitude": 13.0931451
+      },
+      {
+        "centerline_terrain_m": 182.089,
+        "constraint_terrain_m": 185.428,
+        "distance_along_route_m": 81342.578,
+        "latitude": 46.2630775,
+        "longitude": 13.0905902
+      },
+      {
+        "centerline_terrain_m": 185.072,
+        "constraint_terrain_m": 185.754,
+        "distance_along_route_m": 81842.036,
+        "latitude": 46.2589476,
+        "longitude": 13.0880357
+      },
+      {
+        "centerline_terrain_m": 181.748,
+        "constraint_terrain_m": 183.492,
+        "distance_along_route_m": 82341.494,
+        "latitude": 46.2548176,
+        "longitude": 13.0854816
+      },
+      {
+        "centerline_terrain_m": 180.782,
+        "constraint_terrain_m": 182.0,
+        "distance_along_route_m": 82840.952,
+        "latitude": 46.2506875,
+        "longitude": 13.0829278
+      },
+      {
+        "centerline_terrain_m": 177.863,
+        "constraint_terrain_m": 177.863,
+        "distance_along_route_m": 83340.41,
+        "latitude": 46.2465574,
+        "longitude": 13.0803745
+      },
+      {
+        "centerline_terrain_m": 175.738,
+        "constraint_terrain_m": 175.738,
+        "distance_along_route_m": 83839.868,
+        "latitude": 46.2424272,
+        "longitude": 13.0778215
+      },
+      {
+        "centerline_terrain_m": 172.631,
+        "constraint_terrain_m": 174.699,
+        "distance_along_route_m": 84339.326,
+        "latitude": 46.238297,
+        "longitude": 13.0752689
+      },
+      {
+        "centerline_terrain_m": 170.0,
+        "constraint_terrain_m": 170.009,
+        "distance_along_route_m": 84838.784,
+        "latitude": 46.2341667,
+        "longitude": 13.0727167
+      }
+    ],
+    "route_annotations": [
+      {
+        "distance_along_route_m": 45381.602,
+        "name": "Nassfeld Pass Zo",
+        "role": "TURNPOINT"
+      },
+      {
+        "distance_along_route_m": 84838.784,
+        "name": "Rivoli-di-Osoppo",
+        "role": "FINISH"
+      }
+    ],
+    "route_basis": {
+      "distance_basis": "OFFICIAL_TASK_REMAINING",
+      "fallback_reason": "NO_PLANNED_FG_ROUTE",
+      "next_task_point_index": 4
+    },
+    "scenario": {
+      "last_thermal_climb_rate_mps": {
+        "source": "SCENARIO_OVERRIDE",
+        "value": 2.3
+      },
+      "planned_speed_kmh": {
+        "source": "SCENARIO_OVERRIDE",
+        "value": 185.0
+      },
+      "start": {
+        "altitude_amsl_m": 2400.0,
+        "latitude": 46.5122,
+        "longitude": 13.8647
+      }
+    },
+    "status": "ANALYZED"
+  },
+  "historical_route_status": "NO_HISTORICAL_MATCH",
+  "landscape": "Slovenia3",
+  "provenance": {
+    "coordinate_resolution": {
+      "affine_comparison": {
+        "after_max_uncertainty_m": 1.2,
+        "before_max_error_m": 108.997,
+        "points": [
+          {
+            "affine_to_kb_error_m": 42.387,
+            "name": "NewTP",
+            "waypoint_id": "slovenia3-204593938-101648305"
+          },
+          {
+            "affine_to_kb_error_m": 35.681,
+            "name": "Jamnik Cerkev",
+            "waypoint_id": "slovenia3-jamnik-cerkev"
+          },
+          {
+            "affine_to_kb_error_m": 101.491,
+            "name": "Bovec",
+            "waypoint_id": "slovenia3-bovec"
+          },
+          {
+            "affine_to_kb_error_m": 108.997,
+            "name": "Lepi Vrh",
+            "waypoint_id": "slovenia3-lepi-vrh"
+          },
+          {
+            "affine_to_kb_error_m": 94.895,
+            "name": "Nassfeld Pass Zo",
+            "waypoint_id": "slovenia3-nassfeld-pass-zo"
+          },
+          {
+            "affine_to_kb_error_m": 47.464,
+            "name": "Rivoli-di-Osoppo",
+            "waypoint_id": "slovenia3-rivoli-di-osoppo"
+          }
+        ]
+      },
+      "affine_transform": {
+        "max_control_error_m": 109.703,
+        "x_coefficients": [
+          1397894.765649387,
+          -77013.75581778864,
+          -2107.334458742359
+        ],
+        "y_coefficients": [
+          -5005467.5044448245,
+          -1300.932843538747,
+          110775.12288630457
+        ]
+      },
+      "control_point_source_sha256": "0d0b1687cb4759690ffdb88dfe73a7433201597140f50a6aa5ac1d7644668558",
+      "kb_sha256": "5fde5ee10b43012ca1ca65d032f95f6ede022104e341619f836f479a1c1b6aa7",
+      "kb_version": "slovenia-waypoint-kb-v1",
+      "max_horizontal_uncertainty_m": 1.2,
+      "method": "SLOVENIA_NORMALIZED_WAYPOINT_KB",
+      "status": "RESOLVED"
+    },
+    "input": {
+      "control_igc_sha256": "0d0b1687cb4759690ffdb88dfe73a7433201597140f50a6aa5ac1d7644668558",
+      "fpl_sha256": "ae7006916f4d46c44558461ad0be5ef2f6bc8d0e2515278c82adc5d74705d7a8",
+      "scenario_sha256": "141160b031c1b93a882ca83f2336e2feaf1c9e4a996d69c027d070fef47beba0",
+      "waypoint_kb_sha256": "5fde5ee10b43012ca1ca65d032f95f6ede022104e341619f836f479a1c1b6aa7"
+    }
+  },
+  "quality_flags": [
+    "DEM_VERTICAL_DATUM_NOT_NORMALIZED_TO_CONDOR",
+    "NO_GO_HOLD_POLICY"
+  ],
+  "schema": "pre-race-briefing-v1",
+  "task": {
+    "launch_point_excluded": true,
+    "points": [
+      {
+        "coordinate_source": "SLOVENIA_NORMALIZED_WAYPOINT_KB",
+        "elevation_fpl_m": 806.0,
+        "horizontal_uncertainty_m": 1.2,
+        "index": 1,
+        "landscape_x_m": 206119.53125,
+        "landscape_y_m": 101846.5390625,
+        "latitude": 46.2719167,
+        "longitude": 14.2083167,
+        "name": "Jamnik Cerkev",
+        "role": "START",
+        "waypoint_id": "slovenia3-jamnik-cerkev"
+      },
+      {
+        "coordinate_source": "SLOVENIA_NORMALIZED_WAYPOINT_KB",
+        "elevation_fpl_m": 430.0,
+        "horizontal_uncertainty_m": 1.2,
+        "index": 2,
+        "landscape_x_m": 256821.75,
+        "landscape_y_m": 108883.8125,
+        "latitude": 46.3288,
+        "longitude": 13.5488,
+        "name": "Bovec",
+        "role": "TURNPOINT",
+        "waypoint_id": "slovenia3-bovec"
+      },
+      {
+        "coordinate_source": "SLOVENIA_NORMALIZED_WAYPOINT_KB",
+        "elevation_fpl_m": 1892.0,
+        "horizontal_uncertainty_m": 1.2,
+        "index": 3,
+        "landscape_x_m": 232212.640625,
+        "landscape_y_m": 128867.0859375,
+        "latitude": 46.5122,
+        "longitude": 13.8647,
+        "name": "Lepi Vrh",
+        "role": "TURNPOINT",
+        "waypoint_id": "slovenia3-lepi-vrh"
+      },
+      {
+        "coordinate_source": "SLOVENIA_NORMALIZED_WAYPOINT_KB",
+        "elevation_fpl_m": 1532.0,
+        "horizontal_uncertainty_m": 1.2,
+        "index": 4,
+        "landscape_x_m": 277292.9375,
+        "landscape_y_m": 135026.34375,
+        "latitude": 46.5602833,
+        "longitude": 13.2755333,
+        "name": "Nassfeld Pass Zo",
+        "role": "TURNPOINT",
+        "waypoint_id": "slovenia3-nassfeld-pass-zo"
+      },
+      {
+        "coordinate_source": "SLOVENIA_NORMALIZED_WAYPOINT_KB",
+        "elevation_fpl_m": 172.0,
+        "horizontal_uncertainty_m": 1.2,
+        "index": 5,
+        "landscape_x_m": 293721.0625,
+        "landscape_y_m": 99151.890625,
+        "latitude": 46.2341667,
+        "longitude": 13.0727167,
+        "name": "Rivoli-di-Osoppo",
+        "role": "FINISH",
+        "waypoint_id": "slovenia3-rivoli-di-osoppo"
+      }
+    ],
+    "source": "FPL",
+    "task_distance_km": 167.555,
+    "task_id": "28277",
+    "task_name": "JPFF 260828 Slovenia3 Standard"
+  },
+  "terrain": {
+    "contour_interval_m": 250,
+    "dataset_version": "terrain-context-v1",
+    "interpolation_method": "BILINEAR",
+    "missing_data_policy": "FAIL_OFFLINE",
+    "provider": "AWS Open Data Terrain Tiles - Skadi",
+    "resolution": "1 arc-second / 3601x3601 HGT",
+    "status": "AVAILABLE",
+    "tiles": [
+      {
+        "sha256": "3335b12fd19e8fdbed804c2b8f3d232e36ec2506c079fa61f125eae946125dc6",
+        "tile": "N46E013"
+      },
+      {
+        "sha256": "41ee882398ea41ec4e1b4e336d59bf2acfd3e88c459cdff00163d007f6a49468",
+        "tile": "N46E014"
+      }
+    ],
+    "vertical_datum": "source-defined; not normalized to Condor Landscape"
+  },
+  "weather": {
+    "cloudbase_m": null,
+    "cloudbase_status": "UNKNOWN_NO_DOCUMENTED_DERIVATION",
+    "source": "FPL",
+    "zones": [
+      {
+        "cloud_parameters": {
+          "HighCloudsCoverage": 2.0,
+          "WavesMoisture": 2.0,
+          "WavesStability": 6.0
+        },
+        "index": 0,
+        "inversion_height_m": 2647.3984375,
+        "name": "Base",
+        "thermal_parameters": {
+          "ThermalsActivity": 3.0,
+          "ThermalsActivityVariation": 1.0,
+          "ThermalsBugs": 0.0,
+          "ThermalsDew": 10.40625,
+          "ThermalsFlatsActivity": 3.0,
+          "ThermalsInversionheight": 2647.3984375,
+          "ThermalsOverdevelopment": 0.0,
+          "ThermalsStreeting": 2.0,
+          "ThermalsStrength": 1.0,
+          "ThermalsStrengthVariation": 2.0,
+          "ThermalsTemp": 24.03125,
+          "ThermalsTempVariation": 1.0,
+          "ThermalsTurbulence": 1.0,
+          "ThermalsWidth": 2.0,
+          "ThermalsWidthVariation": 1.0
+        },
+        "wind_direction_deg": 181.636489868164,
+        "wind_speed_mps": 8.36452293395996,
+        "wind_upper_speed_mps": 16.6666660308838
+      }
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "race-index-v1",
-  "updated_at": "2026-08-29T13:31:02.832885+00:00",
+  "updated_at": "2026-09-04T14:24:04.188997+00:00",
   "races": [
     {
       "race_id": "27284",
@@ -41,6 +41,14 @@
       "task_name": "JPFF 260828 Slovenia3 Standard",
       "date": "2026-08-28",
       "competition_class": "STANDARD"
+    },
+    {
+      "race_id": "28308",
+      "status": "READY",
+      "context_path": "races/28308/ai-context.json",
+      "task_name": "JPFF 260904 Slovenia3 Club",
+      "date": "2026-09-04",
+      "competition_class": "CLUB"
     }
   ]
 }
