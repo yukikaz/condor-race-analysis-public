@@ -16,6 +16,10 @@ Use only facts present in the race context. Separate observed facts, determinist
 - Do not equate `SEARCH_CENTER` with thermal skill. Turning is geometry evidence, not proof of a thermal or pilot intent.
 - Terrain-energy fields are proxies. DEM and GPS altitude may use different vertical datums.
 - Pseudo-energy is derived from GPS altitude and ground speed, so it is wind-contaminated and is not total energy, IAS, or TAS.
+- Altitude gain equal to zero does not imply no energy assistance. Report a
+  Phase 2 candidate only as a provisional groundspeed-based altitude-plus-speed
+  energy diagnostic; never call it confirmed airmass lift, ridge, dolphin,
+  convergence, or measured airmass vertical velocity.
 - Interpret Final Glide using Required ground L/D and pseudo-energy margin together. Keep actual-route terrain constraint separate from the straight-route reference.
 - Do not confuse aircraft performance configuration with pilot judgment or skill.
 - Do not assert ridge, dolphin, convergence, thermal source, cloud use, safety judgment, visibility, workload, or intent when the logs cannot establish it.
