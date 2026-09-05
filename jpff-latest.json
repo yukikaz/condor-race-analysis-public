@@ -3,9 +3,9 @@
   "aliases": [
     "JPFF"
   ],
-  "latest_discovered_race_id": "28277",
+  "latest_discovered_race_id": "28309",
   "latest_ready_race_id": "28308",
-  "ready_at": "2026-09-04T14:24:04.189772+00:00",
+  "ready_at": "2026-09-05T06:39:35.117153+00:00",
   "context_path": "races/28308/ai-context.json",
-  "updated_at": "2026-09-04T14:24:04.189779+00:00"
+  "updated_at": "2026-09-05T06:39:35.117158+00:00"
 }
