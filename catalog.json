@@ -1,6 +1,6 @@
 {
   "schema_version": "race-catalog-v1",
-  "updated_at": "2026-09-19T13:30:53.119677+00:00",
+  "updated_at": "2026-09-19T14:05:31.522885+00:00",
   "series": {
     "JPFF": {
       "series": "JPFF",
@@ -9,9 +9,9 @@
       ],
       "latest_discovered_race_id": "28349",
       "latest_ready_race_id": "28349",
-      "ready_at": "2026-09-19T13:30:53.119229+00:00",
+      "ready_at": "2026-09-19T14:05:31.522544+00:00",
       "context_path": "races/28349/ai-context.json",
-      "updated_at": "2026-09-19T13:30:53.119236+00:00"
+      "updated_at": "2026-09-19T14:05:31.522549+00:00"
     },
     "JPSF": {
       "series": "JPSF",
@@ -22,7 +22,7 @@
       "latest_ready_race_id": null,
       "ready_at": null,
       "context_path": null,
-      "updated_at": "2026-09-19T13:30:53.119512+00:00"
+      "updated_at": "2026-09-19T14:05:31.522741+00:00"
     },
     "JVSC_MONTHLY": {
       "series": "JVSC_MONTHLY",
@@ -36,7 +36,7 @@
       "latest_ready_race_id": null,
       "ready_at": null,
       "context_path": null,
-      "updated_at": "2026-09-19T13:30:53.119587+00:00"
+      "updated_at": "2026-09-19T14:05:31.522812+00:00"
     }
   },
   "races": {
