@@ -1,6 +1,6 @@
 {
   "schema_version": "race-catalog-v1",
-  "updated_at": "2026-09-27T08:28:33.286843+00:00",
+  "updated_at": "2026-09-27T08:58:22.675936+00:00",
   "series": {
     "JPFF": {
       "series": "JPFF",
@@ -9,9 +9,9 @@
       ],
       "latest_discovered_race_id": "28349",
       "latest_ready_race_id": "28372",
-      "ready_at": "2026-09-27T08:28:33.286405+00:00",
+      "ready_at": "2026-09-27T08:58:22.675475+00:00",
       "context_path": "races/28372/ai-context.json",
-      "updated_at": "2026-09-27T08:28:33.286410+00:00"
+      "updated_at": "2026-09-27T08:58:22.675479+00:00"
     },
     "JPSF": {
       "series": "JPSF",
@@ -22,7 +22,7 @@
       "latest_ready_race_id": null,
       "ready_at": null,
       "context_path": null,
-      "updated_at": "2026-09-27T08:28:33.286664+00:00"
+      "updated_at": "2026-09-27T08:58:22.675730+00:00"
     },
     "JVSC_MONTHLY": {
       "series": "JVSC_MONTHLY",
@@ -36,7 +36,7 @@
       "latest_ready_race_id": null,
       "ready_at": null,
       "context_path": null,
-      "updated_at": "2026-09-27T08:28:33.286754+00:00"
+      "updated_at": "2026-09-27T08:58:22.675827+00:00"
     }
   },
   "races": {
@@ -59,6 +59,56 @@
       "class": "18M",
       "date": "2025-08-13",
       "ai_context_path": "races/27398/ai-context.json"
+    },
+    "27974": {
+      "status": "READY",
+      "race_id": "27974",
+      "series": "JPFF",
+      "competition": null,
+      "task_day": null,
+      "class": "STANDARD",
+      "date": "2026-05-01",
+      "ai_context_path": "races/27974/ai-context.json"
+    },
+    "27975": {
+      "status": "READY",
+      "race_id": "27975",
+      "series": "JPFF",
+      "competition": null,
+      "task_day": null,
+      "class": "CLUB",
+      "date": "2026-05-08",
+      "ai_context_path": "races/27975/ai-context.json"
+    },
+    "28008": {
+      "status": "READY",
+      "race_id": "28008",
+      "series": "JPFF",
+      "competition": null,
+      "task_day": null,
+      "class": "STANDARD",
+      "date": "2026-05-15",
+      "ai_context_path": "races/28008/ai-context.json"
+    },
+    "28009": {
+      "status": "READY",
+      "race_id": "28009",
+      "series": "JPFF",
+      "competition": null,
+      "task_day": null,
+      "class": "CLUB",
+      "date": "2026-05-22",
+      "ai_context_path": "races/28009/ai-context.json"
+    },
+    "28010": {
+      "status": "READY",
+      "race_id": "28010",
+      "series": "JPFF",
+      "competition": null,
+      "task_day": null,
+      "class": "STANDARD",
+      "date": "2026-05-29",
+      "ai_context_path": "races/28010/ai-context.json"
     },
     "28081": {
       "status": "READY",
