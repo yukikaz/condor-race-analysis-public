@@ -1,6 +1,6 @@
 {
   "schema_version": "race-catalog-v1",
-  "updated_at": "2026-09-27T08:58:22.675936+00:00",
+  "updated_at": "2026-09-27T12:12:26.205604+00:00",
   "series": {
     "JPFF": {
       "series": "JPFF",
@@ -9,9 +9,9 @@
       ],
       "latest_discovered_race_id": "28349",
       "latest_ready_race_id": "28372",
-      "ready_at": "2026-09-27T08:58:22.675475+00:00",
+      "ready_at": "2026-09-27T12:12:26.205179+00:00",
       "context_path": "races/28372/ai-context.json",
-      "updated_at": "2026-09-27T08:58:22.675479+00:00"
+      "updated_at": "2026-09-27T12:12:26.205195+00:00"
     },
     "JPSF": {
       "series": "JPSF",
@@ -22,7 +22,7 @@
       "latest_ready_race_id": null,
       "ready_at": null,
       "context_path": null,
-      "updated_at": "2026-09-27T08:58:22.675730+00:00"
+      "updated_at": "2026-09-27T12:12:26.205415+00:00"
     },
     "JVSC_MONTHLY": {
       "series": "JVSC_MONTHLY",
@@ -36,7 +36,7 @@
       "latest_ready_race_id": null,
       "ready_at": null,
       "context_path": null,
-      "updated_at": "2026-09-27T08:58:22.675827+00:00"
+      "updated_at": "2026-09-27T12:12:26.205506+00:00"
     }
   },
   "races": {
@@ -50,6 +50,46 @@
       "date": "2025-05-21",
       "ai_context_path": "races/27284/ai-context.json"
     },
+    "27321": {
+      "status": "READY",
+      "race_id": "27321",
+      "series": "JPFF",
+      "competition": null,
+      "task_day": null,
+      "class": "STANDARD",
+      "date": "2025-07-11",
+      "ai_context_path": "races/27321/ai-context.json"
+    },
+    "27322": {
+      "status": "READY",
+      "race_id": "27322",
+      "series": "JPFF",
+      "competition": null,
+      "task_day": null,
+      "class": "CLUB",
+      "date": "2025-07-18",
+      "ai_context_path": "races/27322/ai-context.json"
+    },
+    "27323": {
+      "status": "READY",
+      "race_id": "27323",
+      "series": "JPFF",
+      "competition": null,
+      "task_day": null,
+      "class": "STANDARD",
+      "date": "2025-07-25",
+      "ai_context_path": "races/27323/ai-context.json"
+    },
+    "27324": {
+      "status": "READY",
+      "race_id": "27324",
+      "series": "JPFF",
+      "competition": null,
+      "task_day": null,
+      "class": "CLUB",
+      "date": "2025-08-01",
+      "ai_context_path": "races/27324/ai-context.json"
+    },
     "27398": {
       "status": "READY",
       "race_id": "27398",
@@ -59,6 +99,126 @@
       "class": "18M",
       "date": "2025-08-13",
       "ai_context_path": "races/27398/ai-context.json"
+    },
+    "27520": {
+      "status": "READY",
+      "race_id": "27520",
+      "series": "JPFF",
+      "competition": null,
+      "task_day": null,
+      "class": "STANDARD",
+      "date": "2025-08-01",
+      "ai_context_path": "races/27520/ai-context.json"
+    },
+    "27521": {
+      "status": "READY",
+      "race_id": "27521",
+      "series": "JPFF",
+      "competition": null,
+      "task_day": null,
+      "class": "CLUB",
+      "date": "2025-08-08",
+      "ai_context_path": "races/27521/ai-context.json"
+    },
+    "27601": {
+      "status": "READY",
+      "race_id": "27601",
+      "series": "JPFF",
+      "competition": null,
+      "task_day": null,
+      "class": "STANDARD",
+      "date": "2025-08-15",
+      "ai_context_path": "races/27601/ai-context.json"
+    },
+    "27602": {
+      "status": "READY",
+      "race_id": "27602",
+      "series": "JPFF",
+      "competition": null,
+      "task_day": null,
+      "class": "CLUB",
+      "date": "2025-08-22",
+      "ai_context_path": "races/27602/ai-context.json"
+    },
+    "27677": {
+      "status": "READY",
+      "race_id": "27677",
+      "series": "JPFF",
+      "competition": null,
+      "task_day": null,
+      "class": "STANDARD",
+      "date": "2025-09-05",
+      "ai_context_path": "races/27677/ai-context.json"
+    },
+    "27728": {
+      "status": "READY",
+      "race_id": "27728",
+      "series": "JPFF",
+      "competition": null,
+      "task_day": null,
+      "class": "CLUB",
+      "date": "2026-06-12",
+      "ai_context_path": "races/27728/ai-context.json"
+    },
+    "27765": {
+      "status": "READY",
+      "race_id": "27765",
+      "series": "JPFF",
+      "competition": null,
+      "task_day": null,
+      "class": "STANDARD",
+      "date": "2026-06-19",
+      "ai_context_path": "races/27765/ai-context.json"
+    },
+    "27766": {
+      "status": "READY",
+      "race_id": "27766",
+      "series": "JPFF",
+      "competition": null,
+      "task_day": null,
+      "class": "CLUB",
+      "date": "2026-06-26",
+      "ai_context_path": "races/27766/ai-context.json"
+    },
+    "27823": {
+      "status": "READY",
+      "race_id": "27823",
+      "series": "JPFF",
+      "competition": null,
+      "task_day": null,
+      "class": "STANDARD",
+      "date": "2026-04-03",
+      "ai_context_path": "races/27823/ai-context.json"
+    },
+    "27824": {
+      "status": "READY",
+      "race_id": "27824",
+      "series": "JPFF",
+      "competition": null,
+      "task_day": null,
+      "class": "CLUB",
+      "date": "2026-04-10",
+      "ai_context_path": "races/27824/ai-context.json"
+    },
+    "27870": {
+      "status": "READY",
+      "race_id": "27870",
+      "series": "JPFF",
+      "competition": null,
+      "task_day": null,
+      "class": "STANDARD",
+      "date": "2026-04-17",
+      "ai_context_path": "races/27870/ai-context.json"
+    },
+    "27871": {
+      "status": "READY",
+      "race_id": "27871",
+      "series": "JPFF",
+      "competition": null,
+      "task_day": null,
+      "class": "CLUB",
+      "date": "2026-04-24",
+      "ai_context_path": "races/27871/ai-context.json"
     },
     "27974": {
       "status": "READY",

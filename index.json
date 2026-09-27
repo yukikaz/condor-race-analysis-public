@@ -1,6 +1,6 @@
 {
   "schema_version": "race-index-v1",
-  "updated_at": "2026-09-27T08:58:22.674791+00:00",
+  "updated_at": "2026-09-27T12:12:26.204442+00:00",
   "races": [
     {
       "race_id": "27284",
@@ -11,12 +11,140 @@
       "competition_class": "18M"
     },
     {
+      "race_id": "27321",
+      "status": "READY",
+      "context_path": "races/27321/ai-context.json",
+      "task_name": "JPFF 260109 Slovenia3 Std",
+      "date": "2025-07-11",
+      "competition_class": "STANDARD"
+    },
+    {
+      "race_id": "27322",
+      "status": "READY",
+      "context_path": "races/27322/ai-context.json",
+      "task_name": "JPFF 260116 Slovenia3 Club",
+      "date": "2025-07-18",
+      "competition_class": "CLUB"
+    },
+    {
+      "race_id": "27323",
+      "status": "READY",
+      "context_path": "races/27323/ai-context.json",
+      "task_name": "JPFF 260123 Slovenia3 Std",
+      "date": "2025-07-25",
+      "competition_class": "STANDARD"
+    },
+    {
+      "race_id": "27324",
+      "status": "READY",
+      "context_path": "races/27324/ai-context.json",
+      "task_name": "JPFF 260130 Slovenia3 Club",
+      "date": "2025-08-01",
+      "competition_class": "CLUB"
+    },
+    {
       "race_id": "27398",
       "status": "READY",
       "context_path": "races/27398/ai-context.json",
       "task_name": "Race 3 - World Final 2026",
       "date": "2025-08-13",
       "competition_class": "18M"
+    },
+    {
+      "race_id": "27520",
+      "status": "READY",
+      "context_path": "races/27520/ai-context.json",
+      "task_name": "JPFF 260206 Slovenia3 Std",
+      "date": "2025-08-01",
+      "competition_class": "STANDARD"
+    },
+    {
+      "race_id": "27521",
+      "status": "READY",
+      "context_path": "races/27521/ai-context.json",
+      "task_name": "JPFF 260213 Slovenia3 Club",
+      "date": "2025-08-08",
+      "competition_class": "CLUB"
+    },
+    {
+      "race_id": "27601",
+      "status": "READY",
+      "context_path": "races/27601/ai-context.json",
+      "task_name": "JPFF 260220 Slovenia3 Std",
+      "date": "2025-08-15",
+      "competition_class": "STANDARD"
+    },
+    {
+      "race_id": "27602",
+      "status": "READY",
+      "context_path": "races/27602/ai-context.json",
+      "task_name": "JPFF 260227 Slovenia3 Club",
+      "date": "2025-08-22",
+      "competition_class": "CLUB"
+    },
+    {
+      "race_id": "27677",
+      "status": "READY",
+      "context_path": "races/27677/ai-context.json",
+      "task_name": "JPFF 260306 Slovenia3 Std",
+      "date": "2025-09-05",
+      "competition_class": "STANDARD"
+    },
+    {
+      "race_id": "27728",
+      "status": "READY",
+      "context_path": "races/27728/ai-context.json",
+      "task_name": "JPFF 260313 Slovenia3 Club",
+      "date": "2026-06-12",
+      "competition_class": "CLUB"
+    },
+    {
+      "race_id": "27765",
+      "status": "READY",
+      "context_path": "races/27765/ai-context.json",
+      "task_name": "JPFF 260320 Slovenia3 Std",
+      "date": "2026-06-19",
+      "competition_class": "STANDARD"
+    },
+    {
+      "race_id": "27766",
+      "status": "READY",
+      "context_path": "races/27766/ai-context.json",
+      "task_name": "JPFF 260327 Slovenia3 Club",
+      "date": "2026-06-26",
+      "competition_class": "CLUB"
+    },
+    {
+      "race_id": "27823",
+      "status": "READY",
+      "context_path": "races/27823/ai-context.json",
+      "task_name": "JPFF 260403 Slovenia3 Std",
+      "date": "2026-04-03",
+      "competition_class": "STANDARD"
+    },
+    {
+      "race_id": "27824",
+      "status": "READY",
+      "context_path": "races/27824/ai-context.json",
+      "task_name": "JPFF 260410 Slovenia3 Club",
+      "date": "2026-04-10",
+      "competition_class": "CLUB"
+    },
+    {
+      "race_id": "27870",
+      "status": "READY",
+      "context_path": "races/27870/ai-context.json",
+      "task_name": "JPFF 260417 Slovenia3 Std",
+      "date": "2026-04-17",
+      "competition_class": "STANDARD"
+    },
+    {
+      "race_id": "27871",
+      "status": "READY",
+      "context_path": "races/27871/ai-context.json",
+      "task_name": "JPFF 260424 Slovenia3 Club",
+      "date": "2026-04-24",
+      "competition_class": "CLUB"
     },
     {
       "race_id": "27974",
