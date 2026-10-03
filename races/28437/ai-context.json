@@ -3,7 +3,7 @@
   "race_id": "28437",
   "analysis_versions": {
     "analysis_schema_version": "standard-race-analysis-package-v5",
-    "analysis_version": "standard-race-analysis-v12",
+    "analysis_version": "standard-race-analysis-v13",
     "fg_analysis_version": "final-glide-analysis-v1",
     "dataset_version": "final-glide-knowledge-dataset-v2",
     "groundspeed_energy_analysis_version": "groundspeed-energy-analysis-v1",
@@ -17519,9 +17519,9 @@
     }
   },
   "energy_diagnostics": {
-    "schema_version": "energy-diagnostics-v1",
+    "schema_version": "energy-diagnostics-v2",
     "path": "races/28437/energy-diagnostics.json",
-    "sha256": "ea9fed7484e4654e06ee4b918928d61dd127b3e7a4c561deb4b9640c87348e07",
+    "sha256": "f619cc052c087076a14dd94125d1e922c6772ee693928171ab6dc9ea51f71585",
     "groundspeed_candidate_count": 164,
     "fpl_candidate_counts": {
       "surface_model_candidates": 166,
@@ -19962,7 +19962,7 @@
   },
   "provenance": {
     "analysis_spec_version": "analysis-spec-2026-08-25-v3",
-    "analysis_version": "standard-race-analysis-v12",
+    "analysis_version": "standard-race-analysis-v13",
     "schema_version": "standard-race-analysis-package-v5",
     "classifier_version": "semantic-rule-v1.0.0",
     "classifier_v1_behavior_sha256": {
@@ -20033,5 +20033,1263 @@
       "thermal_episode_mean_climb_rate_mps",
       "stabilized_orbit_mean_climb_rate_mps"
     ]
+  },
+  "competitive_analysis": {
+    "schema_version": "competitive-analysis-v1",
+    "assumptions": {
+      "id": "competitive-analysis-v1-assumptions",
+      "retrospective_only": true,
+      "positive_seconds_mean_loss": true,
+      "climb_source": "SAME_AIRCRAFT_FINISHED_COHORT_FULL_TASK_PRODUCTIVE_ORBITS",
+      "climb_range_is_sensitivity_not_confidence_interval": true,
+      "gps_rate_does_not_prove_airmass_lift": true,
+      "ground_speed_energy_is_wind_contaminated": true,
+      "no_polar_or_recoverable_energy_model": true,
+      "wing_loading_is_fpl_assumption_not_measurement": true,
+      "tp_position_and_weather_not_normalized": true,
+      "partial_or_reversed_or_gap_crossing_orbits_excluded": true,
+      "orbit_angle_interpolation": "LINEAR_TIME_AND_GPS_ALTITUDE",
+      "max_gap_seconds": 10.0,
+      "minimum_model_orbits": 3
+    },
+    "reference_flight_id": "315062",
+    "representative_climb_rate": {
+      "value": null,
+      "method": "MEDIAN_PRODUCTIVE_FULL_ORBIT_GPS_RATE",
+      "assumptions": [
+        "competitive-analysis-v1-assumptions"
+      ],
+      "confidence": "NOT_EVALUABLE",
+      "interpretation_status": "PROVISIONAL",
+      "unavailable_reasons": [
+        "INSUFFICIENT_PRODUCTIVE_ORBITS"
+      ]
+    },
+    "climb_rate_p25_mps": null,
+    "climb_rate_p75_mps": null,
+    "model_orbit_count": 0,
+    "orbit_summaries": [
+      {
+        "flight_id": "315062",
+        "status": "FINISHED",
+        "full_orbit_count": 27,
+        "productive_orbit_count": 27,
+        "weak_loss_orbit_count": 0,
+        "full_orbit_climb_rate": {
+          "value": 2.1695001653488983,
+          "method": "DURATION_WEIGHTED_FULL_ORBIT_GPS_RATE",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "LOW",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": []
+        },
+        "productive_orbit_climb_rate": {
+          "value": 2.1695001653488983,
+          "method": "DURATION_WEIGHTED_PRODUCTIVE_FULL_ORBIT_GPS_RATE",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "LOW",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": []
+        },
+        "stabilized_orbit_climb_rate": {
+          "value": null,
+          "method": "NOT_IMPLEMENTED",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "STABILIZATION_CRITERIA_NOT_VALIDATED"
+          ]
+        }
+      },
+      {
+        "flight_id": "315061",
+        "status": "FINISHED",
+        "full_orbit_count": 34,
+        "productive_orbit_count": 34,
+        "weak_loss_orbit_count": 0,
+        "full_orbit_climb_rate": {
+          "value": 1.9719038793310193,
+          "method": "DURATION_WEIGHTED_FULL_ORBIT_GPS_RATE",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "LOW",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": []
+        },
+        "productive_orbit_climb_rate": {
+          "value": 1.9719038793310193,
+          "method": "DURATION_WEIGHTED_PRODUCTIVE_FULL_ORBIT_GPS_RATE",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "LOW",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": []
+        },
+        "stabilized_orbit_climb_rate": {
+          "value": null,
+          "method": "NOT_IMPLEMENTED",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "STABILIZATION_CRITERIA_NOT_VALIDATED"
+          ]
+        }
+      },
+      {
+        "flight_id": "315065",
+        "status": "FINISHED",
+        "full_orbit_count": 22,
+        "productive_orbit_count": 22,
+        "weak_loss_orbit_count": 0,
+        "full_orbit_climb_rate": {
+          "value": 2.142488738489276,
+          "method": "DURATION_WEIGHTED_FULL_ORBIT_GPS_RATE",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "LOW",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": []
+        },
+        "productive_orbit_climb_rate": {
+          "value": 2.142488738489276,
+          "method": "DURATION_WEIGHTED_PRODUCTIVE_FULL_ORBIT_GPS_RATE",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "LOW",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": []
+        },
+        "stabilized_orbit_climb_rate": {
+          "value": null,
+          "method": "NOT_IMPLEMENTED",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "STABILIZATION_CRITERIA_NOT_VALIDATED"
+          ]
+        }
+      },
+      {
+        "flight_id": "315064",
+        "status": "FINISHED",
+        "full_orbit_count": 52,
+        "productive_orbit_count": 52,
+        "weak_loss_orbit_count": 0,
+        "full_orbit_climb_rate": {
+          "value": 1.9029910799743934,
+          "method": "DURATION_WEIGHTED_FULL_ORBIT_GPS_RATE",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "LOW",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": []
+        },
+        "productive_orbit_climb_rate": {
+          "value": 1.9029910799743934,
+          "method": "DURATION_WEIGHTED_PRODUCTIVE_FULL_ORBIT_GPS_RATE",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "LOW",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": []
+        },
+        "stabilized_orbit_climb_rate": {
+          "value": null,
+          "method": "NOT_IMPLEMENTED",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "STABILIZATION_CRITERIA_NOT_VALIDATED"
+          ]
+        }
+      },
+      {
+        "flight_id": "315063",
+        "status": "FINISHED",
+        "full_orbit_count": 10,
+        "productive_orbit_count": 10,
+        "weak_loss_orbit_count": 0,
+        "full_orbit_climb_rate": {
+          "value": 1.7933381678017841,
+          "method": "DURATION_WEIGHTED_FULL_ORBIT_GPS_RATE",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "LOW",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": []
+        },
+        "productive_orbit_climb_rate": {
+          "value": 1.7933381678017841,
+          "method": "DURATION_WEIGHTED_PRODUCTIVE_FULL_ORBIT_GPS_RATE",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "LOW",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": []
+        },
+        "stabilized_orbit_climb_rate": {
+          "value": null,
+          "method": "NOT_IMPLEMENTED",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "STABILIZATION_CRITERIA_NOT_VALIDATED"
+          ]
+        }
+      },
+      {
+        "flight_id": "315066",
+        "status": "FINISHED",
+        "full_orbit_count": 33,
+        "productive_orbit_count": 33,
+        "weak_loss_orbit_count": 0,
+        "full_orbit_climb_rate": {
+          "value": 1.3697351883144075,
+          "method": "DURATION_WEIGHTED_FULL_ORBIT_GPS_RATE",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "LOW",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": []
+        },
+        "productive_orbit_climb_rate": {
+          "value": 1.3697351883144075,
+          "method": "DURATION_WEIGHTED_PRODUCTIVE_FULL_ORBIT_GPS_RATE",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "LOW",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": []
+        },
+        "stabilized_orbit_climb_rate": {
+          "value": null,
+          "method": "NOT_IMPLEMENTED",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "STABILIZATION_CRITERIA_NOT_VALIDATED"
+          ]
+        }
+      }
+    ],
+    "tp_comparisons": [
+      {
+        "flight_id": "315062",
+        "reference_flight_id": "315062",
+        "tp_number": 1,
+        "turnpoint": "UDPAV",
+        "elapsed_gap_seconds": 0.0,
+        "altitude_difference_m": 0,
+        "start_altitude_difference_m": 0,
+        "passage_position_separation_m": 0.0,
+        "state_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "UNKNOWN_GLIDER_VARIANT",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "start_relative_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "UNKNOWN_GLIDER_VARIANT",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "climb_sensitivity_seconds": null,
+        "pseudo_energy_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "UNKNOWN_GLIDER_VARIANT",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "target_state": {
+          "turnpoint": "UDPAV",
+          "turnpoint_latitude": 45.9836,
+          "turnpoint_longitude": 13.309166666666666,
+          "passage_time": "2026-10-02T13:22:02+00:00",
+          "sample_time": "2026-10-02T13:22:02+00:00",
+          "elapsed_seconds": 1742.0,
+          "gps_altitude_m": 988,
+          "ground_speed_kmh": 136.07424937288448,
+          "pseudo_energy_height_m": 1060.8444086095787,
+          "latitude": 45.98383333333334,
+          "longitude": 13.303033333333333,
+          "source_line": 2348
+        },
+        "reference_state": {
+          "turnpoint": "UDPAV",
+          "turnpoint_latitude": 45.9836,
+          "turnpoint_longitude": 13.309166666666666,
+          "passage_time": "2026-10-02T13:22:02+00:00",
+          "sample_time": "2026-10-02T13:22:02+00:00",
+          "elapsed_seconds": 1742.0,
+          "gps_altitude_m": 988,
+          "ground_speed_kmh": 136.07424937288448,
+          "pseudo_energy_height_m": 1060.8444086095787,
+          "latitude": 45.98383333333334,
+          "longitude": 13.303033333333333,
+          "source_line": 2348
+        }
+      },
+      {
+        "flight_id": "315062",
+        "reference_flight_id": "315062",
+        "tp_number": 2,
+        "turnpoint": "Valeriano Dak Ul",
+        "elapsed_gap_seconds": 0.0,
+        "altitude_difference_m": 0,
+        "start_altitude_difference_m": 0,
+        "passage_position_separation_m": 0.0,
+        "state_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "UNKNOWN_GLIDER_VARIANT",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "start_relative_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "UNKNOWN_GLIDER_VARIANT",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "climb_sensitivity_seconds": null,
+        "pseudo_energy_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "UNKNOWN_GLIDER_VARIANT",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "target_state": {
+          "turnpoint": "Valeriano Dak Ul",
+          "turnpoint_latitude": 46.15416666666667,
+          "turnpoint_longitude": 12.925,
+          "passage_time": "2026-10-02T13:41:02+00:00",
+          "sample_time": "2026-10-02T13:41:02+00:00",
+          "elapsed_seconds": 2882.0,
+          "gps_altitude_m": 890,
+          "ground_speed_kmh": 126.75771255350146,
+          "pseudo_energy_height_m": 953.2110659438047,
+          "latitude": 46.15015,
+          "longitude": 12.927116666666667,
+          "source_line": 3488
+        },
+        "reference_state": {
+          "turnpoint": "Valeriano Dak Ul",
+          "turnpoint_latitude": 46.15416666666667,
+          "turnpoint_longitude": 12.925,
+          "passage_time": "2026-10-02T13:41:02+00:00",
+          "sample_time": "2026-10-02T13:41:02+00:00",
+          "elapsed_seconds": 2882.0,
+          "gps_altitude_m": 890,
+          "ground_speed_kmh": 126.75771255350146,
+          "pseudo_energy_height_m": 953.2110659438047,
+          "latitude": 46.15015,
+          "longitude": 12.927116666666667,
+          "source_line": 3488
+        }
+      },
+      {
+        "flight_id": "315065",
+        "reference_flight_id": "315062",
+        "tp_number": 1,
+        "turnpoint": "UDPAV",
+        "elapsed_gap_seconds": 22.0,
+        "altitude_difference_m": 47,
+        "start_altitude_difference_m": -56,
+        "passage_position_separation_m": 244.4234073110795,
+        "state_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "MISMATCH_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "start_relative_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "MISMATCH_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "climb_sensitivity_seconds": null,
+        "pseudo_energy_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "MISMATCH_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "target_state": {
+          "turnpoint": "UDPAV",
+          "turnpoint_latitude": 45.9836,
+          "turnpoint_longitude": 13.309166666666666,
+          "passage_time": "2026-10-02T13:22:35+00:00",
+          "sample_time": "2026-10-02T13:22:35+00:00",
+          "elapsed_seconds": 1764.0,
+          "gps_altitude_m": 1035,
+          "ground_speed_kmh": 106.41893195957921,
+          "pseudo_energy_height_m": 1079.553530000309,
+          "latitude": 45.98165,
+          "longitude": 13.3034,
+          "source_line": 2664
+        },
+        "reference_state": {
+          "turnpoint": "UDPAV",
+          "turnpoint_latitude": 45.9836,
+          "turnpoint_longitude": 13.309166666666666,
+          "passage_time": "2026-10-02T13:22:02+00:00",
+          "sample_time": "2026-10-02T13:22:02+00:00",
+          "elapsed_seconds": 1742.0,
+          "gps_altitude_m": 988,
+          "ground_speed_kmh": 136.07424937288448,
+          "pseudo_energy_height_m": 1060.8444086095787,
+          "latitude": 45.98383333333334,
+          "longitude": 13.303033333333333,
+          "source_line": 2348
+        }
+      },
+      {
+        "flight_id": "315065",
+        "reference_flight_id": "315062",
+        "tp_number": 2,
+        "turnpoint": "Valeriano Dak Ul",
+        "elapsed_gap_seconds": 39.0,
+        "altitude_difference_m": -88,
+        "start_altitude_difference_m": -56,
+        "passage_position_separation_m": 345.56682762263375,
+        "state_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "MISMATCH_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "start_relative_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "MISMATCH_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "climb_sensitivity_seconds": null,
+        "pseudo_energy_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "MISMATCH_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "target_state": {
+          "turnpoint": "Valeriano Dak Ul",
+          "turnpoint_latitude": 46.15416666666667,
+          "turnpoint_longitude": 12.925,
+          "passage_time": "2026-10-02T13:41:52+00:00",
+          "sample_time": "2026-10-02T13:41:52+00:00",
+          "elapsed_seconds": 2921.0,
+          "gps_altitude_m": 802,
+          "ground_speed_kmh": 175.62852316746955,
+          "pseudo_energy_height_m": 923.348503838643,
+          "latitude": 46.15205,
+          "longitude": 12.930666666666667,
+          "source_line": 3821
+        },
+        "reference_state": {
+          "turnpoint": "Valeriano Dak Ul",
+          "turnpoint_latitude": 46.15416666666667,
+          "turnpoint_longitude": 12.925,
+          "passage_time": "2026-10-02T13:41:02+00:00",
+          "sample_time": "2026-10-02T13:41:02+00:00",
+          "elapsed_seconds": 2882.0,
+          "gps_altitude_m": 890,
+          "ground_speed_kmh": 126.75771255350146,
+          "pseudo_energy_height_m": 953.2110659438047,
+          "latitude": 46.15015,
+          "longitude": 12.927116666666667,
+          "source_line": 3488
+        }
+      },
+      {
+        "flight_id": "315061",
+        "reference_flight_id": "315062",
+        "tp_number": 1,
+        "turnpoint": "UDPAV",
+        "elapsed_gap_seconds": -89.0,
+        "altitude_difference_m": -262,
+        "start_altitude_difference_m": -48,
+        "passage_position_separation_m": 27.828580922369284,
+        "state_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "UNKNOWN_GLIDER_VARIANT",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "start_relative_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "UNKNOWN_GLIDER_VARIANT",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "climb_sensitivity_seconds": null,
+        "pseudo_energy_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "UNKNOWN_GLIDER_VARIANT",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "target_state": {
+          "turnpoint": "UDPAV",
+          "turnpoint_latitude": 45.9836,
+          "turnpoint_longitude": 13.309166666666666,
+          "passage_time": "2026-10-02T13:22:21+00:00",
+          "sample_time": "2026-10-02T13:22:21+00:00",
+          "elapsed_seconds": 1653.0,
+          "gps_altitude_m": 726,
+          "ground_speed_kmh": 152.2819955278905,
+          "pseudo_energy_height_m": 817.2307921263985,
+          "latitude": 45.98408333333333,
+          "longitude": 13.303016666666666,
+          "source_line": 2494
+        },
+        "reference_state": {
+          "turnpoint": "UDPAV",
+          "turnpoint_latitude": 45.9836,
+          "turnpoint_longitude": 13.309166666666666,
+          "passage_time": "2026-10-02T13:22:02+00:00",
+          "sample_time": "2026-10-02T13:22:02+00:00",
+          "elapsed_seconds": 1742.0,
+          "gps_altitude_m": 988,
+          "ground_speed_kmh": 136.07424937288448,
+          "pseudo_energy_height_m": 1060.8444086095787,
+          "latitude": 45.98383333333334,
+          "longitude": 13.303033333333333,
+          "source_line": 2348
+        }
+      },
+      {
+        "flight_id": "315061",
+        "reference_flight_id": "315062",
+        "tp_number": 2,
+        "turnpoint": "Valeriano Dak Ul",
+        "elapsed_gap_seconds": -49.0,
+        "altitude_difference_m": -178,
+        "start_altitude_difference_m": -48,
+        "passage_position_separation_m": 83.74222733382962,
+        "state_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "UNKNOWN_GLIDER_VARIANT",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "start_relative_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "UNKNOWN_GLIDER_VARIANT",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "climb_sensitivity_seconds": null,
+        "pseudo_energy_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "UNKNOWN_GLIDER_VARIANT",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "target_state": {
+          "turnpoint": "Valeriano Dak Ul",
+          "turnpoint_latitude": 46.15416666666667,
+          "turnpoint_longitude": 12.925,
+          "passage_time": "2026-10-02T13:42:01+00:00",
+          "sample_time": "2026-10-02T13:42:01+00:00",
+          "elapsed_seconds": 2833.0,
+          "gps_altitude_m": 712,
+          "ground_speed_kmh": 129.17755185280825,
+          "pseudo_energy_height_m": 777.6475354634833,
+          "latitude": 46.149883333333335,
+          "longitude": 12.9261,
+          "source_line": 3674
+        },
+        "reference_state": {
+          "turnpoint": "Valeriano Dak Ul",
+          "turnpoint_latitude": 46.15416666666667,
+          "turnpoint_longitude": 12.925,
+          "passage_time": "2026-10-02T13:41:02+00:00",
+          "sample_time": "2026-10-02T13:41:02+00:00",
+          "elapsed_seconds": 2882.0,
+          "gps_altitude_m": 890,
+          "ground_speed_kmh": 126.75771255350146,
+          "pseudo_energy_height_m": 953.2110659438047,
+          "latitude": 46.15015,
+          "longitude": 12.927116666666667,
+          "source_line": 3488
+        }
+      },
+      {
+        "flight_id": "315063",
+        "reference_flight_id": "315062",
+        "tp_number": 1,
+        "turnpoint": "UDPAV",
+        "elapsed_gap_seconds": 94.0,
+        "altitude_difference_m": -234,
+        "start_altitude_difference_m": -41,
+        "passage_position_separation_m": 126.02767037600465,
+        "state_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "MISMATCH_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "start_relative_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "MISMATCH_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "climb_sensitivity_seconds": null,
+        "pseudo_energy_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "MISMATCH_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "target_state": {
+          "turnpoint": "UDPAV",
+          "turnpoint_latitude": 45.9836,
+          "turnpoint_longitude": 13.309166666666666,
+          "passage_time": "2026-10-02T13:23:53+00:00",
+          "sample_time": "2026-10-02T13:23:53+00:00",
+          "elapsed_seconds": 1836.0,
+          "gps_altitude_m": 754,
+          "ground_speed_kmh": 137.95381645762694,
+          "pseudo_energy_height_m": 828.8706780918653,
+          "latitude": 45.9827,
+          "longitude": 13.30305,
+          "source_line": 2329
+        },
+        "reference_state": {
+          "turnpoint": "UDPAV",
+          "turnpoint_latitude": 45.9836,
+          "turnpoint_longitude": 13.309166666666666,
+          "passage_time": "2026-10-02T13:22:02+00:00",
+          "sample_time": "2026-10-02T13:22:02+00:00",
+          "elapsed_seconds": 1742.0,
+          "gps_altitude_m": 988,
+          "ground_speed_kmh": 136.07424937288448,
+          "pseudo_energy_height_m": 1060.8444086095787,
+          "latitude": 45.98383333333334,
+          "longitude": 13.303033333333333,
+          "source_line": 2348
+        }
+      },
+      {
+        "flight_id": "315063",
+        "reference_flight_id": "315062",
+        "tp_number": 2,
+        "turnpoint": "Valeriano Dak Ul",
+        "elapsed_gap_seconds": 487.0,
+        "altitude_difference_m": 159,
+        "start_altitude_difference_m": -41,
+        "passage_position_separation_m": 232.38536431263833,
+        "state_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "MISMATCH_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "start_relative_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "MISMATCH_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "climb_sensitivity_seconds": null,
+        "pseudo_energy_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "MISMATCH_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "target_state": {
+          "turnpoint": "Valeriano Dak Ul",
+          "turnpoint_latitude": 46.15416666666667,
+          "turnpoint_longitude": 12.925,
+          "passage_time": "2026-10-02T13:49:26+00:00",
+          "sample_time": "2026-10-02T13:49:26+00:00",
+          "elapsed_seconds": 3369.0,
+          "gps_altitude_m": 1049,
+          "ground_speed_kmh": 154.83869130709365,
+          "pseudo_energy_height_m": 1143.3198955732444,
+          "latitude": 46.151266666666665,
+          "longitude": 12.929666666666666,
+          "source_line": 3862
+        },
+        "reference_state": {
+          "turnpoint": "Valeriano Dak Ul",
+          "turnpoint_latitude": 46.15416666666667,
+          "turnpoint_longitude": 12.925,
+          "passage_time": "2026-10-02T13:41:02+00:00",
+          "sample_time": "2026-10-02T13:41:02+00:00",
+          "elapsed_seconds": 2882.0,
+          "gps_altitude_m": 890,
+          "ground_speed_kmh": 126.75771255350146,
+          "pseudo_energy_height_m": 953.2110659438047,
+          "latitude": 46.15015,
+          "longitude": 12.927116666666667,
+          "source_line": 3488
+        }
+      },
+      {
+        "flight_id": "315064",
+        "reference_flight_id": "315062",
+        "tp_number": 1,
+        "turnpoint": "UDPAV",
+        "elapsed_gap_seconds": 160.0,
+        "altitude_difference_m": -208,
+        "start_altitude_difference_m": -15,
+        "passage_position_separation_m": 85.40504092907258,
+        "state_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "UNKNOWN_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "start_relative_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "UNKNOWN_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "climb_sensitivity_seconds": null,
+        "pseudo_energy_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "UNKNOWN_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "target_state": {
+          "turnpoint": "UDPAV",
+          "turnpoint_latitude": 45.9836,
+          "turnpoint_longitude": 13.309166666666666,
+          "passage_time": "2026-10-02T13:23:34+00:00",
+          "sample_time": "2026-10-02T13:23:34+00:00",
+          "elapsed_seconds": 1902.0,
+          "gps_altitude_m": 780,
+          "ground_speed_kmh": 141.11952393522532,
+          "pseudo_energy_height_m": 858.3463074742454,
+          "latitude": 45.983066666666666,
+          "longitude": 13.3031,
+          "source_line": 2478
+        },
+        "reference_state": {
+          "turnpoint": "UDPAV",
+          "turnpoint_latitude": 45.9836,
+          "turnpoint_longitude": 13.309166666666666,
+          "passage_time": "2026-10-02T13:22:02+00:00",
+          "sample_time": "2026-10-02T13:22:02+00:00",
+          "elapsed_seconds": 1742.0,
+          "gps_altitude_m": 988,
+          "ground_speed_kmh": 136.07424937288448,
+          "pseudo_energy_height_m": 1060.8444086095787,
+          "latitude": 45.98383333333334,
+          "longitude": 13.303033333333333,
+          "source_line": 2348
+        }
+      },
+      {
+        "flight_id": "315064",
+        "reference_flight_id": "315062",
+        "tp_number": 2,
+        "turnpoint": "Valeriano Dak Ul",
+        "elapsed_gap_seconds": 626.0,
+        "altitude_difference_m": 295,
+        "start_altitude_difference_m": -15,
+        "passage_position_separation_m": 26.502021040676567,
+        "state_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "UNKNOWN_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "start_relative_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "UNKNOWN_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "climb_sensitivity_seconds": null,
+        "pseudo_energy_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "UNKNOWN_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "target_state": {
+          "turnpoint": "Valeriano Dak Ul",
+          "turnpoint_latitude": 46.15416666666667,
+          "turnpoint_longitude": 12.925,
+          "passage_time": "2026-10-02T13:50:20+00:00",
+          "sample_time": "2026-10-02T13:50:20+00:00",
+          "elapsed_seconds": 3508.0,
+          "gps_altitude_m": 1185,
+          "ground_speed_kmh": 138.8196133027826,
+          "pseudo_energy_height_m": 1260.8134024352134,
+          "latitude": 46.15003333333333,
+          "longitude": 12.927416666666666,
+          "source_line": 4084
+        },
+        "reference_state": {
+          "turnpoint": "Valeriano Dak Ul",
+          "turnpoint_latitude": 46.15416666666667,
+          "turnpoint_longitude": 12.925,
+          "passage_time": "2026-10-02T13:41:02+00:00",
+          "sample_time": "2026-10-02T13:41:02+00:00",
+          "elapsed_seconds": 2882.0,
+          "gps_altitude_m": 890,
+          "ground_speed_kmh": 126.75771255350146,
+          "pseudo_energy_height_m": 953.2110659438047,
+          "latitude": 46.15015,
+          "longitude": 12.927116666666667,
+          "source_line": 3488
+        }
+      },
+      {
+        "flight_id": "315066",
+        "reference_flight_id": "315062",
+        "tp_number": 1,
+        "turnpoint": "UDPAV",
+        "elapsed_gap_seconds": 198.0,
+        "altitude_difference_m": -468,
+        "start_altitude_difference_m": -13,
+        "passage_position_separation_m": 42.79949532491779,
+        "state_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "MISMATCH_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "start_relative_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "MISMATCH_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "climb_sensitivity_seconds": null,
+        "pseudo_energy_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "MISMATCH_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "target_state": {
+          "turnpoint": "UDPAV",
+          "turnpoint_latitude": 45.9836,
+          "turnpoint_longitude": 13.309166666666666,
+          "passage_time": "2026-10-02T13:23:31+00:00",
+          "sample_time": "2026-10-02T13:23:31+00:00",
+          "elapsed_seconds": 1940.0,
+          "gps_altitude_m": 520,
+          "ground_speed_kmh": 113.04848420427584,
+          "pseudo_energy_height_m": 570.2775161642503,
+          "latitude": 45.98345,
+          "longitude": 13.302983333333334,
+          "source_line": 2810
+        },
+        "reference_state": {
+          "turnpoint": "UDPAV",
+          "turnpoint_latitude": 45.9836,
+          "turnpoint_longitude": 13.309166666666666,
+          "passage_time": "2026-10-02T13:22:02+00:00",
+          "sample_time": "2026-10-02T13:22:02+00:00",
+          "elapsed_seconds": 1742.0,
+          "gps_altitude_m": 988,
+          "ground_speed_kmh": 136.07424937288448,
+          "pseudo_energy_height_m": 1060.8444086095787,
+          "latitude": 45.98383333333334,
+          "longitude": 13.303033333333333,
+          "source_line": 2348
+        }
+      },
+      {
+        "flight_id": "315066",
+        "reference_flight_id": "315062",
+        "tp_number": 2,
+        "turnpoint": "Valeriano Dak Ul",
+        "elapsed_gap_seconds": 677.0,
+        "altitude_difference_m": -296,
+        "start_altitude_difference_m": -13,
+        "passage_position_separation_m": 946.865563834011,
+        "state_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "MISMATCH_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "start_relative_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "MISMATCH_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "climb_sensitivity_seconds": null,
+        "pseudo_energy_adjusted_gap": {
+          "value": null,
+          "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
+          "assumptions": [
+            "competitive-analysis-v1-assumptions"
+          ],
+          "confidence": "NOT_EVALUABLE",
+          "interpretation_status": "PROVISIONAL",
+          "unavailable_reasons": [
+            "MISMATCH_GLIDER_MODEL",
+            "UNKNOWN_GLIDER_VARIANT",
+            "MISMATCH_WING_LOADING",
+            "INSUFFICIENT_PRODUCTIVE_ORBITS"
+          ]
+        },
+        "target_state": {
+          "turnpoint": "Valeriano Dak Ul",
+          "turnpoint_latitude": 46.15416666666667,
+          "turnpoint_longitude": 12.925,
+          "passage_time": "2026-10-02T13:50:30+00:00",
+          "sample_time": "2026-10-02T13:50:30+00:00",
+          "elapsed_seconds": 3559.0,
+          "gps_altitude_m": 594,
+          "ground_speed_kmh": 110.28960691161431,
+          "pseudo_energy_height_m": 641.8534776725834,
+          "latitude": 46.158433333333335,
+          "longitude": 12.924266666666666,
+          "source_line": 4429
+        },
+        "reference_state": {
+          "turnpoint": "Valeriano Dak Ul",
+          "turnpoint_latitude": 46.15416666666667,
+          "turnpoint_longitude": 12.925,
+          "passage_time": "2026-10-02T13:41:02+00:00",
+          "sample_time": "2026-10-02T13:41:02+00:00",
+          "elapsed_seconds": 2882.0,
+          "gps_altitude_m": 890,
+          "ground_speed_kmh": 126.75771255350146,
+          "pseudo_energy_height_m": 953.2110659438047,
+          "latitude": 46.15015,
+          "longitude": 12.927116666666667,
+          "source_line": 3488
+        }
+      }
+    ],
+    "comparison_exclusions": []
   }
 }
