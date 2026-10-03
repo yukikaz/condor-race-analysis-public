@@ -2,10 +2,10 @@
   "race_id": "28437",
   "status": "READY",
   "analysis_schema_version": "standard-race-analysis-package-v5",
-  "analysis_version": "standard-race-analysis-v13",
+  "analysis_version": "standard-race-analysis-v14",
   "fg_analysis_version": "final-glide-analysis-v1",
   "dataset_version": "final-glide-knowledge-dataset-v2",
   "competitive_analysis_version": "competitive-analysis-v1",
-  "processed_at": "2026-10-03T09:07:10.228174+00:00",
+  "processed_at": "2026-10-03T11:18:02.612308+00:00",
   "error": null
 }

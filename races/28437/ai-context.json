@@ -3,7 +3,7 @@
   "race_id": "28437",
   "analysis_versions": {
     "analysis_schema_version": "standard-race-analysis-package-v5",
-    "analysis_version": "standard-race-analysis-v13",
+    "analysis_version": "standard-race-analysis-v14",
     "fg_analysis_version": "final-glide-analysis-v1",
     "dataset_version": "final-glide-knowledge-dataset-v2",
     "groundspeed_energy_analysis_version": "groundspeed-energy-analysis-v1",
@@ -19962,7 +19962,7 @@
   },
   "provenance": {
     "analysis_spec_version": "analysis-spec-2026-08-25-v3",
-    "analysis_version": "standard-race-analysis-v13",
+    "analysis_version": "standard-race-analysis-v14",
     "schema_version": "standard-race-analysis-package-v5",
     "classifier_version": "semantic-rule-v1.0.0",
     "classifier_v1_behavior_sha256": {
@@ -20040,7 +20040,7 @@
       "id": "competitive-analysis-v1-assumptions",
       "retrospective_only": true,
       "positive_seconds_mean_loss": true,
-      "climb_source": "SAME_AIRCRAFT_FINISHED_COHORT_FULL_TASK_PRODUCTIVE_ORBITS",
+      "climb_source": "FINISHED_COHORT_FULL_TASK_PRODUCTIVE_ORBITS",
       "climb_range_is_sensitivity_not_confidence_interval": true,
       "gps_rate_does_not_prove_airmass_lift": true,
       "ground_speed_energy_is_wind_contaminated": true,
@@ -20054,20 +20054,18 @@
     },
     "reference_flight_id": "315062",
     "representative_climb_rate": {
-      "value": null,
+      "value": 1.9132094482412716,
       "method": "MEDIAN_PRODUCTIVE_FULL_ORBIT_GPS_RATE",
       "assumptions": [
         "competitive-analysis-v1-assumptions"
       ],
-      "confidence": "NOT_EVALUABLE",
+      "confidence": "LOW",
       "interpretation_status": "PROVISIONAL",
-      "unavailable_reasons": [
-        "INSUFFICIENT_PRODUCTIVE_ORBITS"
-      ]
+      "unavailable_reasons": []
     },
-    "climb_rate_p25_mps": null,
-    "climb_rate_p75_mps": null,
-    "model_orbit_count": 0,
+    "climb_rate_p25_mps": 1.6412650908411517,
+    "climb_rate_p75_mps": 2.2500645810685187,
+    "model_orbit_count": 178,
     "orbit_summaries": [
       {
         "flight_id": "315062",
@@ -20311,48 +20309,100 @@
         "tp_number": 1,
         "turnpoint": "UDPAV",
         "elapsed_gap_seconds": 0.0,
+        "aircraft_warnings": [],
+        "target_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "LS4a",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": 30.0,
+          "ballast_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_provenance": "AIRCRAFT_DRY_ASSUMED",
+          "wing_loading_source": "USER_PROVIDED_OPERATIONAL_VALUES_2026-08-29",
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "LS4a",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": 104.0,
+          "club_handicap_source": "https://www.condor.club/comp/showtask/208/?id=27250",
+          "club_handicap_version": "CONDOR3_DAEC_INDEX_3.0.9",
+          "club_handicap_confidence": "HIGH"
+        },
+        "reference_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "LS4a",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": 30.0,
+          "ballast_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_provenance": "AIRCRAFT_DRY_ASSUMED",
+          "wing_loading_source": "USER_PROVIDED_OPERATIONAL_VALUES_2026-08-29",
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "LS4a",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": 104.0,
+          "club_handicap_source": "https://www.condor.club/comp/showtask/208/?id=27250",
+          "club_handicap_version": "CONDOR3_DAEC_INDEX_3.0.9",
+          "club_handicap_confidence": "HIGH"
+        },
+        "handicap_normalized_comparison": {
+          "elapsed_gap_seconds": 0.0,
+          "target_ground_speed_kmh": 130.84062439700432,
+          "reference_ground_speed_kmh": 130.84062439700432,
+          "ground_speed_difference_kmh": 0.0,
+          "unavailable_reasons": []
+        },
         "altitude_difference_m": 0,
         "start_altitude_difference_m": 0,
         "passage_position_separation_m": 0.0,
         "state_adjusted_gap": {
-          "value": null,
+          "value": 0.0,
           "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "UNKNOWN_GLIDER_VARIANT",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "start_relative_adjusted_gap": {
-          "value": null,
+          "value": 0.0,
           "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "UNKNOWN_GLIDER_VARIANT",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
-        "climb_sensitivity_seconds": null,
+        "climb_sensitivity_seconds": [
+          0.0,
+          0.0
+        ],
         "pseudo_energy_adjusted_gap": {
-          "value": null,
+          "value": 0.0,
           "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "UNKNOWN_GLIDER_VARIANT",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "target_state": {
           "turnpoint": "UDPAV",
@@ -20389,48 +20439,100 @@
         "tp_number": 2,
         "turnpoint": "Valeriano Dak Ul",
         "elapsed_gap_seconds": 0.0,
+        "aircraft_warnings": [],
+        "target_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "LS4a",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": 30.0,
+          "ballast_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_provenance": "AIRCRAFT_DRY_ASSUMED",
+          "wing_loading_source": "USER_PROVIDED_OPERATIONAL_VALUES_2026-08-29",
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "LS4a",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": 104.0,
+          "club_handicap_source": "https://www.condor.club/comp/showtask/208/?id=27250",
+          "club_handicap_version": "CONDOR3_DAEC_INDEX_3.0.9",
+          "club_handicap_confidence": "HIGH"
+        },
+        "reference_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "LS4a",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": 30.0,
+          "ballast_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_provenance": "AIRCRAFT_DRY_ASSUMED",
+          "wing_loading_source": "USER_PROVIDED_OPERATIONAL_VALUES_2026-08-29",
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "LS4a",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": 104.0,
+          "club_handicap_source": "https://www.condor.club/comp/showtask/208/?id=27250",
+          "club_handicap_version": "CONDOR3_DAEC_INDEX_3.0.9",
+          "club_handicap_confidence": "HIGH"
+        },
+        "handicap_normalized_comparison": {
+          "elapsed_gap_seconds": 0.0,
+          "target_ground_speed_kmh": 121.88241591682832,
+          "reference_ground_speed_kmh": 121.88241591682832,
+          "ground_speed_difference_kmh": 0.0,
+          "unavailable_reasons": []
+        },
         "altitude_difference_m": 0,
         "start_altitude_difference_m": 0,
         "passage_position_separation_m": 0.0,
         "state_adjusted_gap": {
-          "value": null,
+          "value": 0.0,
           "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "UNKNOWN_GLIDER_VARIANT",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "start_relative_adjusted_gap": {
-          "value": null,
+          "value": 0.0,
           "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "UNKNOWN_GLIDER_VARIANT",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
-        "climb_sensitivity_seconds": null,
+        "climb_sensitivity_seconds": [
+          0.0,
+          0.0
+        ],
         "pseudo_energy_adjusted_gap": {
-          "value": null,
+          "value": 0.0,
           "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "UNKNOWN_GLIDER_VARIANT",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "target_state": {
           "turnpoint": "Valeriano Dak Ul",
@@ -20467,54 +20569,103 @@
         "tp_number": 1,
         "turnpoint": "UDPAV",
         "elapsed_gap_seconds": 22.0,
+        "aircraft_warnings": [
+          "MISMATCH_GLIDER_MODEL",
+          "MISMATCH_WING_LOADING"
+        ],
+        "target_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "LS3a",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": 30.8,
+          "ballast_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_provenance": "AIRCRAFT_DRY_ASSUMED",
+          "wing_loading_source": "USER_PROVIDED_OPERATIONAL_VALUES_2026-08-29",
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "LS3a",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": 107.0,
+          "club_handicap_source": "https://www.condor.club/comp/showtask/208/?id=27250",
+          "club_handicap_version": "CONDOR3_DAEC_INDEX_3.0.9",
+          "club_handicap_confidence": "HIGH"
+        },
+        "reference_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "LS4a",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": 30.0,
+          "ballast_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_provenance": "AIRCRAFT_DRY_ASSUMED",
+          "wing_loading_source": "USER_PROVIDED_OPERATIONAL_VALUES_2026-08-29",
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "LS4a",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": 104.0,
+          "club_handicap_source": "https://www.condor.club/comp/showtask/208/?id=27250",
+          "club_handicap_version": "CONDOR3_DAEC_INDEX_3.0.9",
+          "club_handicap_confidence": "HIGH"
+        },
+        "handicap_normalized_comparison": {
+          "elapsed_gap_seconds": 75.79999999999995,
+          "target_ground_speed_kmh": 99.45694575661608,
+          "reference_ground_speed_kmh": 130.84062439700432,
+          "ground_speed_difference_kmh": -31.38367864038824,
+          "unavailable_reasons": []
+        },
         "altitude_difference_m": 47,
         "start_altitude_difference_m": -56,
         "passage_position_separation_m": 244.4234073110795,
         "state_adjusted_gap": {
-          "value": null,
+          "value": -2.566050540470105,
           "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "MISMATCH_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "start_relative_adjusted_gap": {
-          "value": null,
+          "value": -31.836238418477038,
           "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "MISMATCH_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
-        "climb_sensitivity_seconds": null,
+        "climb_sensitivity_seconds": [
+          -6.636446520599794,
+          1.1117106613533423
+        ],
         "pseudo_energy_adjusted_gap": {
-          "value": null,
+          "value": 12.221080390373032,
           "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "MISMATCH_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "target_state": {
           "turnpoint": "UDPAV",
@@ -20551,54 +20702,103 @@
         "tp_number": 2,
         "turnpoint": "Valeriano Dak Ul",
         "elapsed_gap_seconds": 39.0,
+        "aircraft_warnings": [
+          "MISMATCH_GLIDER_MODEL",
+          "MISMATCH_WING_LOADING"
+        ],
+        "target_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "LS3a",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": 30.8,
+          "ballast_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_provenance": "AIRCRAFT_DRY_ASSUMED",
+          "wing_loading_source": "USER_PROVIDED_OPERATIONAL_VALUES_2026-08-29",
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "LS3a",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": 107.0,
+          "club_handicap_source": "https://www.condor.club/comp/showtask/208/?id=27250",
+          "club_handicap_version": "CONDOR3_DAEC_INDEX_3.0.9",
+          "club_handicap_confidence": "HIGH"
+        },
+        "reference_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "LS4a",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": 30.0,
+          "ballast_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_provenance": "AIRCRAFT_DRY_ASSUMED",
+          "wing_loading_source": "USER_PROVIDED_OPERATIONAL_VALUES_2026-08-29",
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "LS4a",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": 104.0,
+          "club_handicap_source": "https://www.condor.club/comp/showtask/208/?id=27250",
+          "club_handicap_version": "CONDOR3_DAEC_INDEX_3.0.9",
+          "club_handicap_confidence": "HIGH"
+        },
+        "handicap_normalized_comparison": {
+          "elapsed_gap_seconds": 128.1899999999996,
+          "target_ground_speed_kmh": 164.13880669856965,
+          "reference_ground_speed_kmh": 121.88241591682832,
+          "ground_speed_difference_kmh": 42.25639078174133,
+          "unavailable_reasons": []
+        },
         "altitude_difference_m": -88,
         "start_altitude_difference_m": -56,
         "passage_position_separation_m": 345.56682762263375,
         "state_adjusted_gap": {
-          "value": null,
+          "value": 84.99600952258231,
           "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "MISMATCH_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "start_relative_adjusted_gap": {
-          "value": null,
+          "value": 55.72582164457539,
           "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "MISMATCH_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
-        "climb_sensitivity_seconds": null,
+        "climb_sensitivity_seconds": [
+          78.10998854895544,
+          92.61717646410173
+        ],
         "pseudo_energy_adjusted_gap": {
-          "value": null,
+          "value": 54.60862148815596,
           "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "MISMATCH_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "target_state": {
           "turnpoint": "Valeriano Dak Ul",
@@ -20635,48 +20835,100 @@
         "tp_number": 1,
         "turnpoint": "UDPAV",
         "elapsed_gap_seconds": -89.0,
+        "aircraft_warnings": [],
+        "target_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "LS4a",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": 30.0,
+          "ballast_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_provenance": "AIRCRAFT_DRY_ASSUMED",
+          "wing_loading_source": "USER_PROVIDED_OPERATIONAL_VALUES_2026-08-29",
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "LS4a",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": 104.0,
+          "club_handicap_source": "https://www.condor.club/comp/showtask/208/?id=27250",
+          "club_handicap_version": "CONDOR3_DAEC_INDEX_3.0.9",
+          "club_handicap_confidence": "HIGH"
+        },
+        "reference_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "LS4a",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": 30.0,
+          "ballast_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_provenance": "AIRCRAFT_DRY_ASSUMED",
+          "wing_loading_source": "USER_PROVIDED_OPERATIONAL_VALUES_2026-08-29",
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "LS4a",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": 104.0,
+          "club_handicap_source": "https://www.condor.club/comp/showtask/208/?id=27250",
+          "club_handicap_version": "CONDOR3_DAEC_INDEX_3.0.9",
+          "club_handicap_confidence": "HIGH"
+        },
+        "handicap_normalized_comparison": {
+          "elapsed_gap_seconds": -92.56000000000017,
+          "target_ground_speed_kmh": 146.4249956998947,
+          "reference_ground_speed_kmh": 130.84062439700432,
+          "ground_speed_difference_kmh": 15.58437130289039,
+          "unavailable_reasons": []
+        },
         "altitude_difference_m": -262,
         "start_altitude_difference_m": -48,
         "passage_position_separation_m": 27.828580922369284,
         "state_adjusted_gap": {
-          "value": null,
+          "value": 47.94266471496101,
           "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "UNKNOWN_GLIDER_VARIANT",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "start_relative_adjusted_gap": {
-          "value": null,
+          "value": 22.85393224809792,
           "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "UNKNOWN_GLIDER_VARIANT",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
-        "climb_sensitivity_seconds": null,
+        "climb_sensitivity_seconds": [
+          27.441102270753717,
+          70.63295719993926
+        ],
         "pseudo_energy_adjusted_gap": {
-          "value": null,
+          "value": 38.33243435898953,
           "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "UNKNOWN_GLIDER_VARIANT",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "target_state": {
           "turnpoint": "UDPAV",
@@ -20713,48 +20965,100 @@
         "tp_number": 2,
         "turnpoint": "Valeriano Dak Ul",
         "elapsed_gap_seconds": -49.0,
+        "aircraft_warnings": [],
+        "target_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "LS4a",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": 30.0,
+          "ballast_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_provenance": "AIRCRAFT_DRY_ASSUMED",
+          "wing_loading_source": "USER_PROVIDED_OPERATIONAL_VALUES_2026-08-29",
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "LS4a",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": 104.0,
+          "club_handicap_source": "https://www.condor.club/comp/showtask/208/?id=27250",
+          "club_handicap_version": "CONDOR3_DAEC_INDEX_3.0.9",
+          "club_handicap_confidence": "HIGH"
+        },
+        "reference_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "LS4a",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": 30.0,
+          "ballast_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_provenance": "AIRCRAFT_DRY_ASSUMED",
+          "wing_loading_source": "USER_PROVIDED_OPERATIONAL_VALUES_2026-08-29",
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "LS4a",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": 104.0,
+          "club_handicap_source": "https://www.condor.club/comp/showtask/208/?id=27250",
+          "club_handicap_version": "CONDOR3_DAEC_INDEX_3.0.9",
+          "club_handicap_confidence": "HIGH"
+        },
+        "handicap_normalized_comparison": {
+          "elapsed_gap_seconds": -50.960000000000036,
+          "target_ground_speed_kmh": 124.20918447385408,
+          "reference_ground_speed_kmh": 121.88241591682832,
+          "ground_speed_difference_kmh": 2.3267685570257584,
+          "unavailable_reasons": []
+        },
         "altitude_difference_m": -178,
         "start_altitude_difference_m": -48,
         "passage_position_separation_m": 83.74222733382962,
         "state_adjusted_gap": {
-          "value": null,
+          "value": 44.03738289795061,
           "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "UNKNOWN_GLIDER_VARIANT",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "start_relative_adjusted_gap": {
-          "value": null,
+          "value": 18.94865043108753,
           "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "UNKNOWN_GLIDER_VARIANT",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
-        "climb_sensitivity_seconds": null,
+        "climb_sensitivity_seconds": [
+          30.108840474023523,
+          59.45292512056943
+        ],
         "pseudo_energy_adjusted_gap": {
-          "value": null,
+          "value": 42.763884315807175,
           "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "UNKNOWN_GLIDER_VARIANT",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "target_state": {
           "turnpoint": "Valeriano Dak Ul",
@@ -20791,54 +21095,105 @@
         "tp_number": 1,
         "turnpoint": "UDPAV",
         "elapsed_gap_seconds": 94.0,
+        "aircraft_warnings": [
+          "MISMATCH_GLIDER_MODEL",
+          "MISMATCH_WING_LOADING"
+        ],
+        "target_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "Genesis2",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": 29.5,
+          "ballast_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_provenance": "AIRCRAFT_DRY_ASSUMED",
+          "wing_loading_source": "USER_PROVIDED_OPERATIONAL_VALUES_2026-08-29",
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "Genesis2",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": null,
+          "club_handicap_source": null,
+          "club_handicap_version": null,
+          "club_handicap_confidence": null
+        },
+        "reference_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "LS4a",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": 30.0,
+          "ballast_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_provenance": "AIRCRAFT_DRY_ASSUMED",
+          "wing_loading_source": "USER_PROVIDED_OPERATIONAL_VALUES_2026-08-29",
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "LS4a",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": 104.0,
+          "club_handicap_source": "https://www.condor.club/comp/showtask/208/?id=27250",
+          "club_handicap_version": "CONDOR3_DAEC_INDEX_3.0.9",
+          "club_handicap_confidence": "HIGH"
+        },
+        "handicap_normalized_comparison": {
+          "elapsed_gap_seconds": null,
+          "target_ground_speed_kmh": null,
+          "reference_ground_speed_kmh": 130.84062439700432,
+          "ground_speed_difference_kmh": null,
+          "unavailable_reasons": [
+            "CLUB_HANDICAP_NOT_AVAILABLE"
+          ]
+        },
         "altitude_difference_m": -234,
         "start_altitude_difference_m": -41,
         "passage_position_separation_m": 126.02767037600465,
         "state_adjusted_gap": {
-          "value": null,
+          "value": 216.30757077595754,
           "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "MISMATCH_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "start_relative_adjusted_gap": {
-          "value": null,
+          "value": 194.87761179384532,
           "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "MISMATCH_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
-        "climb_sensitivity_seconds": null,
+        "climb_sensitivity_seconds": [
+          197.997015005177,
+          236.57294650681598
+        ],
         "pseudo_energy_adjusted_gap": {
-          "value": null,
+          "value": 215.2484763395647,
           "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "MISMATCH_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "target_state": {
           "turnpoint": "UDPAV",
@@ -20875,54 +21230,105 @@
         "tp_number": 2,
         "turnpoint": "Valeriano Dak Ul",
         "elapsed_gap_seconds": 487.0,
+        "aircraft_warnings": [
+          "MISMATCH_GLIDER_MODEL",
+          "MISMATCH_WING_LOADING"
+        ],
+        "target_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "Genesis2",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": 29.5,
+          "ballast_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_provenance": "AIRCRAFT_DRY_ASSUMED",
+          "wing_loading_source": "USER_PROVIDED_OPERATIONAL_VALUES_2026-08-29",
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "Genesis2",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": null,
+          "club_handicap_source": null,
+          "club_handicap_version": null,
+          "club_handicap_confidence": null
+        },
+        "reference_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "LS4a",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": 30.0,
+          "ballast_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_provenance": "AIRCRAFT_DRY_ASSUMED",
+          "wing_loading_source": "USER_PROVIDED_OPERATIONAL_VALUES_2026-08-29",
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "LS4a",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": 104.0,
+          "club_handicap_source": "https://www.condor.club/comp/showtask/208/?id=27250",
+          "club_handicap_version": "CONDOR3_DAEC_INDEX_3.0.9",
+          "club_handicap_confidence": "HIGH"
+        },
+        "handicap_normalized_comparison": {
+          "elapsed_gap_seconds": null,
+          "target_ground_speed_kmh": null,
+          "reference_ground_speed_kmh": 121.88241591682832,
+          "ground_speed_difference_kmh": null,
+          "unavailable_reasons": [
+            "CLUB_HANDICAP_NOT_AVAILABLE"
+          ]
+        },
         "altitude_difference_m": 159,
         "start_altitude_difference_m": -41,
         "passage_position_separation_m": 232.38536431263833,
         "state_adjusted_gap": {
-          "value": null,
+          "value": 403.89357370351604,
           "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "MISMATCH_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "start_relative_adjusted_gap": {
-          "value": null,
+          "value": 382.4636147214038,
           "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "MISMATCH_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
-        "climb_sensitivity_seconds": null,
+        "climb_sensitivity_seconds": [
+          390.1235107069071,
+          416.3353615990464
+        ],
         "pseudo_energy_adjusted_gap": {
-          "value": null,
+          "value": 387.6335507049695,
           "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "MISMATCH_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "target_state": {
           "turnpoint": "Valeriano Dak Ul",
@@ -20959,54 +21365,103 @@
         "tp_number": 1,
         "turnpoint": "UDPAV",
         "elapsed_gap_seconds": 160.0,
+        "aircraft_warnings": [
+          "MISMATCH_GLIDER_MODEL",
+          "UNKNOWN_WING_LOADING"
+        ],
+        "target_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "DG101G",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": null,
+          "ballast_policy": "UNKNOWN",
+          "wing_loading_policy": "UNKNOWN",
+          "wing_loading_provenance": "UNKNOWN",
+          "wing_loading_source": null,
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "DG101G",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": 100.0,
+          "club_handicap_source": "https://www.condor.club/comp/showtask/208/?id=27250",
+          "club_handicap_version": "CONDOR3_DAEC_INDEX_3.0.9",
+          "club_handicap_confidence": "HIGH"
+        },
+        "reference_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "LS4a",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": 30.0,
+          "ballast_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_provenance": "AIRCRAFT_DRY_ASSUMED",
+          "wing_loading_source": "USER_PROVIDED_OPERATIONAL_VALUES_2026-08-29",
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "LS4a",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": 104.0,
+          "club_handicap_source": "https://www.condor.club/comp/showtask/208/?id=27250",
+          "club_handicap_version": "CONDOR3_DAEC_INDEX_3.0.9",
+          "club_handicap_confidence": "HIGH"
+        },
+        "handicap_normalized_comparison": {
+          "elapsed_gap_seconds": 90.31999999999994,
+          "target_ground_speed_kmh": 141.11952393522532,
+          "reference_ground_speed_kmh": 130.84062439700432,
+          "ground_speed_difference_kmh": 10.278899538220998,
+          "unavailable_reasons": []
+        },
         "altitude_difference_m": -208,
         "start_altitude_difference_m": -15,
         "passage_position_separation_m": 85.40504092907258,
         "state_adjusted_gap": {
-          "value": null,
+          "value": 268.71784068974,
           "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "UNKNOWN_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "start_relative_adjusted_gap": {
-          "value": null,
+          "value": 260.8776117938453,
           "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "UNKNOWN_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
-        "climb_sensitivity_seconds": null,
+        "climb_sensitivity_seconds": [
+          252.44179111571287,
+          286.7315080060587
+        ],
         "pseudo_energy_adjusted_gap": {
-          "value": null,
+          "value": 265.84209759233676,
           "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "UNKNOWN_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "target_state": {
           "turnpoint": "UDPAV",
@@ -21043,54 +21498,103 @@
         "tp_number": 2,
         "turnpoint": "Valeriano Dak Ul",
         "elapsed_gap_seconds": 626.0,
+        "aircraft_warnings": [
+          "MISMATCH_GLIDER_MODEL",
+          "UNKNOWN_WING_LOADING"
+        ],
+        "target_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "DG101G",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": null,
+          "ballast_policy": "UNKNOWN",
+          "wing_loading_policy": "UNKNOWN",
+          "wing_loading_provenance": "UNKNOWN",
+          "wing_loading_source": null,
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "DG101G",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": 100.0,
+          "club_handicap_source": "https://www.condor.club/comp/showtask/208/?id=27250",
+          "club_handicap_version": "CONDOR3_DAEC_INDEX_3.0.9",
+          "club_handicap_confidence": "HIGH"
+        },
+        "reference_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "LS4a",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": 30.0,
+          "ballast_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_provenance": "AIRCRAFT_DRY_ASSUMED",
+          "wing_loading_source": "USER_PROVIDED_OPERATIONAL_VALUES_2026-08-29",
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "LS4a",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": 104.0,
+          "club_handicap_source": "https://www.condor.club/comp/showtask/208/?id=27250",
+          "club_handicap_version": "CONDOR3_DAEC_INDEX_3.0.9",
+          "club_handicap_confidence": "HIGH"
+        },
+        "handicap_normalized_comparison": {
+          "elapsed_gap_seconds": 510.7199999999998,
+          "target_ground_speed_kmh": 138.8196133027826,
+          "reference_ground_speed_kmh": 121.88241591682832,
+          "ground_speed_difference_kmh": 16.937197385954292,
+          "unavailable_reasons": []
+        },
         "altitude_difference_m": 295,
         "start_altitude_difference_m": -15,
         "passage_position_separation_m": 26.502021040676567,
         "state_adjusted_gap": {
-          "value": null,
+          "value": 471.8088317140706,
           "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "UNKNOWN_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "start_relative_adjusted_gap": {
-          "value": null,
+          "value": 463.9686028181759,
           "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "UNKNOWN_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
-        "climb_sensitivity_seconds": null,
+        "climb_sensitivity_seconds": [
+          446.26060162602255,
+          494.892652023388
+        ],
         "pseudo_energy_adjusted_gap": {
-          "value": null,
+          "value": 465.2218181996885,
           "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "UNKNOWN_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "target_state": {
           "turnpoint": "Valeriano Dak Ul",
@@ -21127,54 +21631,105 @@
         "tp_number": 1,
         "turnpoint": "UDPAV",
         "elapsed_gap_seconds": 198.0,
+        "aircraft_warnings": [
+          "MISMATCH_GLIDER_MODEL",
+          "MISMATCH_WING_LOADING"
+        ],
+        "target_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "Libelle",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": 29.1,
+          "ballast_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_provenance": "AIRCRAFT_DRY_ASSUMED",
+          "wing_loading_source": "USER_PROVIDED_OPERATIONAL_VALUES_2026-08-29",
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "Libelle",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": null,
+          "club_handicap_source": null,
+          "club_handicap_version": null,
+          "club_handicap_confidence": null
+        },
+        "reference_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "LS4a",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": 30.0,
+          "ballast_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_provenance": "AIRCRAFT_DRY_ASSUMED",
+          "wing_loading_source": "USER_PROVIDED_OPERATIONAL_VALUES_2026-08-29",
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "LS4a",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": 104.0,
+          "club_handicap_source": "https://www.condor.club/comp/showtask/208/?id=27250",
+          "club_handicap_version": "CONDOR3_DAEC_INDEX_3.0.9",
+          "club_handicap_confidence": "HIGH"
+        },
+        "handicap_normalized_comparison": {
+          "elapsed_gap_seconds": null,
+          "target_ground_speed_kmh": null,
+          "reference_ground_speed_kmh": 130.84062439700432,
+          "ground_speed_difference_kmh": null,
+          "unavailable_reasons": [
+            "CLUB_HANDICAP_NOT_AVAILABLE"
+          ]
+        },
         "altitude_difference_m": -468,
         "start_altitude_difference_m": -13,
         "passage_position_separation_m": 42.79949532491779,
         "state_adjusted_gap": {
-          "value": null,
+          "value": 442.6151415519151,
           "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "MISMATCH_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "start_relative_adjusted_gap": {
-          "value": null,
+          "value": 435.82027650880633,
           "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "MISMATCH_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
-        "climb_sensitivity_seconds": null,
+        "climb_sensitivity_seconds": [
+          405.994030010354,
+          483.14589301363196
+        ],
         "pseudo_energy_adjusted_gap": {
-          "value": null,
+          "value": 454.41044836794254,
           "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "MISMATCH_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "target_state": {
           "turnpoint": "UDPAV",
@@ -21211,54 +21766,105 @@
         "tp_number": 2,
         "turnpoint": "Valeriano Dak Ul",
         "elapsed_gap_seconds": 677.0,
+        "aircraft_warnings": [
+          "MISMATCH_GLIDER_MODEL",
+          "MISMATCH_WING_LOADING"
+        ],
+        "target_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "Libelle",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": 29.1,
+          "ballast_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_provenance": "AIRCRAFT_DRY_ASSUMED",
+          "wing_loading_source": "USER_PROVIDED_OPERATIONAL_VALUES_2026-08-29",
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "Libelle",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": null,
+          "club_handicap_source": null,
+          "club_handicap_version": null,
+          "club_handicap_confidence": null
+        },
+        "reference_aircraft": {
+          "schema_version": "aircraft-performance-configuration-v2",
+          "glider_model": "LS4a",
+          "glider_variant": null,
+          "wingspan_m": null,
+          "competition_class_raw": "Club",
+          "competition_class_canonical": "CLUB",
+          "competition_class": "CLUB",
+          "fpl_max_wing_loading_kg_m2": 0.0,
+          "assumed_race_wing_loading_kg_m2": 30.0,
+          "ballast_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_policy": "CLUB_DRY_CONFIGURATION",
+          "wing_loading_provenance": "AIRCRAFT_DRY_ASSUMED",
+          "wing_loading_source": "USER_PROVIDED_OPERATIONAL_VALUES_2026-08-29",
+          "configuration_source": "FPL+RACE_MANIFEST",
+          "source_race_id": "28437",
+          "aircraft_identity_source": "RACE_MANIFEST",
+          "igc_glider_cross_check": "LS4a",
+          "aircraft_name_cross_check_matches": true,
+          "wing_loading_source_confidence": null,
+          "club_handicap_index": 104.0,
+          "club_handicap_source": "https://www.condor.club/comp/showtask/208/?id=27250",
+          "club_handicap_version": "CONDOR3_DAEC_INDEX_3.0.9",
+          "club_handicap_confidence": "HIGH"
+        },
+        "handicap_normalized_comparison": {
+          "elapsed_gap_seconds": null,
+          "target_ground_speed_kmh": null,
+          "reference_ground_speed_kmh": 121.88241591682832,
+          "ground_speed_difference_kmh": null,
+          "unavailable_reasons": [
+            "CLUB_HANDICAP_NOT_AVAILABLE"
+          ]
+        },
         "altitude_difference_m": -296,
         "start_altitude_difference_m": -13,
         "passage_position_separation_m": 946.865563834011,
         "state_adjusted_gap": {
-          "value": null,
+          "value": 831.7138502123223,
           "method": "ELAPSED_GAP_MINUS_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "MISMATCH_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "start_relative_adjusted_gap": {
-          "value": null,
+          "value": 824.9189851692136,
           "method": "ELAPSED_GAP_MINUS_CHANGE_IN_ALTITUDE_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "MISMATCH_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
-        "climb_sensitivity_seconds": null,
+        "climb_sensitivity_seconds": [
+          808.5517796646683,
+          857.3486844701604
+        ],
         "pseudo_energy_adjusted_gap": {
-          "value": null,
+          "value": 839.7409840346745,
           "method": "ELAPSED_GAP_MINUS_PSEUDO_ENERGY_DIFFERENCE_OVER_CLIMB",
           "assumptions": [
             "competitive-analysis-v1-assumptions"
           ],
-          "confidence": "NOT_EVALUABLE",
+          "confidence": "LOW",
           "interpretation_status": "PROVISIONAL",
-          "unavailable_reasons": [
-            "MISMATCH_GLIDER_MODEL",
-            "UNKNOWN_GLIDER_VARIANT",
-            "MISMATCH_WING_LOADING",
-            "INSUFFICIENT_PRODUCTIVE_ORBITS"
-          ]
+          "unavailable_reasons": []
         },
         "target_state": {
           "turnpoint": "Valeriano Dak Ul",
