@@ -25,3 +25,16 @@ Use only facts present in the race context. Separate observed facts, determinist
 - Do not assert ridge, dolphin, convergence, thermal source, cloud use, safety judgment, visibility, workload, or intent when the logs cannot establish it.
 - Historical samples are evidence only. Always report `sample_count`; one or two samples are examples, not a trend.
 - Explain why the result occurred, not only the final rank. Preserve plausible alternative explanations.
+- For local time-gap review, fetch `local_comparisons.path` when the entry carries
+  that reference and verify its SHA256. Comparisons are UNREVIEWED observations.
+  Check entry similarity, aircraft differences and actual passage separation
+  before interpreting signed gap changes. Positive means loss; negative means
+  gain relative to the fixed peer. Do not describe these automatically as decision
+  costs, Jail Tax or recoverable seconds. Preserve unmatched and missing cases.
+- Link possible explanations to phase events without equating their durations
+  with extra loss. Leave unexplained time unassigned. Overlapping comparison
+  windows and different peers must never be summed into a leg or race total.
+- Keep existing climb, glide, Final Glide and low-altitude observations as the
+  broad first layer. Local gap changes provide a second review layer. Recommend
+  next-flight changes only when the evidence supports them; do not invent
+  guaranteed seconds to recover.
