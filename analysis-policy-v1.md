@@ -31,6 +31,34 @@ Use only facts present in the race context. Separate observed facts, determinist
   before interpreting signed gap changes. Positive means loss; negative means
   gain relative to the fixed peer. Do not describe these automatically as decision
   costs, Jail Tax or recoverable seconds. Preserve unmatched and missing cases.
+- Use the detail's `time_accounting` labels: entry-to-progress-gate,
+  progress-gate-to-observation-end and entry-to-observation-end observed gap
+  changes. Legacy immediate/later/net keys are retained for compatibility, not
+  final decision profit/loss. Read `observation_end_stage` and both endpoint
+  timestamps/states. That boundary need not be Finish, end of consequences or
+  recovery of equal energy/options. For older v1 details without metadata, use
+  these same meanings.
+- For local v2, use `local_window.elapsed_gap_change_seconds` as the primary
+  local observation. Verify its finite shared gate, both timestamps/states and
+  entry conditions. The preserved immediate/later/net fields and phases remain
+  contextual observations; do not promote their long windows into local decision
+  profit/loss. Missing local gate passages remain explicit and must not be filled
+  from a later convenient crossing or another peer.
+- Follow `comparison_conditions.entry_event_ids` and preceding episode references.
+  A frozen circling episode entry need not be a new decision. Inspect acquired
+  altitude and speed alongside time when reviewing climb for a forthcoming TP;
+  a short observed gain with lower altitude is not automatically a better choice.
+  Do not infer cloud-base height or fill a canonical null from another episode.
+- For energy diagnostics v3 FPL review, fetch `fpl_diagnostics.path` and verify
+  SHA256/race identity/counts before reading candidates. The main file retains all
+  Groundspeed candidates and thermal cycles; the linked partition retains every
+  FPL candidate. Absence of a partition does not mean zero candidates. Legacy
+  energy v1/v2 remains readable as a single file.
+- Read each stage's `comparison_scope` and `position_alignment`. Equal next-TP
+  radius compares radial progress; the same official control compares official
+  passage. Neither establishes identical location or route. Separation above
+  the existing entry tolerance is an interpretation limit, not a reason to erase
+  the observation. Separation below it does not certify local conditions.
 - Link possible explanations to phase events without equating their durations
   with extra loss. Leave unexplained time unassigned. Overlapping comparison
   windows and different peers must never be summed into a leg or race total.

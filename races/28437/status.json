@@ -6,7 +6,7 @@
   "fg_analysis_version": "final-glide-analysis-v1",
   "dataset_version": "final-glide-knowledge-dataset-v2",
   "competitive_analysis_version": "competitive-analysis-v1",
-  "processed_at": "2026-10-04T06:54:53.399799+00:00",
+  "processed_at": "2026-10-04T11:47:46.223404+00:00",
   "error": null,
-  "local_comparison_version": "local-comparison-context-v1"
+  "local_comparison_version": "local-comparison-context-v2"
 }
