@@ -1,0 +1,12 @@
+{
+  "race_id": "28428",
+  "status": "READY",
+  "analysis_schema_version": "standard-race-analysis-package-v5",
+  "analysis_version": "standard-race-analysis-v14",
+  "fg_analysis_version": "final-glide-analysis-v1",
+  "dataset_version": "final-glide-knowledge-dataset-v2",
+  "competitive_analysis_version": "competitive-analysis-v1",
+  "processed_at": "2026-10-04T13:23:41.372176+00:00",
+  "error": null,
+  "local_comparison_version": "local-comparison-context-v2"
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "race-index-v1",
-  "updated_at": "2026-10-04T11:47:46.381329+00:00",
+  "updated_at": "2026-10-04T13:23:41.531370+00:00",
   "races": [
     {
       "race_id": "27284",
@@ -321,6 +321,14 @@
       "task_name": "JPFF 260925 Slovenia3 Standard",
       "date": "2026-09-25",
       "competition_class": "STANDARD"
+    },
+    {
+      "race_id": "28428",
+      "status": "READY",
+      "context_path": "races/28428/ai-context.json",
+      "task_name": "261003 JP Sat. Matamata 15m",
+      "date": "2026-10-03",
+      "competition_class": "15M"
     },
     {
       "race_id": "28437",
